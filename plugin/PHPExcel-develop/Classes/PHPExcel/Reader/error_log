@@ -1,0 +1,8 @@
+[05-Jul-2015 13:15:27 Etc/GMT] PHP Fatal error:  Interface 'PHPExcel_Reader_IReader' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Reader/Abstract.php on line 37
+[05-Jul-2015 21:50:05 Etc/GMT] PHP Fatal error:  Interface 'PHPExcel_Reader_IReader' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Reader/Abstract.php on line 37
+[06-Jul-2015 21:00:53 Etc/GMT] PHP Fatal error:  Interface 'PHPExcel_Reader_IReader' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Reader/Abstract.php on line 37
+[10-Jul-2015 00:58:42 Etc/GMT] PHP Fatal error:  Class 'PHPExcel_Exception' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Reader/Exception.php on line 36
+[10-Jul-2015 07:45:30 Etc/GMT] PHP Fatal error:  Class 'PHPExcel_Exception' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Reader/Exception.php on line 36
+[14-Jul-2015 07:49:31 Etc/GMT] PHP Fatal error:  Class 'PHPExcel_Exception' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Reader/Exception.php on line 36
+[07-Mar-2016 09:42:02 Etc/GMT] PHP Fatal error:  Interface 'PHPExcel_Reader_IReader' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Reader/Abstract.php on line 37
+[07-Mar-2016 09:42:07 Etc/GMT] PHP Fatal error:  Class 'PHPExcel_Exception' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Reader/Exception.php on line 36

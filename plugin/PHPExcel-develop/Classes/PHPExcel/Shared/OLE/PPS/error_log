@@ -1,0 +1,4 @@
+[14-Jul-2015 13:06:34 Etc/GMT] PHP Fatal error:  Class 'PHPExcel_Shared_OLE_PPS' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Shared/OLE/PPS/Root.php on line 31
+[14-Jul-2015 13:08:25 Etc/GMT] PHP Fatal error:  Class 'PHPExcel_Shared_OLE_PPS' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Shared/OLE/PPS/File.php on line 31
+[07-Mar-2016 09:43:42 Etc/GMT] PHP Fatal error:  Class 'PHPExcel_Shared_OLE_PPS' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Shared/OLE/PPS/File.php on line 31
+[07-Mar-2016 09:43:43 Etc/GMT] PHP Fatal error:  Class 'PHPExcel_Shared_OLE_PPS' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Shared/OLE/PPS/Root.php on line 31

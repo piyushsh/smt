@@ -1,0 +1,8 @@
+[07-Mar-2016 09:41:17 Etc/GMT] PHP Notice:  Undefined index: sign_in_password in /home/hopstwhj/public_html/portfolio/smt/controller/set_data/admin/admin_register_user.php on line 70
+[07-Mar-2016 09:41:17 Etc/GMT] PHP Notice:  Undefined index: sign_in_confirm_pass in /home/hopstwhj/public_html/portfolio/smt/controller/set_data/admin/admin_register_user.php on line 70
+[07-Mar-2016 09:41:17 Etc/GMT] PHP Notice:  Undefined index: full_name in /home/hopstwhj/public_html/portfolio/smt/controller/set_data/admin/admin_register_user.php on line 26
+[07-Mar-2016 09:41:17 Etc/GMT] PHP Notice:  Undefined index: email in /home/hopstwhj/public_html/portfolio/smt/controller/set_data/admin/admin_register_user.php on line 27
+[07-Mar-2016 09:41:17 Etc/GMT] PHP Notice:  Undefined index: contact_no in /home/hopstwhj/public_html/portfolio/smt/controller/set_data/admin/admin_register_user.php on line 28
+[07-Mar-2016 09:41:17 Etc/GMT] PHP Notice:  Undefined index: sign_in_username in /home/hopstwhj/public_html/portfolio/smt/controller/set_data/admin/admin_register_user.php on line 29
+[07-Mar-2016 09:41:17 Etc/GMT] PHP Notice:  Undefined index: sign_in_password in /home/hopstwhj/public_html/portfolio/smt/controller/set_data/admin/admin_register_user.php on line 30
+[07-Mar-2016 09:41:18 Etc/GMT] PHP Notice:  Undefined index: sign_in_confirm_pass in /home/hopstwhj/public_html/portfolio/smt/controller/set_data/admin/admin_register_user.php on line 31

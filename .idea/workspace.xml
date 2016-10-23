@@ -1,0 +1,1825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="37c578aa-3819-42d5-8f98-6f6e87ebac8d" name="Default" comment="" />
+    <ignored path="smt.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="smt" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="survey_operations.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/survey_operations.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="577">
+              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="survey_page_animation_scripts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/script/survey_page_animation_scripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config_scripts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/script/config_scripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="470" column="55" selection-start-line="470" selection-start-column="41" selection-end-line="470" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/models/get_data/db-survey-operations-read.php" />
+        <option value="$PROJECT_DIR$/views/download_survey_re_contact_links.php" />
+        <option value="$PROJECT_DIR$/controller/get_data/survey_operations_read_1.php" />
+        <option value="$PROJECT_DIR$/controller/get_data/survey_operations_read.php" />
+        <option value="$PROJECT_DIR$/assets/script/survey_modify_links_script.js" />
+        <option value="$PROJECT_DIR$/views/modify_survey_details.php" />
+        <option value="$PROJECT_DIR$/models/db-config.php" />
+        <option value="$PROJECT_DIR$/controller/set_data/survey_operations.php" />
+        <option value="$PROJECT_DIR$/models/set_data/db-survey-operations.php" />
+        <option value="$PROJECT_DIR$/assets/script/config_scripts.js" />
+        <option value="$PROJECT_DIR$/views/survey_operations.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smt_November" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smt_November" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smt_November" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smt_November" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smt_November" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smt_November" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smt_November" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smt_November" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smt_November" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../max_smt" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp\www\nextOn\smt_November\assets\script" />
+      <recent name="D:\wamp\www\nextOn\smt\views" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="37c578aa-3819-42d5-8f98-6f6e87ebac8d" name="Default" comment="" />
+      <created>1476137071336</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1476137071336</updated>
+      <workItem from="1476137073191" duration="1043000" />
+      <workItem from="1476385323997" duration="7363000" />
+      <workItem from="1476467856519" duration="640000" />
+      <workItem from="1476536995360" duration="15614000" />
+      <workItem from="1476744365866" duration="1502000" />
+      <workItem from="1477064384227" duration="1460000" />
+      <workItem from="1477257136855" duration="4462000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="32084000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15729167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="10" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/models/db-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/modify_survey_details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11305">
+          <caret line="665" column="80" selection-start-line="665" selection-start-column="45" selection-end-line="665" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/set_data/survey_operations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2567">
+          <caret line="507" column="42" selection-start-line="507" selection-start-column="15" selection-end-line="507" selection-end-column="42" />
+          <folding>
+            <element signature="e#1220#1393#0#PHP" expanded="false" />
+            <element signature="e#1347#1393#0#PHP" expanded="false" />
+            <element signature="e#2342#3762#0#PHP" expanded="false" />
+            <element signature="e#2428#3762#0#PHP" expanded="false" />
+            <element signature="e#2514#3762#0#PHP" expanded="false" />
+            <element signature="e#2614#3762#0#PHP" expanded="false" />
+            <element signature="e#2710#3762#0#PHP" expanded="false" />
+            <element signature="e#2802#3762#0#PHP" expanded="false" />
+            <element signature="e#3134#3762#0#PHP" expanded="false" />
+            <element signature="e#3184#3478#0#PHP" expanded="false" />
+            <element signature="e#3231#3336#0#PHP" expanded="false" />
+            <element signature="e#3356#3473#0#PHP" expanded="false" />
+            <element signature="e#3632#3762#0#PHP" expanded="false" />
+            <element signature="n#validate_Multi_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#3837#4895#0#PHP" expanded="false" />
+            <element signature="e#4347#4807#0#PHP" expanded="false" />
+            <element signature="e#4401#4802#0#PHP" expanded="false" />
+            <element signature="e#4464#4796#0#PHP" expanded="false" />
+            <element signature="e#4832#4895#0#PHP" expanded="false" />
+            <element signature="e#4901#4942#0#PHP" expanded="false" />
+            <element signature="n#validate_Re_Contact_File#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#5001#6133#0#PHP" expanded="false" />
+            <element signature="e#5497#6046#0#PHP" expanded="false" />
+            <element signature="e#5605#5743#0#PHP" expanded="false" />
+            <element signature="e#5811#5977#0#PHP" expanded="false" />
+            <element signature="e#5807#6041#0#PHP" expanded="false" />
+            <element signature="e#6070#6133#0#PHP" expanded="false" />
+            <element signature="n#check_IDENTIFIER_Parameter#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#6300#6462#0#PHP" expanded="false" />
+            <element signature="e#6387#6456#0#PHP" expanded="false" />
+            <element signature="n#modify_Survey_Details#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="n#validate_Form_Data_Modify_Survey#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#6808#7669#0#PHP" expanded="false" />
+            <element signature="e#6894#7669#0#PHP" expanded="false" />
+            <element signature="e#6980#7669#0#PHP" expanded="false" />
+            <element signature="e#7072#7669#0#PHP" expanded="false" />
+            <element signature="e#7172#7669#0#PHP" expanded="false" />
+            <element signature="e#7267#7669#0#PHP" expanded="false" />
+            <element signature="e#7539#7669#0#PHP" expanded="false" />
+            <element signature="n#validate_Form_Data_Set_Survey_Type#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#7794#7866#0#PHP" expanded="false" />
+            <element signature="e#7869#8119#0#PHP" expanded="false" />
+            <element signature="e#8122#8655#0#PHP" expanded="false" />
+            <element signature="e#8174#8349#0#PHP" expanded="false" />
+            <element signature="e#8283#8349#0#PHP" expanded="false" />
+            <element signature="e#8357#8651#0#PHP" expanded="false" />
+            <element signature="e#8404#8509#0#PHP" expanded="false" />
+            <element signature="e#8529#8646#0#PHP" expanded="false" />
+            <element signature="n#stop_Or_Allow_Traffic#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#8788#8847#0#PHP" expanded="false" />
+            <element signature="n#add_More_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#9147#9208#0#PHP" expanded="false" />
+            <element signature="n#modify_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#9550#9635#0#PHP" expanded="false" />
+            <element signature="n#validate_Id_And_Links_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#9892#11377#0#PHP" expanded="false" />
+            <element signature="e#10382#10460#0#PHP" expanded="false" />
+            <element signature="e#10465#11286#0#PHP" expanded="false" />
+            <element signature="e#10689#11281#0#PHP" expanded="false" />
+            <element signature="e#10752#10924#0#PHP" expanded="false" />
+            <element signature="e#10777#10917#0#PHP" expanded="false" />
+            <element signature="e#10930#11275#0#PHP" expanded="false" />
+            <element signature="e#11314#11377#0#PHP" expanded="false" />
+            <element signature="n#validate_Id_And_HashId_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#11533#12726#0#PHP" expanded="false" />
+            <element signature="e#12030#12108#0#PHP" expanded="false" />
+            <element signature="e#12113#12630#0#PHP" expanded="false" />
+            <element signature="e#12336#12467#0#PHP" expanded="false" />
+            <element signature="e#12472#12625#0#PHP" expanded="false" />
+            <element signature="e#12658#12726#0#PHP" expanded="false" />
+            <element signature="n#validate_Id_And_Links_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#12881#14147#0#PHP" expanded="false" />
+            <element signature="e#13378#13456#0#PHP" expanded="false" />
+            <element signature="e#13461#14051#0#PHP" expanded="false" />
+            <element signature="e#13684#13815#0#PHP" expanded="false" />
+            <element signature="e#13820#14046#0#PHP" expanded="false" />
+            <element signature="e#14079#14147#0#PHP" expanded="false" />
+            <element signature="n#delete_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#14371#14456#0#PHP" expanded="false" />
+            <element signature="e#14785#14846#0#PHP" expanded="false" />
+            <element signature="n#modify_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#15230#15315#0#PHP" expanded="false" />
+            <element signature="n#delete_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#15682#15767#0#PHP" expanded="false" />
+            <element signature="n#close_Survey#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="n#reopen_Survey#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="n#exclude_Include_Vendor#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#16656#17264#0#PHP" expanded="false" />
+            <element signature="e#17356#17670#0#PHP" expanded="false" />
+            <element signature="e#17563#17670#0#PHP" expanded="false" />
+            <element signature="e#17675#17781#0#PHP" expanded="false" />
+            <element signature="e#17842#20140#0#PHP" expanded="false" />
+            <element signature="e#17972#18439#0#PHP" expanded="false" />
+            <element signature="e#19018#19194#0#PHP" expanded="false" />
+            <element signature="e#19142#19194#0#PHP" expanded="false" />
+            <element signature="e#19199#19391#0#PHP" expanded="false" />
+            <element signature="e#19337#19391#0#PHP" expanded="false" />
+            <element signature="e#19526#20138#0#PHP" expanded="false" />
+            <element signature="e#19635#19989#0#PHP" expanded="false" />
+            <element signature="e#19835#19989#0#PHP" expanded="false" />
+            <element signature="e#19994#20138#0#PHP" expanded="false" />
+            <element signature="e#20147#20499#0#PHP" expanded="false" />
+            <element signature="e#20284#20497#0#PHP" expanded="false" />
+            <element signature="e#20396#20497#0#PHP" expanded="false" />
+            <element signature="e#20501#20857#0#PHP" expanded="false" />
+            <element signature="e#20648#20855#0#PHP" expanded="false" />
+            <element signature="e#20757#20855#0#PHP" expanded="false" />
+            <element signature="e#20860#21548#0#PHP" expanded="false" />
+            <element signature="e#21031#21546#0#PHP" expanded="false" />
+            <element signature="e#21229#21546#0#PHP" expanded="false" />
+            <element signature="e#21409#21546#0#PHP" expanded="false" />
+            <element signature="e#21550#22496#0#PHP" expanded="false" />
+            <element signature="e#21717#22494#0#PHP" expanded="false" />
+            <element signature="e#21948#22494#0#PHP" expanded="false" />
+            <element signature="e#22162#22494#0#PHP" expanded="false" />
+            <element signature="e#22348#22494#0#PHP" expanded="false" />
+            <element signature="e#22498#23445#0#PHP" expanded="false" />
+            <element signature="e#22666#23443#0#PHP" expanded="false" />
+            <element signature="e#22897#23443#0#PHP" expanded="false" />
+            <element signature="e#23111#23443#0#PHP" expanded="false" />
+            <element signature="e#23297#23443#0#PHP" expanded="false" />
+            <element signature="e#23480#24183#0#PHP" expanded="false" />
+            <element signature="e#23666#24181#0#PHP" expanded="false" />
+            <element signature="e#23864#24181#0#PHP" expanded="false" />
+            <element signature="e#24044#24181#0#PHP" expanded="false" />
+            <element signature="e#24185#25161#0#PHP" expanded="false" />
+            <element signature="e#24362#25159#0#PHP" expanded="false" />
+            <element signature="e#24598#25159#0#PHP" expanded="false" />
+            <element signature="e#24817#25159#0#PHP" expanded="false" />
+            <element signature="e#25008#25159#0#PHP" expanded="false" />
+            <element signature="e#25163#26139#0#PHP" expanded="false" />
+            <element signature="e#25340#26137#0#PHP" expanded="false" />
+            <element signature="e#25576#26137#0#PHP" expanded="false" />
+            <element signature="e#25795#26137#0#PHP" expanded="false" />
+            <element signature="e#25986#26137#0#PHP" expanded="false" />
+            <element signature="e#26141#26587#0#PHP" expanded="false" />
+            <element signature="e#26291#26585#0#PHP" expanded="false" />
+            <element signature="e#26445#26585#0#PHP" expanded="false" />
+            <element signature="e#26589#26988#0#PHP" expanded="false" />
+            <element signature="e#26736#26986#0#PHP" expanded="false" />
+            <element signature="e#26884#26986#0#PHP" expanded="false" />
+            <element signature="e#27048#27675#0#PHP" expanded="false" />
+            <element signature="e#27266#27347#0#PHP" expanded="false" />
+            <element signature="e#27310#27347#0#PHP" expanded="false" />
+            <element signature="e#27349#27673#0#PHP" expanded="false" />
+            <element signature="e#27524#27673#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/survey_modify_links_script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/set_data/db-survey-operations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#get_New_Survey_Id#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#get_Max_Link_ID_Multi_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Modify_Survey_Details#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Stop_Or_Allow_Traffic#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Add_More_Multi_Survey_Links#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Modify_Multi_Survey_Links#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Close_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Reopen_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Exclude_Include_Vendor#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <marker date="1477065353947" expanded="true" signature="643:1060" ph="insert into survey_table... " />
+            <marker date="1477065353947" expanded="true" signature="1141:1565" ph="insert into survey_table... " />
+            <marker date="1477065353947" expanded="true" signature="1597:1773" ph="create table... ${$survey_multiple_link_table_name}" />
+            <marker date="1477065353947" expanded="true" signature="1899:2015" ph="insert into ${$survey_multiple_link_table_name}... " />
+            <marker date="1477065353947" expanded="true" signature="2112:2510" ph="insert into survey_table... " />
+            <marker date="1477065353947" expanded="true" signature="2956:3171" ph="insert into application_logs... " />
+            <marker date="1477065353947" expanded="true" signature="3218:3229" ph="DROP table $... " />
+            <marker date="1477065353947" expanded="true" signature="3281:3292" ph="DROP table $... " />
+            <marker date="1477065353947" expanded="true" signature="3334:3375" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="3447:3677" ph="insert into application_logs... " />
+            <marker date="1477065353947" expanded="true" signature="3770:3819" ph="select max(s... survey_table" />
+            <marker date="1477065353947" expanded="true" signature="5430:5595" ph="insert into re_contact_survey_links... " />
+            <marker date="1477065353947" expanded="true" signature="5790:5852" ph="select max(l... ${$survey_id}" />
+            <marker date="1477065353947" expanded="true" signature="6067:6110" ph="select * fro... survey_table" />
+            <marker date="1477065353947" expanded="true" signature="6238:6695" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="6754:7185" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="7275:7483" ph="insert into application_logs... " />
+            <marker date="1477065353947" expanded="true" signature="7539:7775" ph="insert into application_logs... " />
+            <marker date="1477065353947" expanded="true" signature="7934:7995" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="8378:8494" ph="insert into ${$survey_multiple_link_table_name}... " />
+            <marker date="1477065353947" expanded="true" signature="9263:9321" ph="select link_... ${$survey_id}" />
+            <marker date="1477065353947" expanded="true" signature="9978:10045" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11058:11105" ph="update re_co... " />
+            <marker date="1477065353947" expanded="true" signature="11058:11123" ph="update re_co... " />
+            <marker date="1477065353947" expanded="true" signature="11058:11142" ph="update re_co... " />
+            <marker date="1477065353947" expanded="true" signature="11828:11863" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11874" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11898" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11961" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11972" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11973" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="12393:12436" ph="select * fro... survey_table" />
+            <marker date="1477065353947" expanded="true" signature="12580:12630" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="12829:12879" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="13144:13245" ph="insert into survey_exclude_vendor... " />
+            <marker date="1477065353947" expanded="true" signature="13324:13411" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/db-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/modify_survey_details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11305">
+          <caret line="665" column="80" selection-start-line="665" selection-start-column="45" selection-end-line="665" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/set_data/survey_operations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1220#1393#0#PHP" expanded="false" />
+            <element signature="e#1347#1393#0#PHP" expanded="false" />
+            <element signature="e#2342#3762#0#PHP" expanded="false" />
+            <element signature="e#2428#3762#0#PHP" expanded="false" />
+            <element signature="e#2514#3762#0#PHP" expanded="false" />
+            <element signature="e#2614#3762#0#PHP" expanded="false" />
+            <element signature="e#2710#3762#0#PHP" expanded="false" />
+            <element signature="e#2802#3762#0#PHP" expanded="false" />
+            <element signature="e#3134#3762#0#PHP" expanded="false" />
+            <element signature="e#3184#3478#0#PHP" expanded="false" />
+            <element signature="e#3231#3336#0#PHP" expanded="false" />
+            <element signature="e#3356#3473#0#PHP" expanded="false" />
+            <element signature="e#3632#3762#0#PHP" expanded="false" />
+            <element signature="n#validate_Multi_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#3837#4895#0#PHP" expanded="false" />
+            <element signature="e#4347#4807#0#PHP" expanded="false" />
+            <element signature="e#4401#4802#0#PHP" expanded="false" />
+            <element signature="e#4464#4796#0#PHP" expanded="false" />
+            <element signature="e#4832#4895#0#PHP" expanded="false" />
+            <element signature="e#4901#4942#0#PHP" expanded="false" />
+            <element signature="n#validate_Re_Contact_File#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#5001#6133#0#PHP" expanded="false" />
+            <element signature="e#5497#6046#0#PHP" expanded="false" />
+            <element signature="e#5605#5743#0#PHP" expanded="false" />
+            <element signature="e#5811#5977#0#PHP" expanded="false" />
+            <element signature="e#5807#6041#0#PHP" expanded="false" />
+            <element signature="e#6070#6133#0#PHP" expanded="false" />
+            <element signature="n#check_IDENTIFIER_Parameter#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#6300#6462#0#PHP" expanded="false" />
+            <element signature="e#6387#6456#0#PHP" expanded="false" />
+            <element signature="n#modify_Survey_Details#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="n#validate_Form_Data_Modify_Survey#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#6808#7669#0#PHP" expanded="false" />
+            <element signature="e#6894#7669#0#PHP" expanded="false" />
+            <element signature="e#6980#7669#0#PHP" expanded="false" />
+            <element signature="e#7072#7669#0#PHP" expanded="false" />
+            <element signature="e#7172#7669#0#PHP" expanded="false" />
+            <element signature="e#7267#7669#0#PHP" expanded="false" />
+            <element signature="e#7539#7669#0#PHP" expanded="false" />
+            <element signature="n#validate_Form_Data_Set_Survey_Type#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#7794#7866#0#PHP" expanded="false" />
+            <element signature="e#7869#8119#0#PHP" expanded="false" />
+            <element signature="e#8122#8655#0#PHP" expanded="false" />
+            <element signature="e#8174#8349#0#PHP" expanded="false" />
+            <element signature="e#8283#8349#0#PHP" expanded="false" />
+            <element signature="e#8357#8651#0#PHP" expanded="false" />
+            <element signature="e#8404#8509#0#PHP" expanded="false" />
+            <element signature="e#8529#8646#0#PHP" expanded="false" />
+            <element signature="n#stop_Or_Allow_Traffic#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#8788#8847#0#PHP" expanded="false" />
+            <element signature="n#add_More_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#9147#9208#0#PHP" expanded="false" />
+            <element signature="n#modify_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#9550#9635#0#PHP" expanded="false" />
+            <element signature="n#validate_Id_And_Links_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#9892#11377#0#PHP" expanded="false" />
+            <element signature="e#10382#10460#0#PHP" expanded="false" />
+            <element signature="e#10465#11286#0#PHP" expanded="false" />
+            <element signature="e#10689#11281#0#PHP" expanded="false" />
+            <element signature="e#10752#10924#0#PHP" expanded="false" />
+            <element signature="e#10777#10917#0#PHP" expanded="false" />
+            <element signature="e#10930#11275#0#PHP" expanded="false" />
+            <element signature="e#11314#11377#0#PHP" expanded="false" />
+            <element signature="n#validate_Id_And_HashId_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#11533#12726#0#PHP" expanded="false" />
+            <element signature="e#12030#12108#0#PHP" expanded="false" />
+            <element signature="e#12113#12630#0#PHP" expanded="false" />
+            <element signature="e#12336#12467#0#PHP" expanded="false" />
+            <element signature="e#12472#12625#0#PHP" expanded="false" />
+            <element signature="e#12658#12726#0#PHP" expanded="false" />
+            <element signature="n#validate_Id_And_Links_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#12881#14147#0#PHP" expanded="false" />
+            <element signature="e#13378#13456#0#PHP" expanded="false" />
+            <element signature="e#13461#14051#0#PHP" expanded="false" />
+            <element signature="e#13684#13815#0#PHP" expanded="false" />
+            <element signature="e#13820#14046#0#PHP" expanded="false" />
+            <element signature="e#14079#14147#0#PHP" expanded="false" />
+            <element signature="n#delete_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#14371#14456#0#PHP" expanded="false" />
+            <element signature="e#14785#14846#0#PHP" expanded="false" />
+            <element signature="n#modify_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#15230#15315#0#PHP" expanded="false" />
+            <element signature="n#delete_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#15682#15767#0#PHP" expanded="false" />
+            <element signature="n#close_Survey#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="n#reopen_Survey#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="n#exclude_Include_Vendor#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#16656#17264#0#PHP" expanded="false" />
+            <element signature="e#17356#17670#0#PHP" expanded="false" />
+            <element signature="e#17563#17670#0#PHP" expanded="false" />
+            <element signature="e#17675#17781#0#PHP" expanded="false" />
+            <element signature="e#17842#20140#0#PHP" expanded="false" />
+            <element signature="e#17972#18439#0#PHP" expanded="false" />
+            <element signature="e#19018#19194#0#PHP" expanded="false" />
+            <element signature="e#19142#19194#0#PHP" expanded="false" />
+            <element signature="e#19199#19391#0#PHP" expanded="false" />
+            <element signature="e#19337#19391#0#PHP" expanded="false" />
+            <element signature="e#19526#20138#0#PHP" expanded="false" />
+            <element signature="e#19635#19989#0#PHP" expanded="false" />
+            <element signature="e#19835#19989#0#PHP" expanded="false" />
+            <element signature="e#19994#20138#0#PHP" expanded="false" />
+            <element signature="e#20147#20499#0#PHP" expanded="false" />
+            <element signature="e#20284#20497#0#PHP" expanded="false" />
+            <element signature="e#20396#20497#0#PHP" expanded="false" />
+            <element signature="e#20501#20857#0#PHP" expanded="false" />
+            <element signature="e#20648#20855#0#PHP" expanded="false" />
+            <element signature="e#20757#20855#0#PHP" expanded="false" />
+            <element signature="e#20860#21548#0#PHP" expanded="false" />
+            <element signature="e#21031#21546#0#PHP" expanded="false" />
+            <element signature="e#21229#21546#0#PHP" expanded="false" />
+            <element signature="e#21409#21546#0#PHP" expanded="false" />
+            <element signature="e#21550#22496#0#PHP" expanded="false" />
+            <element signature="e#21717#22494#0#PHP" expanded="false" />
+            <element signature="e#21948#22494#0#PHP" expanded="false" />
+            <element signature="e#22162#22494#0#PHP" expanded="false" />
+            <element signature="e#22348#22494#0#PHP" expanded="false" />
+            <element signature="e#22498#23445#0#PHP" expanded="false" />
+            <element signature="e#22666#23443#0#PHP" expanded="false" />
+            <element signature="e#22897#23443#0#PHP" expanded="false" />
+            <element signature="e#23111#23443#0#PHP" expanded="false" />
+            <element signature="e#23297#23443#0#PHP" expanded="false" />
+            <element signature="e#23480#24183#0#PHP" expanded="false" />
+            <element signature="e#23666#24181#0#PHP" expanded="false" />
+            <element signature="e#23864#24181#0#PHP" expanded="false" />
+            <element signature="e#24044#24181#0#PHP" expanded="false" />
+            <element signature="e#24185#25161#0#PHP" expanded="false" />
+            <element signature="e#24362#25159#0#PHP" expanded="false" />
+            <element signature="e#24598#25159#0#PHP" expanded="false" />
+            <element signature="e#24817#25159#0#PHP" expanded="false" />
+            <element signature="e#25008#25159#0#PHP" expanded="false" />
+            <element signature="e#25163#26139#0#PHP" expanded="false" />
+            <element signature="e#25340#26137#0#PHP" expanded="false" />
+            <element signature="e#25576#26137#0#PHP" expanded="false" />
+            <element signature="e#25795#26137#0#PHP" expanded="false" />
+            <element signature="e#25986#26137#0#PHP" expanded="false" />
+            <element signature="e#26141#26587#0#PHP" expanded="false" />
+            <element signature="e#26291#26585#0#PHP" expanded="false" />
+            <element signature="e#26445#26585#0#PHP" expanded="false" />
+            <element signature="e#26589#26988#0#PHP" expanded="false" />
+            <element signature="e#26736#26986#0#PHP" expanded="false" />
+            <element signature="e#26884#26986#0#PHP" expanded="false" />
+            <element signature="e#27048#27675#0#PHP" expanded="false" />
+            <element signature="e#27266#27347#0#PHP" expanded="false" />
+            <element signature="e#27310#27347#0#PHP" expanded="false" />
+            <element signature="e#27349#27673#0#PHP" expanded="false" />
+            <element signature="e#27524#27673#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/survey_modify_links_script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/set_data/db-survey-operations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3383">
+          <caret line="269" column="13" selection-start-line="269" selection-start-column="13" selection-end-line="269" selection-end-column="13" />
+          <folding>
+            <element signature="n#get_New_Survey_Id#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#get_Max_Link_ID_Multi_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Modify_Survey_Details#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Stop_Or_Allow_Traffic#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Add_More_Multi_Survey_Links#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Modify_Multi_Survey_Links#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Close_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Reopen_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Exclude_Include_Vendor#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <marker date="1477065353947" expanded="true" signature="643:1060" ph="insert into survey_table... " />
+            <marker date="1477065353947" expanded="true" signature="1141:1565" ph="insert into survey_table... " />
+            <marker date="1477065353947" expanded="true" signature="1597:1773" ph="create table... ${$survey_multiple_link_table_name}" />
+            <marker date="1477065353947" expanded="true" signature="1899:2015" ph="insert into ${$survey_multiple_link_table_name}... " />
+            <marker date="1477065353947" expanded="true" signature="2112:2510" ph="insert into survey_table... " />
+            <marker date="1477065353947" expanded="true" signature="2956:3171" ph="insert into application_logs... " />
+            <marker date="1477065353947" expanded="true" signature="3218:3229" ph="DROP table $... " />
+            <marker date="1477065353947" expanded="true" signature="3281:3292" ph="DROP table $... " />
+            <marker date="1477065353947" expanded="true" signature="3334:3375" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="3447:3677" ph="insert into application_logs... " />
+            <marker date="1477065353947" expanded="true" signature="3770:3819" ph="select max(s... survey_table" />
+            <marker date="1477065353947" expanded="true" signature="5430:5595" ph="insert into re_contact_survey_links... " />
+            <marker date="1477065353947" expanded="true" signature="5790:5852" ph="select max(l... ${$survey_id}" />
+            <marker date="1477065353947" expanded="true" signature="6067:6110" ph="select * fro... survey_table" />
+            <marker date="1477065353947" expanded="true" signature="6238:6695" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="6754:7185" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="7275:7483" ph="insert into application_logs... " />
+            <marker date="1477065353947" expanded="true" signature="7539:7775" ph="insert into application_logs... " />
+            <marker date="1477065353947" expanded="true" signature="7934:7995" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="8378:8494" ph="insert into ${$survey_multiple_link_table_name}... " />
+            <marker date="1477065353947" expanded="true" signature="9263:9321" ph="select link_... ${$survey_id}" />
+            <marker date="1477065353947" expanded="true" signature="9978:10045" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11058:11105" ph="update re_co... " />
+            <marker date="1477065353947" expanded="true" signature="11058:11123" ph="update re_co... " />
+            <marker date="1477065353947" expanded="true" signature="11058:11142" ph="update re_co... " />
+            <marker date="1477065353947" expanded="true" signature="11828:11863" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11874" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11898" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11961" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11972" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11973" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="12393:12436" ph="select * fro... survey_table" />
+            <marker date="1477065353947" expanded="true" signature="12580:12630" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="12829:12879" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="13144:13245" ph="insert into survey_exclude_vendor... " />
+            <marker date="1477065353947" expanded="true" signature="13324:13411" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/db-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/modify_survey_details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10047">
+          <caret line="591" column="147" selection-start-line="591" selection-start-column="147" selection-end-line="591" selection-end-column="147" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/set_data/survey_operations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4505">
+          <caret line="514" column="31" selection-start-line="514" selection-start-column="31" selection-end-line="514" selection-end-column="31" />
+          <folding>
+            <element signature="e#1220#1393#0#PHP" expanded="false" />
+            <element signature="e#1347#1393#0#PHP" expanded="false" />
+            <element signature="e#2342#3762#0#PHP" expanded="false" />
+            <element signature="e#2428#3762#0#PHP" expanded="false" />
+            <element signature="e#2514#3762#0#PHP" expanded="false" />
+            <element signature="e#2614#3762#0#PHP" expanded="false" />
+            <element signature="e#2710#3762#0#PHP" expanded="false" />
+            <element signature="e#2802#3762#0#PHP" expanded="false" />
+            <element signature="e#3134#3762#0#PHP" expanded="false" />
+            <element signature="e#3184#3478#0#PHP" expanded="false" />
+            <element signature="e#3231#3336#0#PHP" expanded="false" />
+            <element signature="e#3356#3473#0#PHP" expanded="false" />
+            <element signature="e#3632#3762#0#PHP" expanded="false" />
+            <element signature="n#validate_Multi_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#3837#4895#0#PHP" expanded="false" />
+            <element signature="e#4347#4807#0#PHP" expanded="false" />
+            <element signature="e#4401#4802#0#PHP" expanded="false" />
+            <element signature="e#4464#4796#0#PHP" expanded="false" />
+            <element signature="e#4832#4895#0#PHP" expanded="false" />
+            <element signature="e#4901#4942#0#PHP" expanded="false" />
+            <element signature="n#validate_Re_Contact_File#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#5001#6133#0#PHP" expanded="false" />
+            <element signature="e#5497#6046#0#PHP" expanded="false" />
+            <element signature="e#5605#5743#0#PHP" expanded="false" />
+            <element signature="e#5811#5977#0#PHP" expanded="false" />
+            <element signature="e#5807#6041#0#PHP" expanded="false" />
+            <element signature="e#6070#6133#0#PHP" expanded="false" />
+            <element signature="n#check_IDENTIFIER_Parameter#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#6300#6462#0#PHP" expanded="false" />
+            <element signature="e#6387#6456#0#PHP" expanded="false" />
+            <element signature="n#modify_Survey_Details#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="n#validate_Form_Data_Modify_Survey#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#6808#7669#0#PHP" expanded="false" />
+            <element signature="e#6894#7669#0#PHP" expanded="false" />
+            <element signature="e#6980#7669#0#PHP" expanded="false" />
+            <element signature="e#7072#7669#0#PHP" expanded="false" />
+            <element signature="e#7172#7669#0#PHP" expanded="false" />
+            <element signature="e#7267#7669#0#PHP" expanded="false" />
+            <element signature="e#7539#7669#0#PHP" expanded="false" />
+            <element signature="n#validate_Form_Data_Set_Survey_Type#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#7794#7866#0#PHP" expanded="false" />
+            <element signature="e#7869#8119#0#PHP" expanded="false" />
+            <element signature="e#8122#8655#0#PHP" expanded="false" />
+            <element signature="e#8174#8349#0#PHP" expanded="false" />
+            <element signature="e#8283#8349#0#PHP" expanded="false" />
+            <element signature="e#8357#8651#0#PHP" expanded="false" />
+            <element signature="e#8404#8509#0#PHP" expanded="false" />
+            <element signature="e#8529#8646#0#PHP" expanded="false" />
+            <element signature="n#stop_Or_Allow_Traffic#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#8788#8847#0#PHP" expanded="false" />
+            <element signature="n#add_More_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#9147#9208#0#PHP" expanded="false" />
+            <element signature="n#modify_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#9550#9635#0#PHP" expanded="false" />
+            <element signature="n#validate_Id_And_Links_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#9892#11377#0#PHP" expanded="false" />
+            <element signature="e#10382#10460#0#PHP" expanded="false" />
+            <element signature="e#10465#11286#0#PHP" expanded="false" />
+            <element signature="e#10689#11281#0#PHP" expanded="false" />
+            <element signature="e#10752#10924#0#PHP" expanded="false" />
+            <element signature="e#10777#10917#0#PHP" expanded="false" />
+            <element signature="e#10930#11275#0#PHP" expanded="false" />
+            <element signature="e#11314#11377#0#PHP" expanded="false" />
+            <element signature="n#validate_Id_And_HashId_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#11533#12726#0#PHP" expanded="false" />
+            <element signature="e#12030#12108#0#PHP" expanded="false" />
+            <element signature="e#12113#12630#0#PHP" expanded="false" />
+            <element signature="e#12336#12467#0#PHP" expanded="false" />
+            <element signature="e#12472#12625#0#PHP" expanded="false" />
+            <element signature="e#12658#12726#0#PHP" expanded="false" />
+            <element signature="n#validate_Id_And_Links_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#12881#14147#0#PHP" expanded="false" />
+            <element signature="e#13378#13456#0#PHP" expanded="false" />
+            <element signature="e#13461#14051#0#PHP" expanded="false" />
+            <element signature="e#13684#13815#0#PHP" expanded="false" />
+            <element signature="e#13820#14046#0#PHP" expanded="false" />
+            <element signature="e#14079#14147#0#PHP" expanded="false" />
+            <element signature="n#delete_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#14371#14456#0#PHP" expanded="false" />
+            <element signature="e#14785#14846#0#PHP" expanded="false" />
+            <element signature="n#modify_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#15230#15315#0#PHP" expanded="false" />
+            <element signature="n#delete_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#15682#15767#0#PHP" expanded="false" />
+            <element signature="n#close_Survey#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="n#reopen_Survey#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="n#exclude_Include_Vendor#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#16656#17264#0#PHP" expanded="false" />
+            <element signature="e#17356#17670#0#PHP" expanded="false" />
+            <element signature="e#17563#17670#0#PHP" expanded="false" />
+            <element signature="e#17675#17781#0#PHP" expanded="false" />
+            <element signature="e#17842#20140#0#PHP" expanded="false" />
+            <element signature="e#17972#18439#0#PHP" expanded="false" />
+            <element signature="e#19018#19194#0#PHP" expanded="false" />
+            <element signature="e#19142#19194#0#PHP" expanded="false" />
+            <element signature="e#19199#19391#0#PHP" expanded="false" />
+            <element signature="e#19337#19391#0#PHP" expanded="false" />
+            <element signature="e#19526#20138#0#PHP" expanded="false" />
+            <element signature="e#19635#19989#0#PHP" expanded="false" />
+            <element signature="e#19835#19989#0#PHP" expanded="false" />
+            <element signature="e#19994#20138#0#PHP" expanded="false" />
+            <element signature="e#20147#20499#0#PHP" expanded="false" />
+            <element signature="e#20284#20497#0#PHP" expanded="false" />
+            <element signature="e#20396#20497#0#PHP" expanded="false" />
+            <element signature="e#20501#20857#0#PHP" expanded="false" />
+            <element signature="e#20648#20855#0#PHP" expanded="false" />
+            <element signature="e#20757#20855#0#PHP" expanded="false" />
+            <element signature="e#20860#21548#0#PHP" expanded="false" />
+            <element signature="e#21031#21546#0#PHP" expanded="false" />
+            <element signature="e#21229#21546#0#PHP" expanded="false" />
+            <element signature="e#21409#21546#0#PHP" expanded="false" />
+            <element signature="e#21550#22496#0#PHP" expanded="false" />
+            <element signature="e#21717#22494#0#PHP" expanded="false" />
+            <element signature="e#21948#22494#0#PHP" expanded="false" />
+            <element signature="e#22162#22494#0#PHP" expanded="false" />
+            <element signature="e#22348#22494#0#PHP" expanded="false" />
+            <element signature="e#22498#23445#0#PHP" expanded="false" />
+            <element signature="e#22666#23443#0#PHP" expanded="false" />
+            <element signature="e#22897#23443#0#PHP" expanded="false" />
+            <element signature="e#23111#23443#0#PHP" expanded="false" />
+            <element signature="e#23297#23443#0#PHP" expanded="false" />
+            <element signature="e#23480#24183#0#PHP" expanded="false" />
+            <element signature="e#23666#24181#0#PHP" expanded="false" />
+            <element signature="e#23864#24181#0#PHP" expanded="false" />
+            <element signature="e#24044#24181#0#PHP" expanded="false" />
+            <element signature="e#24185#25161#0#PHP" expanded="false" />
+            <element signature="e#24362#25159#0#PHP" expanded="false" />
+            <element signature="e#24598#25159#0#PHP" expanded="false" />
+            <element signature="e#24817#25159#0#PHP" expanded="false" />
+            <element signature="e#25008#25159#0#PHP" expanded="false" />
+            <element signature="e#25163#26139#0#PHP" expanded="false" />
+            <element signature="e#25340#26137#0#PHP" expanded="false" />
+            <element signature="e#25576#26137#0#PHP" expanded="false" />
+            <element signature="e#25795#26137#0#PHP" expanded="false" />
+            <element signature="e#25986#26137#0#PHP" expanded="false" />
+            <element signature="e#26141#26587#0#PHP" expanded="false" />
+            <element signature="e#26291#26585#0#PHP" expanded="false" />
+            <element signature="e#26445#26585#0#PHP" expanded="false" />
+            <element signature="e#26589#26988#0#PHP" expanded="false" />
+            <element signature="e#26736#26986#0#PHP" expanded="false" />
+            <element signature="e#26884#26986#0#PHP" expanded="false" />
+            <element signature="e#27048#27675#0#PHP" expanded="false" />
+            <element signature="e#27266#27347#0#PHP" expanded="false" />
+            <element signature="e#27310#27347#0#PHP" expanded="false" />
+            <element signature="e#27349#27673#0#PHP" expanded="false" />
+            <element signature="e#27524#27673#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/survey_modify_links_script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/set_data/db-survey-operations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3383">
+          <caret line="269" column="13" selection-start-line="269" selection-start-column="13" selection-end-line="269" selection-end-column="13" />
+          <folding>
+            <element signature="n#get_New_Survey_Id#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#get_Max_Link_ID_Multi_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Modify_Survey_Details#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Stop_Or_Allow_Traffic#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Add_More_Multi_Survey_Links#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Modify_Multi_Survey_Links#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Close_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Reopen_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Exclude_Include_Vendor#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <marker date="1477065353947" expanded="true" signature="643:1060" ph="insert into survey_table... " />
+            <marker date="1477065353947" expanded="true" signature="1141:1565" ph="insert into survey_table... " />
+            <marker date="1477065353947" expanded="true" signature="1597:1773" ph="create table... ${$survey_multiple_link_table_name}" />
+            <marker date="1477065353947" expanded="true" signature="1899:2015" ph="insert into ${$survey_multiple_link_table_name}... " />
+            <marker date="1477065353947" expanded="true" signature="2112:2510" ph="insert into survey_table... " />
+            <marker date="1477065353947" expanded="true" signature="2956:3171" ph="insert into application_logs... " />
+            <marker date="1477065353947" expanded="true" signature="3218:3229" ph="DROP table $... " />
+            <marker date="1477065353947" expanded="true" signature="3281:3292" ph="DROP table $... " />
+            <marker date="1477065353947" expanded="true" signature="3334:3375" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="3447:3677" ph="insert into application_logs... " />
+            <marker date="1477065353947" expanded="true" signature="3770:3819" ph="select max(s... survey_table" />
+            <marker date="1477065353947" expanded="true" signature="5430:5595" ph="insert into re_contact_survey_links... " />
+            <marker date="1477065353947" expanded="true" signature="5790:5852" ph="select max(l... ${$survey_id}" />
+            <marker date="1477065353947" expanded="true" signature="6067:6110" ph="select * fro... survey_table" />
+            <marker date="1477065353947" expanded="true" signature="6238:6695" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="6754:7185" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="7275:7483" ph="insert into application_logs... " />
+            <marker date="1477065353947" expanded="true" signature="7539:7775" ph="insert into application_logs... " />
+            <marker date="1477065353947" expanded="true" signature="7934:7995" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="8378:8494" ph="insert into ${$survey_multiple_link_table_name}... " />
+            <marker date="1477065353947" expanded="true" signature="9263:9321" ph="select link_... ${$survey_id}" />
+            <marker date="1477065353947" expanded="true" signature="9978:10045" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11058:11105" ph="update re_co... " />
+            <marker date="1477065353947" expanded="true" signature="11058:11123" ph="update re_co... " />
+            <marker date="1477065353947" expanded="true" signature="11058:11142" ph="update re_co... " />
+            <marker date="1477065353947" expanded="true" signature="11828:11863" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11874" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11898" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11961" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11972" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11973" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="12393:12436" ph="select * fro... survey_table" />
+            <marker date="1477065353947" expanded="true" signature="12580:12630" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="12829:12879" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="13144:13245" ph="insert into survey_exclude_vendor... " />
+            <marker date="1477065353947" expanded="true" signature="13324:13411" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/db-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/modify_survey_details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10693">
+          <caret line="629" column="93" selection-start-line="629" selection-start-column="73" selection-end-line="629" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/set_data/survey_operations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="177" column="56" selection-start-line="177" selection-start-column="56" selection-end-line="177" selection-end-column="56" />
+          <folding>
+            <element signature="e#1220#1393#0#PHP" expanded="false" />
+            <element signature="e#1347#1393#0#PHP" expanded="false" />
+            <element signature="e#2342#3762#0#PHP" expanded="false" />
+            <element signature="e#2428#3762#0#PHP" expanded="false" />
+            <element signature="e#2514#3762#0#PHP" expanded="false" />
+            <element signature="e#2614#3762#0#PHP" expanded="false" />
+            <element signature="e#2710#3762#0#PHP" expanded="false" />
+            <element signature="e#2802#3762#0#PHP" expanded="false" />
+            <element signature="e#3134#3762#0#PHP" expanded="false" />
+            <element signature="e#3184#3478#0#PHP" expanded="false" />
+            <element signature="e#3231#3336#0#PHP" expanded="false" />
+            <element signature="e#3356#3473#0#PHP" expanded="false" />
+            <element signature="e#3632#3762#0#PHP" expanded="false" />
+            <element signature="n#validate_Multi_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#3837#4895#0#PHP" expanded="false" />
+            <element signature="e#4347#4807#0#PHP" expanded="false" />
+            <element signature="e#4401#4802#0#PHP" expanded="false" />
+            <element signature="e#4464#4796#0#PHP" expanded="false" />
+            <element signature="e#4832#4895#0#PHP" expanded="false" />
+            <element signature="e#4901#4942#0#PHP" expanded="false" />
+            <element signature="n#validate_Re_Contact_File#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#5001#6133#0#PHP" expanded="false" />
+            <element signature="e#5497#6046#0#PHP" expanded="false" />
+            <element signature="e#5605#5743#0#PHP" expanded="false" />
+            <element signature="e#5811#5977#0#PHP" expanded="false" />
+            <element signature="e#5807#6041#0#PHP" expanded="false" />
+            <element signature="e#6070#6133#0#PHP" expanded="false" />
+            <element signature="n#check_IDENTIFIER_Parameter#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#6300#6462#0#PHP" expanded="false" />
+            <element signature="e#6387#6456#0#PHP" expanded="false" />
+            <element signature="n#modify_Survey_Details#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="n#validate_Form_Data_Modify_Survey#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#6808#7669#0#PHP" expanded="false" />
+            <element signature="e#6894#7669#0#PHP" expanded="false" />
+            <element signature="e#6980#7669#0#PHP" expanded="false" />
+            <element signature="e#7072#7669#0#PHP" expanded="false" />
+            <element signature="e#7172#7669#0#PHP" expanded="false" />
+            <element signature="e#7267#7669#0#PHP" expanded="false" />
+            <element signature="e#7539#7669#0#PHP" expanded="false" />
+            <element signature="n#validate_Form_Data_Set_Survey_Type#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#7794#7866#0#PHP" expanded="false" />
+            <element signature="e#7869#8119#0#PHP" expanded="false" />
+            <element signature="e#8122#8655#0#PHP" expanded="false" />
+            <element signature="e#8174#8349#0#PHP" expanded="false" />
+            <element signature="e#8283#8349#0#PHP" expanded="false" />
+            <element signature="e#8357#8651#0#PHP" expanded="false" />
+            <element signature="e#8404#8509#0#PHP" expanded="false" />
+            <element signature="e#8529#8646#0#PHP" expanded="false" />
+            <element signature="n#stop_Or_Allow_Traffic#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#8788#8847#0#PHP" expanded="false" />
+            <element signature="n#add_More_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#9147#9208#0#PHP" expanded="false" />
+            <element signature="n#modify_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#9550#9635#0#PHP" expanded="false" />
+            <element signature="n#validate_Id_And_Links_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#9892#11377#0#PHP" expanded="false" />
+            <element signature="e#10382#10460#0#PHP" expanded="false" />
+            <element signature="e#10465#11286#0#PHP" expanded="false" />
+            <element signature="e#10689#11281#0#PHP" expanded="false" />
+            <element signature="e#10752#10924#0#PHP" expanded="false" />
+            <element signature="e#10777#10917#0#PHP" expanded="false" />
+            <element signature="e#10930#11275#0#PHP" expanded="false" />
+            <element signature="e#11314#11377#0#PHP" expanded="false" />
+            <element signature="n#validate_Id_And_HashId_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#11533#12726#0#PHP" expanded="false" />
+            <element signature="e#12030#12108#0#PHP" expanded="false" />
+            <element signature="e#12113#12630#0#PHP" expanded="false" />
+            <element signature="e#12336#12467#0#PHP" expanded="false" />
+            <element signature="e#12472#12625#0#PHP" expanded="false" />
+            <element signature="e#12658#12726#0#PHP" expanded="false" />
+            <element signature="n#validate_Id_And_Links_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#12881#14147#0#PHP" expanded="false" />
+            <element signature="e#13378#13456#0#PHP" expanded="false" />
+            <element signature="e#13461#14051#0#PHP" expanded="false" />
+            <element signature="e#13684#13815#0#PHP" expanded="false" />
+            <element signature="e#13820#14046#0#PHP" expanded="false" />
+            <element signature="e#14079#14147#0#PHP" expanded="false" />
+            <element signature="n#delete_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#14371#14456#0#PHP" expanded="false" />
+            <element signature="e#14785#14846#0#PHP" expanded="false" />
+            <element signature="n#modify_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#15230#15315#0#PHP" expanded="false" />
+            <element signature="n#delete_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#15682#15767#0#PHP" expanded="false" />
+            <element signature="n#close_Survey#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="n#reopen_Survey#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="n#exclude_Include_Vendor#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#16656#17264#0#PHP" expanded="false" />
+            <element signature="e#17356#17670#0#PHP" expanded="false" />
+            <element signature="e#17563#17670#0#PHP" expanded="false" />
+            <element signature="e#17675#17781#0#PHP" expanded="false" />
+            <element signature="e#17842#20140#0#PHP" expanded="false" />
+            <element signature="e#17972#18439#0#PHP" expanded="false" />
+            <element signature="e#19018#19194#0#PHP" expanded="false" />
+            <element signature="e#19142#19194#0#PHP" expanded="false" />
+            <element signature="e#19199#19391#0#PHP" expanded="false" />
+            <element signature="e#19337#19391#0#PHP" expanded="false" />
+            <element signature="e#19526#20138#0#PHP" expanded="false" />
+            <element signature="e#19635#19989#0#PHP" expanded="false" />
+            <element signature="e#19835#19989#0#PHP" expanded="false" />
+            <element signature="e#19994#20138#0#PHP" expanded="false" />
+            <element signature="e#20147#20499#0#PHP" expanded="false" />
+            <element signature="e#20284#20497#0#PHP" expanded="false" />
+            <element signature="e#20396#20497#0#PHP" expanded="false" />
+            <element signature="e#20501#20857#0#PHP" expanded="false" />
+            <element signature="e#20648#20855#0#PHP" expanded="false" />
+            <element signature="e#20757#20855#0#PHP" expanded="false" />
+            <element signature="e#20860#21548#0#PHP" expanded="false" />
+            <element signature="e#21031#21546#0#PHP" expanded="false" />
+            <element signature="e#21229#21546#0#PHP" expanded="false" />
+            <element signature="e#21409#21546#0#PHP" expanded="false" />
+            <element signature="e#21550#22496#0#PHP" expanded="false" />
+            <element signature="e#21717#22494#0#PHP" expanded="false" />
+            <element signature="e#21948#22494#0#PHP" expanded="false" />
+            <element signature="e#22162#22494#0#PHP" expanded="false" />
+            <element signature="e#22348#22494#0#PHP" expanded="false" />
+            <element signature="e#22498#23445#0#PHP" expanded="false" />
+            <element signature="e#22666#23443#0#PHP" expanded="false" />
+            <element signature="e#22897#23443#0#PHP" expanded="false" />
+            <element signature="e#23111#23443#0#PHP" expanded="false" />
+            <element signature="e#23297#23443#0#PHP" expanded="false" />
+            <element signature="e#23480#24183#0#PHP" expanded="false" />
+            <element signature="e#23666#24181#0#PHP" expanded="false" />
+            <element signature="e#23864#24181#0#PHP" expanded="false" />
+            <element signature="e#24044#24181#0#PHP" expanded="false" />
+            <element signature="e#24185#25161#0#PHP" expanded="false" />
+            <element signature="e#24362#25159#0#PHP" expanded="false" />
+            <element signature="e#24598#25159#0#PHP" expanded="false" />
+            <element signature="e#24817#25159#0#PHP" expanded="false" />
+            <element signature="e#25008#25159#0#PHP" expanded="false" />
+            <element signature="e#25163#26139#0#PHP" expanded="false" />
+            <element signature="e#25340#26137#0#PHP" expanded="false" />
+            <element signature="e#25576#26137#0#PHP" expanded="false" />
+            <element signature="e#25795#26137#0#PHP" expanded="false" />
+            <element signature="e#25986#26137#0#PHP" expanded="false" />
+            <element signature="e#26141#26587#0#PHP" expanded="false" />
+            <element signature="e#26291#26585#0#PHP" expanded="false" />
+            <element signature="e#26445#26585#0#PHP" expanded="false" />
+            <element signature="e#26589#26988#0#PHP" expanded="false" />
+            <element signature="e#26736#26986#0#PHP" expanded="false" />
+            <element signature="e#26884#26986#0#PHP" expanded="false" />
+            <element signature="e#27048#27675#0#PHP" expanded="false" />
+            <element signature="e#27266#27347#0#PHP" expanded="false" />
+            <element signature="e#27310#27347#0#PHP" expanded="false" />
+            <element signature="e#27349#27673#0#PHP" expanded="false" />
+            <element signature="e#27524#27673#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/set_data/db-survey-operations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#get_New_Survey_Id#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#get_Max_Link_ID_Multi_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Modify_Survey_Details#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Stop_Or_Allow_Traffic#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Add_More_Multi_Survey_Links#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Modify_Multi_Survey_Links#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Close_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Reopen_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Exclude_Include_Vendor#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <marker date="1477065353947" expanded="true" signature="643:1060" ph="insert into survey_table... " />
+            <marker date="1477065353947" expanded="true" signature="1141:1565" ph="insert into survey_table... " />
+            <marker date="1477065353947" expanded="true" signature="1597:1773" ph="create table... ${$survey_multiple_link_table_name}" />
+            <marker date="1477065353947" expanded="true" signature="1899:2015" ph="insert into ${$survey_multiple_link_table_name}... " />
+            <marker date="1477065353947" expanded="true" signature="2112:2510" ph="insert into survey_table... " />
+            <marker date="1477065353947" expanded="true" signature="2956:3171" ph="insert into application_logs... " />
+            <marker date="1477065353947" expanded="true" signature="3218:3229" ph="DROP table $... " />
+            <marker date="1477065353947" expanded="true" signature="3281:3292" ph="DROP table $... " />
+            <marker date="1477065353947" expanded="true" signature="3334:3375" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="3447:3677" ph="insert into application_logs... " />
+            <marker date="1477065353947" expanded="true" signature="3770:3819" ph="select max(s... survey_table" />
+            <marker date="1477065353947" expanded="true" signature="5430:5595" ph="insert into re_contact_survey_links... " />
+            <marker date="1477065353947" expanded="true" signature="5790:5852" ph="select max(l... ${$survey_id}" />
+            <marker date="1477065353947" expanded="true" signature="6067:6110" ph="select * fro... survey_table" />
+            <marker date="1477065353947" expanded="true" signature="6238:6695" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="6754:7185" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="7275:7483" ph="insert into application_logs... " />
+            <marker date="1477065353947" expanded="true" signature="7539:7775" ph="insert into application_logs... " />
+            <marker date="1477065353947" expanded="true" signature="7934:7995" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="8378:8494" ph="insert into ${$survey_multiple_link_table_name}... " />
+            <marker date="1477065353947" expanded="true" signature="9263:9321" ph="select link_... ${$survey_id}" />
+            <marker date="1477065353947" expanded="true" signature="9978:10045" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11058:11105" ph="update re_co... " />
+            <marker date="1477065353947" expanded="true" signature="11058:11123" ph="update re_co... " />
+            <marker date="1477065353947" expanded="true" signature="11058:11142" ph="update re_co... " />
+            <marker date="1477065353947" expanded="true" signature="11828:11863" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11874" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11898" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11961" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11972" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11973" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="12393:12436" ph="select * fro... survey_table" />
+            <marker date="1477065353947" expanded="true" signature="12580:12630" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="12829:12879" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="13144:13245" ph="insert into survey_exclude_vendor... " />
+            <marker date="1477065353947" expanded="true" signature="13324:13411" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/survey_modify_links_script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/db-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/modify_survey_details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10693">
+          <caret line="629" column="93" selection-start-line="629" selection-start-column="73" selection-end-line="629" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/set_data/survey_operations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="177" column="56" selection-start-line="177" selection-start-column="56" selection-end-line="177" selection-end-column="56" />
+          <folding>
+            <element signature="e#1220#1393#0#PHP" expanded="false" />
+            <element signature="e#1347#1393#0#PHP" expanded="false" />
+            <element signature="e#2342#3762#0#PHP" expanded="false" />
+            <element signature="e#2428#3762#0#PHP" expanded="false" />
+            <element signature="e#2514#3762#0#PHP" expanded="false" />
+            <element signature="e#2614#3762#0#PHP" expanded="false" />
+            <element signature="e#2710#3762#0#PHP" expanded="false" />
+            <element signature="e#2802#3762#0#PHP" expanded="false" />
+            <element signature="e#3134#3762#0#PHP" expanded="false" />
+            <element signature="e#3184#3478#0#PHP" expanded="false" />
+            <element signature="e#3231#3336#0#PHP" expanded="false" />
+            <element signature="e#3356#3473#0#PHP" expanded="false" />
+            <element signature="e#3632#3762#0#PHP" expanded="false" />
+            <element signature="n#validate_Multi_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#3837#4895#0#PHP" expanded="false" />
+            <element signature="e#4347#4807#0#PHP" expanded="false" />
+            <element signature="e#4401#4802#0#PHP" expanded="false" />
+            <element signature="e#4464#4796#0#PHP" expanded="false" />
+            <element signature="e#4832#4895#0#PHP" expanded="false" />
+            <element signature="e#4901#4942#0#PHP" expanded="false" />
+            <element signature="n#validate_Re_Contact_File#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#5001#6133#0#PHP" expanded="false" />
+            <element signature="e#5497#6046#0#PHP" expanded="false" />
+            <element signature="e#5605#5743#0#PHP" expanded="false" />
+            <element signature="e#5811#5977#0#PHP" expanded="false" />
+            <element signature="e#5807#6041#0#PHP" expanded="false" />
+            <element signature="e#6070#6133#0#PHP" expanded="false" />
+            <element signature="n#check_IDENTIFIER_Parameter#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#6300#6462#0#PHP" expanded="false" />
+            <element signature="e#6387#6456#0#PHP" expanded="false" />
+            <element signature="n#modify_Survey_Details#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="n#validate_Form_Data_Modify_Survey#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#6808#7669#0#PHP" expanded="false" />
+            <element signature="e#6894#7669#0#PHP" expanded="false" />
+            <element signature="e#6980#7669#0#PHP" expanded="false" />
+            <element signature="e#7072#7669#0#PHP" expanded="false" />
+            <element signature="e#7172#7669#0#PHP" expanded="false" />
+            <element signature="e#7267#7669#0#PHP" expanded="false" />
+            <element signature="e#7539#7669#0#PHP" expanded="false" />
+            <element signature="n#validate_Form_Data_Set_Survey_Type#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#7794#7866#0#PHP" expanded="false" />
+            <element signature="e#7869#8119#0#PHP" expanded="false" />
+            <element signature="e#8122#8655#0#PHP" expanded="false" />
+            <element signature="e#8174#8349#0#PHP" expanded="false" />
+            <element signature="e#8283#8349#0#PHP" expanded="false" />
+            <element signature="e#8357#8651#0#PHP" expanded="false" />
+            <element signature="e#8404#8509#0#PHP" expanded="false" />
+            <element signature="e#8529#8646#0#PHP" expanded="false" />
+            <element signature="n#stop_Or_Allow_Traffic#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#8788#8847#0#PHP" expanded="false" />
+            <element signature="n#add_More_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#9147#9208#0#PHP" expanded="false" />
+            <element signature="n#modify_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#9550#9635#0#PHP" expanded="false" />
+            <element signature="n#validate_Id_And_Links_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#9892#11377#0#PHP" expanded="false" />
+            <element signature="e#10382#10460#0#PHP" expanded="false" />
+            <element signature="e#10465#11286#0#PHP" expanded="false" />
+            <element signature="e#10689#11281#0#PHP" expanded="false" />
+            <element signature="e#10752#10924#0#PHP" expanded="false" />
+            <element signature="e#10777#10917#0#PHP" expanded="false" />
+            <element signature="e#10930#11275#0#PHP" expanded="false" />
+            <element signature="e#11314#11377#0#PHP" expanded="false" />
+            <element signature="n#validate_Id_And_HashId_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#11533#12726#0#PHP" expanded="false" />
+            <element signature="e#12030#12108#0#PHP" expanded="false" />
+            <element signature="e#12113#12630#0#PHP" expanded="false" />
+            <element signature="e#12336#12467#0#PHP" expanded="false" />
+            <element signature="e#12472#12625#0#PHP" expanded="false" />
+            <element signature="e#12658#12726#0#PHP" expanded="false" />
+            <element signature="n#validate_Id_And_Links_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#12881#14147#0#PHP" expanded="false" />
+            <element signature="e#13378#13456#0#PHP" expanded="false" />
+            <element signature="e#13461#14051#0#PHP" expanded="false" />
+            <element signature="e#13684#13815#0#PHP" expanded="false" />
+            <element signature="e#13820#14046#0#PHP" expanded="false" />
+            <element signature="e#14079#14147#0#PHP" expanded="false" />
+            <element signature="n#delete_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#14371#14456#0#PHP" expanded="false" />
+            <element signature="e#14785#14846#0#PHP" expanded="false" />
+            <element signature="n#modify_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#15230#15315#0#PHP" expanded="false" />
+            <element signature="n#delete_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#15682#15767#0#PHP" expanded="false" />
+            <element signature="n#close_Survey#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="n#reopen_Survey#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="n#exclude_Include_Vendor#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#16656#17264#0#PHP" expanded="false" />
+            <element signature="e#17356#17670#0#PHP" expanded="false" />
+            <element signature="e#17563#17670#0#PHP" expanded="false" />
+            <element signature="e#17675#17781#0#PHP" expanded="false" />
+            <element signature="e#17842#20140#0#PHP" expanded="false" />
+            <element signature="e#17972#18439#0#PHP" expanded="false" />
+            <element signature="e#19018#19194#0#PHP" expanded="false" />
+            <element signature="e#19142#19194#0#PHP" expanded="false" />
+            <element signature="e#19199#19391#0#PHP" expanded="false" />
+            <element signature="e#19337#19391#0#PHP" expanded="false" />
+            <element signature="e#19526#20138#0#PHP" expanded="false" />
+            <element signature="e#19635#19989#0#PHP" expanded="false" />
+            <element signature="e#19835#19989#0#PHP" expanded="false" />
+            <element signature="e#19994#20138#0#PHP" expanded="false" />
+            <element signature="e#20147#20499#0#PHP" expanded="false" />
+            <element signature="e#20284#20497#0#PHP" expanded="false" />
+            <element signature="e#20396#20497#0#PHP" expanded="false" />
+            <element signature="e#20501#20857#0#PHP" expanded="false" />
+            <element signature="e#20648#20855#0#PHP" expanded="false" />
+            <element signature="e#20757#20855#0#PHP" expanded="false" />
+            <element signature="e#20860#21548#0#PHP" expanded="false" />
+            <element signature="e#21031#21546#0#PHP" expanded="false" />
+            <element signature="e#21229#21546#0#PHP" expanded="false" />
+            <element signature="e#21409#21546#0#PHP" expanded="false" />
+            <element signature="e#21550#22496#0#PHP" expanded="false" />
+            <element signature="e#21717#22494#0#PHP" expanded="false" />
+            <element signature="e#21948#22494#0#PHP" expanded="false" />
+            <element signature="e#22162#22494#0#PHP" expanded="false" />
+            <element signature="e#22348#22494#0#PHP" expanded="false" />
+            <element signature="e#22498#23445#0#PHP" expanded="false" />
+            <element signature="e#22666#23443#0#PHP" expanded="false" />
+            <element signature="e#22897#23443#0#PHP" expanded="false" />
+            <element signature="e#23111#23443#0#PHP" expanded="false" />
+            <element signature="e#23297#23443#0#PHP" expanded="false" />
+            <element signature="e#23480#24183#0#PHP" expanded="false" />
+            <element signature="e#23666#24181#0#PHP" expanded="false" />
+            <element signature="e#23864#24181#0#PHP" expanded="false" />
+            <element signature="e#24044#24181#0#PHP" expanded="false" />
+            <element signature="e#24185#25161#0#PHP" expanded="false" />
+            <element signature="e#24362#25159#0#PHP" expanded="false" />
+            <element signature="e#24598#25159#0#PHP" expanded="false" />
+            <element signature="e#24817#25159#0#PHP" expanded="false" />
+            <element signature="e#25008#25159#0#PHP" expanded="false" />
+            <element signature="e#25163#26139#0#PHP" expanded="false" />
+            <element signature="e#25340#26137#0#PHP" expanded="false" />
+            <element signature="e#25576#26137#0#PHP" expanded="false" />
+            <element signature="e#25795#26137#0#PHP" expanded="false" />
+            <element signature="e#25986#26137#0#PHP" expanded="false" />
+            <element signature="e#26141#26587#0#PHP" expanded="false" />
+            <element signature="e#26291#26585#0#PHP" expanded="false" />
+            <element signature="e#26445#26585#0#PHP" expanded="false" />
+            <element signature="e#26589#26988#0#PHP" expanded="false" />
+            <element signature="e#26736#26986#0#PHP" expanded="false" />
+            <element signature="e#26884#26986#0#PHP" expanded="false" />
+            <element signature="e#27048#27675#0#PHP" expanded="false" />
+            <element signature="e#27266#27347#0#PHP" expanded="false" />
+            <element signature="e#27310#27347#0#PHP" expanded="false" />
+            <element signature="e#27349#27673#0#PHP" expanded="false" />
+            <element signature="e#27524#27673#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/set_data/db-survey-operations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#get_New_Survey_Id#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#get_Max_Link_ID_Multi_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Modify_Survey_Details#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Stop_Or_Allow_Traffic#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Add_More_Multi_Survey_Links#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Modify_Multi_Survey_Links#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Close_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Reopen_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Exclude_Include_Vendor#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <marker date="1477065353947" expanded="true" signature="643:1060" ph="insert into survey_table... " />
+            <marker date="1477065353947" expanded="true" signature="1141:1565" ph="insert into survey_table... " />
+            <marker date="1477065353947" expanded="true" signature="1597:1773" ph="create table... ${$survey_multiple_link_table_name}" />
+            <marker date="1477065353947" expanded="true" signature="1899:2015" ph="insert into ${$survey_multiple_link_table_name}... " />
+            <marker date="1477065353947" expanded="true" signature="2112:2510" ph="insert into survey_table... " />
+            <marker date="1477065353947" expanded="true" signature="2956:3171" ph="insert into application_logs... " />
+            <marker date="1477065353947" expanded="true" signature="3218:3229" ph="DROP table $... " />
+            <marker date="1477065353947" expanded="true" signature="3281:3292" ph="DROP table $... " />
+            <marker date="1477065353947" expanded="true" signature="3334:3375" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="3447:3677" ph="insert into application_logs... " />
+            <marker date="1477065353947" expanded="true" signature="3770:3819" ph="select max(s... survey_table" />
+            <marker date="1477065353947" expanded="true" signature="5430:5595" ph="insert into re_contact_survey_links... " />
+            <marker date="1477065353947" expanded="true" signature="5790:5852" ph="select max(l... ${$survey_id}" />
+            <marker date="1477065353947" expanded="true" signature="6067:6110" ph="select * fro... survey_table" />
+            <marker date="1477065353947" expanded="true" signature="6238:6695" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="6754:7185" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="7275:7483" ph="insert into application_logs... " />
+            <marker date="1477065353947" expanded="true" signature="7539:7775" ph="insert into application_logs... " />
+            <marker date="1477065353947" expanded="true" signature="7934:7995" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="8378:8494" ph="insert into ${$survey_multiple_link_table_name}... " />
+            <marker date="1477065353947" expanded="true" signature="9263:9321" ph="select link_... ${$survey_id}" />
+            <marker date="1477065353947" expanded="true" signature="9978:10045" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11058:11105" ph="update re_co... " />
+            <marker date="1477065353947" expanded="true" signature="11058:11123" ph="update re_co... " />
+            <marker date="1477065353947" expanded="true" signature="11058:11142" ph="update re_co... " />
+            <marker date="1477065353947" expanded="true" signature="11828:11863" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11874" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11898" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11961" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11972" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11973" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="12393:12436" ph="select * fro... survey_table" />
+            <marker date="1477065353947" expanded="true" signature="12580:12630" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="12829:12879" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="13144:13245" ph="insert into survey_exclude_vendor... " />
+            <marker date="1477065353947" expanded="true" signature="13324:13411" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/survey_modify_links_script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/db-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/modify_survey_details.php.bak" />
+    <entry file="file://$PROJECT_DIR$/assets/script/pop_up_scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/export_survey_report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/get_data/survey_operations_read_1.php" />
+    <entry file="file://$PROJECT_DIR$/controller/get_data/survey_operations_read.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-854">
+          <caret line="178" column="16" selection-start-line="178" selection-start-column="16" selection-end-line="178" selection-end-column="16" />
+          <folding>
+            <element signature="n#get_Recent_Survey_Data#0;n#Survey_Data_Read#0;n#!!top" expanded="false" />
+            <element signature="n#get_Total_Number_Recent_Survey_Data#0;n#Survey_Data_Read#0;n#!!top" expanded="false" />
+            <element signature="n#get_Survey_Data#0;n#Survey_Data_Read#0;n#!!top" expanded="false" />
+            <element signature="n#get_Survey_Details#0;n#Survey_Data_Read#0;n#!!top" expanded="false" />
+            <element signature="n#get_Survey_Status#0;n#Survey_Data_Read#0;n#!!top" expanded="false" />
+            <element signature="n#get_Filter_Surveys#0;n#Survey_Data_Read#0;n#!!top" expanded="false" />
+            <element signature="n#get_Total_Filter_Surveys#0;n#Survey_Data_Read#0;n#!!top" expanded="false" />
+            <element signature="n#export_Survey_Report#0;n#Survey_Data_Read#0;n#!!top" expanded="false" />
+            <element signature="e#2761#2991#0#PHP" expanded="false" />
+            <element signature="e#2761#3046#0#PHP" expanded="false" />
+            <element signature="e#2761#3103#0#PHP" expanded="false" />
+            <element signature="e#2761#3164#0#PHP" expanded="false" />
+            <element signature="e#2761#3215#0#PHP" expanded="false" />
+            <element signature="e#2761#3256#0#PHP" expanded="false" />
+            <element signature="e#3489#3690#0#PHP" expanded="false" />
+            <element signature="e#3489#3721#0#PHP" expanded="false" />
+            <element signature="e#3489#3757#0#PHP" expanded="false" />
+            <element signature="e#3489#3790#0#PHP" expanded="false" />
+            <element signature="e#3809#4776#0#PHP" expanded="false" />
+            <element signature="e#4135#4311#0#PHP" expanded="false" />
+            <element signature="e#4319#4571#0#PHP" expanded="false" />
+            <element signature="e#4319#4626#0#PHP" expanded="false" />
+            <element signature="e#4319#4679#0#PHP" expanded="false" />
+            <element signature="e#4319#4713#0#PHP" expanded="false" />
+            <element signature="e#4319#4758#0#PHP" expanded="false" />
+            <element signature="e#6253#6378#0#PHP" expanded="false" />
+            <element signature="e#6253#6433#0#PHP" expanded="false" />
+            <element signature="e#6253#6490#0#PHP" expanded="false" />
+            <element signature="e#6253#6573#0#PHP" expanded="false" />
+            <element signature="e#6253#6624#0#PHP" expanded="false" />
+            <element signature="e#6253#6669#0#PHP" expanded="false" />
+            <element signature="e#6691#6892#0#PHP" expanded="false" />
+            <element signature="e#7099#7351#0#PHP" expanded="false" />
+            <element signature="e#7099#7411#0#PHP" expanded="false" />
+            <element signature="e#9254#9396#0#PHP" expanded="false" />
+            <element signature="e#9400#9750#0#PHP" expanded="false" />
+            <element signature="n#getLengthOfInterview#0;n#Survey_Data_Read#0;n#!!top" expanded="false" />
+            <element signature="e#11048#11434#0#PHP" expanded="false" />
+            <element signature="e#11143#11410#0#PHP" expanded="false" />
+            <element signature="e#11438#11751#0#PHP" expanded="false" />
+            <element signature="e#11540#11747#0#PHP" expanded="false" />
+            <element signature="e#11672#11747#0#PHP" expanded="false" />
+            <element signature="n#getIncidenceRate#0;n#Survey_Data_Read#0;n#!!top" expanded="false" />
+            <element signature="e#12074#12237#0#PHP" expanded="false" />
+            <element signature="n#get_Vendor_Excluded#0;n#Survey_Data_Read#0;n#!!top" expanded="false" />
+            <element signature="n#getSurveyPresentedPageLimit#0;n#Survey_Data_Read#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/get_data/db-survey-operations-read.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="948">
+          <caret line="242" column="5" selection-start-line="242" selection-start-column="5" selection-end-line="242" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/download_survey_re_contact_links.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/set_data/db-survey-operations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <element signature="n#get_New_Survey_Id#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#get_Max_Link_ID_Multi_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Modify_Survey_Details#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Stop_Or_Allow_Traffic#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Add_More_Multi_Survey_Links#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Modify_Multi_Survey_Links#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Close_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Reopen_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <element signature="n#db_Exclude_Include_Vendor#0;n#DB_Survey#0;n#!!top" expanded="false" />
+            <marker date="1477065353947" expanded="true" signature="643:1060" ph="insert into survey_table... " />
+            <marker date="1477065353947" expanded="true" signature="1141:1565" ph="insert into survey_table... " />
+            <marker date="1477065353947" expanded="true" signature="1597:1773" ph="create table... ${$survey_multiple_link_table_name}" />
+            <marker date="1477065353947" expanded="true" signature="1899:2015" ph="insert into ${$survey_multiple_link_table_name}... " />
+            <marker date="1477065353947" expanded="true" signature="2112:2510" ph="insert into survey_table... " />
+            <marker date="1477065353947" expanded="true" signature="2956:3171" ph="insert into application_logs... " />
+            <marker date="1477065353947" expanded="true" signature="3218:3229" ph="DROP table $... " />
+            <marker date="1477065353947" expanded="true" signature="3281:3292" ph="DROP table $... " />
+            <marker date="1477065353947" expanded="true" signature="3334:3375" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="3447:3677" ph="insert into application_logs... " />
+            <marker date="1477065353947" expanded="true" signature="3770:3819" ph="select max(s... survey_table" />
+            <marker date="1477065353947" expanded="true" signature="5430:5595" ph="insert into re_contact_survey_links... " />
+            <marker date="1477065353947" expanded="true" signature="5790:5852" ph="select max(l... ${$survey_id}" />
+            <marker date="1477065353947" expanded="true" signature="6067:6110" ph="select * fro... survey_table" />
+            <marker date="1477065353947" expanded="true" signature="6238:6695" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="6754:7185" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="7275:7483" ph="insert into application_logs... " />
+            <marker date="1477065353947" expanded="true" signature="7539:7775" ph="insert into application_logs... " />
+            <marker date="1477065353947" expanded="true" signature="7934:7995" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="8378:8494" ph="insert into ${$survey_multiple_link_table_name}... " />
+            <marker date="1477065353947" expanded="true" signature="9263:9321" ph="select link_... ${$survey_id}" />
+            <marker date="1477065353947" expanded="true" signature="9978:10045" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11058:11105" ph="update re_co... " />
+            <marker date="1477065353947" expanded="true" signature="11058:11123" ph="update re_co... " />
+            <marker date="1477065353947" expanded="true" signature="11058:11142" ph="update re_co... " />
+            <marker date="1477065353947" expanded="true" signature="11828:11863" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11874" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11898" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11961" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11972" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="11828:11973" ph="delete from " />
+            <marker date="1477065353947" expanded="true" signature="12393:12436" ph="select * fro... survey_table" />
+            <marker date="1477065353947" expanded="true" signature="12580:12630" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="12829:12879" ph="update surve... " />
+            <marker date="1477065353947" expanded="true" signature="13144:13245" ph="insert into survey_exclude_vendor... " />
+            <marker date="1477065353947" expanded="true" signature="13324:13411" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/survey_modify_links_script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="881">
+          <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/set_data/survey_operations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="507" column="42" selection-start-line="507" selection-start-column="15" selection-end-line="507" selection-end-column="42" />
+          <folding>
+            <element signature="e#1220#1393#0#PHP" expanded="false" />
+            <element signature="e#1347#1393#0#PHP" expanded="false" />
+            <element signature="e#2342#3762#0#PHP" expanded="false" />
+            <element signature="e#2428#3762#0#PHP" expanded="false" />
+            <element signature="e#2514#3762#0#PHP" expanded="false" />
+            <element signature="e#2614#3762#0#PHP" expanded="false" />
+            <element signature="e#2710#3762#0#PHP" expanded="false" />
+            <element signature="e#2802#3762#0#PHP" expanded="false" />
+            <element signature="e#3134#3762#0#PHP" expanded="false" />
+            <element signature="e#3184#3478#0#PHP" expanded="false" />
+            <element signature="e#3231#3336#0#PHP" expanded="false" />
+            <element signature="e#3356#3473#0#PHP" expanded="false" />
+            <element signature="e#3632#3762#0#PHP" expanded="false" />
+            <element signature="n#validate_Multi_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#3837#4895#0#PHP" expanded="false" />
+            <element signature="e#4347#4807#0#PHP" expanded="false" />
+            <element signature="e#4401#4802#0#PHP" expanded="false" />
+            <element signature="e#4464#4796#0#PHP" expanded="false" />
+            <element signature="e#4832#4895#0#PHP" expanded="false" />
+            <element signature="e#4901#4942#0#PHP" expanded="false" />
+            <element signature="n#validate_Re_Contact_File#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#5001#6133#0#PHP" expanded="false" />
+            <element signature="e#5497#6046#0#PHP" expanded="false" />
+            <element signature="e#5605#5743#0#PHP" expanded="false" />
+            <element signature="e#5811#5977#0#PHP" expanded="false" />
+            <element signature="e#5807#6041#0#PHP" expanded="false" />
+            <element signature="e#6070#6133#0#PHP" expanded="false" />
+            <element signature="n#check_IDENTIFIER_Parameter#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#6300#6462#0#PHP" expanded="false" />
+            <element signature="e#6387#6456#0#PHP" expanded="false" />
+            <element signature="n#modify_Survey_Details#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="n#validate_Form_Data_Modify_Survey#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#6808#7669#0#PHP" expanded="false" />
+            <element signature="e#6894#7669#0#PHP" expanded="false" />
+            <element signature="e#6980#7669#0#PHP" expanded="false" />
+            <element signature="e#7072#7669#0#PHP" expanded="false" />
+            <element signature="e#7172#7669#0#PHP" expanded="false" />
+            <element signature="e#7267#7669#0#PHP" expanded="false" />
+            <element signature="e#7539#7669#0#PHP" expanded="false" />
+            <element signature="n#validate_Form_Data_Set_Survey_Type#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#7794#7866#0#PHP" expanded="false" />
+            <element signature="e#7869#8119#0#PHP" expanded="false" />
+            <element signature="e#8122#8655#0#PHP" expanded="false" />
+            <element signature="e#8174#8349#0#PHP" expanded="false" />
+            <element signature="e#8283#8349#0#PHP" expanded="false" />
+            <element signature="e#8357#8651#0#PHP" expanded="false" />
+            <element signature="e#8404#8509#0#PHP" expanded="false" />
+            <element signature="e#8529#8646#0#PHP" expanded="false" />
+            <element signature="n#stop_Or_Allow_Traffic#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#8788#8847#0#PHP" expanded="false" />
+            <element signature="n#add_More_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#9147#9208#0#PHP" expanded="false" />
+            <element signature="n#modify_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#9550#9635#0#PHP" expanded="false" />
+            <element signature="n#validate_Id_And_Links_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#9892#11377#0#PHP" expanded="false" />
+            <element signature="e#10382#10460#0#PHP" expanded="false" />
+            <element signature="e#10465#11286#0#PHP" expanded="false" />
+            <element signature="e#10689#11281#0#PHP" expanded="false" />
+            <element signature="e#10752#10924#0#PHP" expanded="false" />
+            <element signature="e#10777#10917#0#PHP" expanded="false" />
+            <element signature="e#10930#11275#0#PHP" expanded="false" />
+            <element signature="e#11314#11377#0#PHP" expanded="false" />
+            <element signature="n#validate_Id_And_HashId_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#11533#12726#0#PHP" expanded="false" />
+            <element signature="e#12030#12108#0#PHP" expanded="false" />
+            <element signature="e#12113#12630#0#PHP" expanded="false" />
+            <element signature="e#12336#12467#0#PHP" expanded="false" />
+            <element signature="e#12472#12625#0#PHP" expanded="false" />
+            <element signature="e#12658#12726#0#PHP" expanded="false" />
+            <element signature="n#validate_Id_And_Links_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#12881#14147#0#PHP" expanded="false" />
+            <element signature="e#13378#13456#0#PHP" expanded="false" />
+            <element signature="e#13461#14051#0#PHP" expanded="false" />
+            <element signature="e#13684#13815#0#PHP" expanded="false" />
+            <element signature="e#13820#14046#0#PHP" expanded="false" />
+            <element signature="e#14079#14147#0#PHP" expanded="false" />
+            <element signature="n#delete_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#14371#14456#0#PHP" expanded="false" />
+            <element signature="e#14785#14846#0#PHP" expanded="false" />
+            <element signature="n#modify_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#15230#15315#0#PHP" expanded="false" />
+            <element signature="n#delete_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#15682#15767#0#PHP" expanded="false" />
+            <element signature="n#close_Survey#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="n#reopen_Survey#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="n#exclude_Include_Vendor#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#16656#17264#0#PHP" expanded="false" />
+            <element signature="e#17356#17670#0#PHP" expanded="false" />
+            <element signature="e#17563#17670#0#PHP" expanded="false" />
+            <element signature="e#17675#17781#0#PHP" expanded="false" />
+            <element signature="e#17842#20140#0#PHP" expanded="false" />
+            <element signature="e#17972#18439#0#PHP" expanded="false" />
+            <element signature="e#19018#19194#0#PHP" expanded="false" />
+            <element signature="e#19142#19194#0#PHP" expanded="false" />
+            <element signature="e#19199#19391#0#PHP" expanded="false" />
+            <element signature="e#19337#19391#0#PHP" expanded="false" />
+            <element signature="e#19526#20138#0#PHP" expanded="false" />
+            <element signature="e#19635#19989#0#PHP" expanded="false" />
+            <element signature="e#19835#19989#0#PHP" expanded="false" />
+            <element signature="e#19994#20138#0#PHP" expanded="false" />
+            <element signature="e#20147#20499#0#PHP" expanded="false" />
+            <element signature="e#20284#20497#0#PHP" expanded="false" />
+            <element signature="e#20396#20497#0#PHP" expanded="false" />
+            <element signature="e#20501#20857#0#PHP" expanded="false" />
+            <element signature="e#20648#20855#0#PHP" expanded="false" />
+            <element signature="e#20757#20855#0#PHP" expanded="false" />
+            <element signature="e#20860#21548#0#PHP" expanded="false" />
+            <element signature="e#21031#21546#0#PHP" expanded="false" />
+            <element signature="e#21229#21546#0#PHP" expanded="false" />
+            <element signature="e#21409#21546#0#PHP" expanded="false" />
+            <element signature="e#21550#22496#0#PHP" expanded="false" />
+            <element signature="e#21717#22494#0#PHP" expanded="false" />
+            <element signature="e#21948#22494#0#PHP" expanded="false" />
+            <element signature="e#22162#22494#0#PHP" expanded="false" />
+            <element signature="e#22348#22494#0#PHP" expanded="false" />
+            <element signature="e#22498#23445#0#PHP" expanded="false" />
+            <element signature="e#22666#23443#0#PHP" expanded="false" />
+            <element signature="e#22897#23443#0#PHP" expanded="false" />
+            <element signature="e#23111#23443#0#PHP" expanded="false" />
+            <element signature="e#23297#23443#0#PHP" expanded="false" />
+            <element signature="e#23480#24183#0#PHP" expanded="false" />
+            <element signature="e#23666#24181#0#PHP" expanded="false" />
+            <element signature="e#23864#24181#0#PHP" expanded="false" />
+            <element signature="e#24044#24181#0#PHP" expanded="false" />
+            <element signature="e#24185#25161#0#PHP" expanded="false" />
+            <element signature="e#24362#25159#0#PHP" expanded="false" />
+            <element signature="e#24598#25159#0#PHP" expanded="false" />
+            <element signature="e#24817#25159#0#PHP" expanded="false" />
+            <element signature="e#25008#25159#0#PHP" expanded="false" />
+            <element signature="e#25163#26139#0#PHP" expanded="false" />
+            <element signature="e#25340#26137#0#PHP" expanded="false" />
+            <element signature="e#25576#26137#0#PHP" expanded="false" />
+            <element signature="e#25795#26137#0#PHP" expanded="false" />
+            <element signature="e#25986#26137#0#PHP" expanded="false" />
+            <element signature="e#26141#26587#0#PHP" expanded="false" />
+            <element signature="e#26291#26585#0#PHP" expanded="false" />
+            <element signature="e#26445#26585#0#PHP" expanded="false" />
+            <element signature="e#26589#26988#0#PHP" expanded="false" />
+            <element signature="e#26736#26986#0#PHP" expanded="false" />
+            <element signature="e#26884#26986#0#PHP" expanded="false" />
+            <element signature="e#27048#27675#0#PHP" expanded="false" />
+            <element signature="e#27266#27347#0#PHP" expanded="false" />
+            <element signature="e#27310#27347#0#PHP" expanded="false" />
+            <element signature="e#27349#27673#0#PHP" expanded="false" />
+            <element signature="e#27524#27673#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/modify_survey_details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="665" column="80" selection-start-line="665" selection-start-column="45" selection-end-line="665" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/db-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/config_scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="470" column="55" selection-start-line="470" selection-start-column="41" selection-end-line="470" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/survey_page_animation_scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/survey_operations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

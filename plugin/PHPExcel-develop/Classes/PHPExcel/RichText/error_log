@@ -1,0 +1,9 @@
+[25-Jun-2015 09:54:21 Etc/GMT] PHP Fatal error:  Class 'PHPExcel_RichText_TextElement' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/RichText/Run.php on line 34
+[26-Jun-2015 00:16:00 Etc/GMT] PHP Fatal error:  Interface 'PHPExcel_RichText_ITextElement' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/RichText/TextElement.php on line 35
+[26-Jun-2015 11:07:26 Etc/GMT] PHP Fatal error:  Class 'PHPExcel_RichText_TextElement' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/RichText/Run.php on line 34
+[28-Jun-2015 08:39:13 Etc/GMT] PHP Fatal error:  Interface 'PHPExcel_RichText_ITextElement' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/RichText/TextElement.php on line 35
+[24-Sep-2015 19:22:57 Etc/GMT] PHP Fatal error:  Class 'PHPExcel_RichText_TextElement' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/RichText/Run.php on line 34
+[03-Dec-2015 02:45:20 Etc/GMT] PHP Fatal error:  Class 'PHPExcel_RichText_TextElement' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/RichText/Run.php on line 34
+[18-Jan-2016 00:06:35 Etc/GMT] PHP Fatal error:  Interface 'PHPExcel_RichText_ITextElement' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/RichText/TextElement.php on line 35
+[07-Mar-2016 09:42:11 Etc/GMT] PHP Fatal error:  Class 'PHPExcel_RichText_TextElement' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/RichText/Run.php on line 34
+[07-Mar-2016 09:42:11 Etc/GMT] PHP Fatal error:  Interface 'PHPExcel_RichText_ITextElement' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/RichText/TextElement.php on line 35

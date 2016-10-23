@@ -1,0 +1,63 @@
+<?php
+
+include_once(MODEL_PATH."db-config.php");
+
+
+class DB_Logs
+{
+	function db_Get_Logs($filter_type,$filter_user)
+	{
+		if($filter_user=='')
+		{
+
+			switch($filter_type)
+			{
+				case 'all':		$query=mysql_query("select * from application_logs");
+								break;
+								
+				case 'create':	$query=mysql_query("select * from application_logs where log_type='create'");
+								break;
+				case 'update':	$query=mysql_query("select * from application_logs where log_type='update'");
+								break;
+				case 'delete':	$query=mysql_query("select * from application_logs where log_type='delete'");
+								break;
+				case 'error':	$query=mysql_query("select * from application_logs where log_type='error'");
+								break;
+								
+				case 'others':	$query=mysql_query("select * from application_logs where log_type='others'");
+								break;
+				default:		$query=mysql_query("select * from application_logs");
+								break;
+							
+			}
+		}
+		else if($filter_user>0)
+		{
+			switch($filter_type)
+			{
+				case 'all':		$query=mysql_query("select * from application_logs where user_id=$filter_user");
+								break;
+								
+				case 'create':	$query=mysql_query("select * from application_logs where log_type='create'");
+								break;
+				case 'update':	$query=mysql_query("select * from application_logs where log_type='update'");
+								break;
+				case 'delete':	$query=mysql_query("select * from application_logs where log_type='delete'");
+								break;
+				case 'error':	$query=mysql_query("select * from application_logs where log_type='error'");
+								break;
+								
+				case 'others':	$query=mysql_query("select * from application_logs where log_type='others'");
+								break;
+				default:		$query=mysql_query("select * from application_logs");
+								break;
+							
+			}
+		}
+		return $query;
+		
+	}
+	
+}
+
+?>

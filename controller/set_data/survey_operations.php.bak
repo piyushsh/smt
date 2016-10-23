@@ -1,0 +1,476 @@
+<?php
+
+define("CONTROLLER_PATH","../../controller/");
+define("MODEL_PATH","../../models/");
+define("VIEW_PATH","../../views/");
+define("ASSETS_PATH","../../assets/");
+define("INCLUDES_PATH","../../includes/");
+define("PLUGIN_PATH","../../plugin/");
+define("BASE_PATH","../../");
+
+session_start();
+
+include_once(PLUGIN_PATH."PHPExcel-develop/Classes/PHPExcel.php");
+include_once(MODEL_PATH."set_data/db-survey-operations.php");
+
+class Survey
+{
+	public $client_name="";
+	public $survey_name="";
+	public $survey_description="";
+	public $survey_status="";
+	public $survey_creation_date="";
+	public $survey_modified_date="";
+	public $survey_link_type="";
+	public $survey_single_link="";
+	public $survey_manager_id="";
+	public $survey_created_by_id="";
+	public $survey_multi_link_file=array();
+	
+	function set_New_Survey_Fields($survey_data,$file_uploaded) 
+	{
+		$this->client_name=$survey_data["client_name"];
+		$this->survey_name=$survey_data["survey_name"];
+		$this->survey_description=$survey_data["survey_description"];
+		$this->survey_status="not started";
+		
+		if(isset($survey_data["survey_manager"]))
+			$this->survey_manager_id=$survey_data["survey_manager"];
+			
+		$this->survey_created_by_id=$_SESSION["user_id"];
+		
+		if(isset($survey_data["survey_type"]))
+			$this->survey_link_type=$survey_data["survey_type"];
+			
+		$this->survey_creation_date=time();
+		$this->survey_modified_date=time();
+		
+		if(isset($survey_data["single_link"]))
+			$this->survey_single_link=$survey_data["single_link"];
+		
+		if(isset($file_uploaded))
+		{
+			$this->survey_multi_link_file=$file_uploaded["multiple_link"];
+		}
+    }
+	
+	function validate_Form_Data()
+	{
+		if(trim($this->client_name)=="")
+		{
+			return "ERR_CLIENT_NAME_NO_VALUE";
+		}
+		else if(trim($this->survey_name)=="")
+		{
+			return "ERR_SURVEY_NAME_NO_VALUE";
+		}
+		else if(trim($this->survey_description)=="")
+		{
+			return "ERR_SURVEY_DESCRIPTION_NO_VALUE";
+		}
+		else if(trim($this->survey_link_type)=="")
+		{
+			return "ERR_SURVEY_LINK_TYPE_NO_VALUE";
+		}
+		else if(trim($this->survey_link_type)=="single" && (trim($this->survey_single_link)=="" || !preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i", $this->survey_single_link)))
+		{
+			return "ERR_SURVEY_SINGLE_LINK_IN_VALID";
+		}
+		else if(trim($this->survey_link_type)=="multi")
+		{
+			switch($this->validate_Multi_Links())
+			{
+				case 'ERR_SURVEY_MULTI_LINK_IN_VALID': 			return "ERR_SURVEY_MULTI_LINK_IN_VALID";
+																break;
+														
+				case 'ERR_SURVEY_MULTI_LINK_FILE_NOT_LOADED': 	return "ERR_SURVEY_MULTI_LINK_FILE_NOT_LOADED";
+																break;
+			}
+		}
+		return true;
+	}
+	
+	function validate_Multi_Links()
+	{
+		$tmp_name="";
+		if(isset($this->survey_multi_link_file))
+		{
+			$tmp_name=$this->survey_multi_link_file["tmp_name"];
+			
+			
+			$objReader = PHPExcel_IOFactory::createReader('Excel2007');
+			$objReader->setReadDataOnly(true);
+			
+			
+			$objPHPExcel = $objReader->load($tmp_name);
+			$objWorksheet = $objPHPExcel->getActiveSheet();
+			
+			$highestRow = $objWorksheet->getHighestRow();
+			$highestColumn = $objWorksheet->getHighestColumn();
+			
+			$highestColumnIndex = PHPExcel_Cell::columnIndexFromString($highestColumn);
+			for ($row = 1; $row <= $highestRow; ++$row) 
+			{
+				for ($col = 0; $col < $highestColumnIndex; ++$col) 
+				{
+					if(!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i",trim($objWorksheet->getCellByColumnAndRow($col, $row)->getValue())))
+					{  
+						return "ERR_SURVEY_MULTI_LINK_IN_VALID";
+					}
+				}
+			}
+			return false;
+
+		}
+		else
+		{
+			return "ERR_SURVEY_MULTI_LINK_FILE_NOT_LOADED";
+		}
+	}
+	
+	
+	
+	//Function to launch or relaunch the survey
+	function launch_Survey($survey_id)
+	{
+		$db_launch_survey=new DB_Survey();
+		return $db_launch_survey->db_Launch_Survey($survey_id);
+	}
+	
+	//Function to close the survey
+	function close_Survey($survey_id)
+	{
+		$db_close_survey=new DB_Survey();
+		return $db_close_survey->db_Close_Survey($survey_id);
+	}
+	
+	
+	//Function to Raise invoice of a Survey
+	function raise_Survey_Invoice($survey_detail)
+	{
+		if(!isset($_FILES["raise_invoice_file"]["name"]) && $survey_detail["raise_invoice_comments"]=="")
+		{
+			return "ERR_NO_DATA";
+		}
+		$file_location="N/A";
+		if(isset($_FILES["raise_invoice_file"]))
+		{
+			if(!file_exists(BASE_PATH."stored_files"))
+			{
+				mkdir(BASE_PATH."stored_files");
+			}
+			if(!file_exists(BASE_PATH."stored_files/surveyid_".$survey_detail["survey_id"]))
+			{
+				mkdir(BASE_PATH."stored_files/surveyid_".$survey_detail["survey_id"]);
+			}
+			$file_location=BASE_PATH."stored_files/surveyid_".$survey_detail["survey_id"]."/".time()."_".$_FILES["raise_invoice_file"]["name"];
+			move_uploaded_file($_FILES["raise_invoice_file"]["tmp_name"],$file_location);
+		}
+		$survey_detail["file_location"]="stored_files/surveyid_".$survey_detail["survey_id"]."/".time()."_".$_FILES["raise_invoice_file"]["name"];
+		
+		$db_raise_survey_invoice=new DB_Survey();
+		$result=$db_raise_survey_invoice->db_Raise_Survey_Invoice($survey_detail);
+		if($result=="error")
+		{
+			unlink($file_location);
+		}
+		else if($result=="sucess")
+		{
+			return "sucess";
+		}
+	}
+	
+	
+	
+	//Function to Modify/Update details of the Survey
+	function modify_Survey_Details($survey_id)
+	{
+		$db_modify_survey=new DB_Survey();
+		return $db_modify_survey->db_Modify_Survey_Details($this,$survey_id);
+	}
+	
+	
+	//Function to validate Data of modified details
+	function validate_Form_Data_Modify_Survey()
+	{
+		if(trim($this->client_name)=="")
+		{
+			return "ERR_CLIENT_NAME_NO_VALUE";
+		}
+		else if(trim($this->survey_name)=="")
+		{
+			return "ERR_SURVEY_NAME_NO_VALUE";
+		}
+		else if(trim($this->survey_description)=="")
+		{
+			return "ERR_SURVEY_DESCRIPTION_NO_VALUE";
+		}
+		else if(trim($this->survey_manager_id)=="")
+		{
+			return "ERR_SURVEY_MANAGER_NO_VALUE";
+		}
+		else if(trim($this->survey_link_type)=="single" && (trim($this->survey_single_link)=="" || !preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i", $this->survey_single_link)))
+		{
+			return "ERR_SURVEY_SINGLE_LINK_IN_VALID";
+		}
+		return "NO_ERROR";
+	}
+	
+	
+	
+	//Function to validate links
+	function validate_Form_Data_Set_Survey_Type($survey_data)
+	{
+		if($survey_data["set_survey_type"]=="")
+		{
+			return "ERR_NO_TYPE";
+		}
+		if($survey_data["set_survey_type"]=="single" && ($survey_data["single_link"]=="" || !preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i", $survey_data["single_link"])) )
+		{
+			return "ERR_LINK_INVALID";
+		}
+		if($survey_data["set_survey_type"]=="multi")
+		{
+			if(isset($_FILES["multiple_link"]))
+			{
+				$this->survey_multi_link_file=$_FILES["multiple_link"];
+			}
+			else
+			{
+				return "ERR_SURVEY_MULTI_LINK_FILE_NOT_LOADED";
+			}
+			
+			switch($this->validate_Multi_Links())
+			{
+				case 'ERR_SURVEY_MULTI_LINK_IN_VALID': 			return "ERR_SURVEY_MULTI_LINK_IN_VALID";
+																break;
+														
+				case 'ERR_SURVEY_MULTI_LINK_FILE_NOT_LOADED': 	return "ERR_SURVEY_MULTI_LINK_FILE_NOT_LOADED";
+																break;
+			}
+		}
+		
+		return "NO_ERROR";
+	}
+	
+	
+	
+	/*Function to Set the survey type*/
+	function set_Survey_Type($survey_data)
+	{
+		$set_survey_type=new DB_Survey();
+		return $set_survey_type->db_Set_Survey_Type($survey_data,$this);
+	}
+	
+	
+	
+	/*Function to Duplicate the survey*/
+	function duplicate_Survey($data)
+	{
+		$duplicate=new DB_Survey();
+		return $duplicate->db_Duplicate_Survey($data);
+	}
+	
+	
+	
+	
+}
+
+if(isset($_POST) && isset($_POST["create_survey"]))
+{
+	$create_survey=new Survey();
+	$create_survey->set_New_Survey_Fields($_POST,$_FILES);
+	$validated=$create_survey->validate_Form_Data();
+	
+	$_SESSION["survey_creation_form_field"]=array(
+												"client_name"=>$create_survey->client_name,
+												"survey_name"=>$create_survey->survey_name,
+												"survey_description"=>$create_survey->survey_description,
+												"survey_type"=>$create_survey->survey_link_type,
+												"single_link"=>$create_survey->survey_single_link
+											);
+
+	if(substr($validated,0,3)!="ERR")
+	{
+		$db_create_survey=new DB_Survey();
+		if($db_create_survey->add_Survey($create_survey))
+		{
+			unset($_SESSION["survey_creation_form_field"]);
+			header("Location: ".VIEW_PATH."survey_operations.php?survey_create_result=sucess");
+			exit;
+		}
+		else
+		{
+			header("Location: ".VIEW_PATH."survey_operations.php?survey_create_result=error");
+			exit;
+		}
+	}
+	else
+	{
+		header("Location: ".VIEW_PATH."survey_operations.php?survey_create_err=".$validated);
+		exit;
+	}
+	
+}
+else if(isset($_POST) && (isset($_POST["launch_survey"]) || isset($_POST["relaunch_survey"])))
+{
+	$launch_survey=new Survey();
+	$launch_survey=$launch_survey->launch_Survey($_POST["survey_id"]);
+	if($launch_survey)
+	{
+		header("Location: ".VIEW_PATH."view_survey_details.php?survey_id=".$_POST["survey_id"]."&lauch_result=sucess");
+		exit;
+	}
+	else
+	{
+		header("Location: ".VIEW_PATH."view_survey_details.php?survey_id=".$_POST["survey_id"]."&lauch_result_err=".$launch_survey);
+		exit;
+	}
+}
+else if(isset($_POST) && (isset($_POST["close_survey"])))
+{
+	$close_survey=new Survey();
+	$close_survey=$close_survey->close_Survey($_POST["survey_id"]);
+	if($close_survey)
+	{
+		header("Location: ".VIEW_PATH."view_survey_details.php?survey_id=".$_POST["survey_id"]."&close_result=sucess");
+		exit;
+	}
+	else
+	{
+		header("Location: ".VIEW_PATH."view_survey_details.php?survey_id=".$_POST["survey_id"]."&close_result_err=".$close_survey);
+		exit;
+	}
+}
+
+
+
+
+
+
+
+else if(isset($_POST) && (isset($_POST["raise_invoice"])))
+{
+	$raise_survey_invoice=new Survey();
+
+	$raise_survey_invoice=$raise_survey_invoice->raise_Survey_Invoice($_POST);
+	if($raise_survey_invoice=="sucess")
+	{
+		header("Location: ".VIEW_PATH."view_survey_details.php?survey_id=".$_POST["survey_id"]."&raise_invoice_result=sucess");
+		exit;
+	}
+	else if($raise_survey_invoice=="error")
+	{
+		header("Location: ".VIEW_PATH."view_survey_details.php?survey_id=".$_POST["survey_id"]."&raise_invoice_result=".$raise_survey_invoice);
+		exit;
+	}
+	else if($raise_survey_invoice=="ERR_NO_DATA")
+	{
+		header("Location: ".VIEW_PATH."view_survey_details.php?survey_id=".$_POST["survey_id"]."&raise_invoice_err=ERR_NO_DATA");
+		exit;
+	}
+}
+
+
+
+
+
+//Below code is for modifying the Survey Details
+else if(isset($_POST) && (isset($_POST["modify_survey"]) && isset($_POST["survey_id"]) && $_POST["modify_survey"]==1))
+{
+	$survey_data=array(
+					"client_name"=>$_POST["m_client_name"],
+					"survey_name"=>$_POST["m_survey_name"],
+					"survey_description"=>$_POST["m_survey_description"],
+					"survey_type"=>$_POST["survey_type"],
+					"single_link"=>$_POST["m_single_link"],
+					"survey_manager"=>$_POST["m_survey_manager"],
+				);
+	
+	$modify_survey=new Survey();
+	
+	$modify_survey->client_name=$survey_data["client_name"];
+	$modify_survey->survey_name=$survey_data["survey_name"];
+	$modify_survey->survey_description=$survey_data["survey_description"];
+	$modify_survey->survey_link_type=$survey_data["survey_type"];
+	$modify_survey->survey_single_link=$survey_data["single_link"];
+	if(isset($_POST["m_single_link"]))
+	{
+		$modify_survey->survey_single_link=$_POST["m_single_link"];
+	}
+	$modify_survey->survey_manager_id=$survey_data["survey_manager"];
+	
+	$validated=$modify_survey->validate_Form_Data_Modify_Survey();
+	if($validated=="NO_ERROR")
+	{
+		$modify_survey=$modify_survey->modify_Survey_Details($_POST["survey_id"]);
+		if($modify_survey && substr($modify_survey,0,3)!="ERR")
+		{
+			header("Location: ".VIEW_PATH."modify_survey_details.php?survey_id=".$_POST["survey_id"]."&survey_modify_result=sucess");
+			exit;
+		}
+		else
+		{
+			header("Location: ".VIEW_PATH."modify_survey_details.php?survey_id=".$_POST["survey_id"]."&survey_modify_result=$modify_survey");
+			exit;
+		}
+	}
+	else
+	{
+		header("Location: ".VIEW_PATH."modify_survey_details.php?survey_id=".$_POST["survey_id"]."&survey_modify_err=".$validated);
+		exit;
+	}
+}
+
+
+
+if(isset($_POST) && isset($_POST["set_survey_type"]))
+{
+	
+	
+	$set_survey_type=new Survey();
+	$validated=$set_survey_type->validate_Form_Data_Set_Survey_Type($_POST);
+	if($validated=="NO_ERROR")
+	{
+		$set_survey_type=$set_survey_type->set_Survey_Type($_POST);
+		if($set_survey_type && substr($set_survey_type,0,3)!="ERR")
+		{
+			header("Location: ".VIEW_PATH."modify_survey_set_survey_type.php?survey_id=".$_POST["survey_id"]."&set_survey_type_result=sucess");
+			exit;
+		}
+		else
+		{
+			header("Location: ".VIEW_PATH."modify_survey_set_survey_type.php?survey_id=".$_POST["survey_id"]."&set_survey_type_result=error");
+			exit;
+		}
+	}
+	else
+	{
+		header("Location: ".VIEW_PATH."modify_survey_set_survey_type.php?survey_id=".$_POST["survey_id"]."&set_survey_type_err=".$validated);
+		exit;
+	}
+}
+
+
+
+if(isset($_POST) && isset($_POST["duplicate_survey"]))
+{
+	$duplicate_survey=new Survey();
+	
+	$duplicate_survey=$duplicate_survey->duplicate_Survey($_POST);
+	if($duplicate_survey>0)
+	{
+		header("Location: ".VIEW_PATH."view_survey_details.php?survey_id=".$duplicate_survey."&duplicated_survey_result=sucess");
+		exit;
+	}
+	else
+	{
+		header("Location: ".VIEW_PATH."view_survey_details.php?survey_id=".$_POST["survey_id"]."&duplicated_survey_result=error");
+		exit;
+	}
+}
+
+
+
+
+?>

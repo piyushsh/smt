@@ -1,0 +1,21 @@
+[26-Jun-2015 11:19:33 Etc/GMT] PHP Fatal error:  Class 'PHPExcel_Style_Supervisor' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Style.php on line 36
+[28-Jun-2015 00:58:11 Etc/GMT] PHP Notice:  Use of undefined constant PHPEXCEL_ROOT - assumed 'PHPEXCEL_ROOT' in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Autoloader.php on line 73
+[28-Jun-2015 00:58:11 Etc/GMT] PHP Fatal error:  Class 'PHPExcel_Shared_String' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Autoloader.php on line 36
+[28-Jun-2015 07:36:36 Etc/GMT] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Comment.php on line 37
+[28-Jun-2015 13:37:08 Etc/GMT] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Worksheet.php on line 37
+[14-Jul-2015 03:10:14 Etc/GMT] PHP Fatal error:  Class 'PHPExcel_Style_Supervisor' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Style.php on line 36
+[14-Jul-2015 03:10:43 Etc/GMT] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/RichText.php on line 37
+[14-Jul-2015 10:48:05 Etc/GMT] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/RichText.php on line 37
+[14-Jul-2015 16:59:55 Etc/GMT] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/RichText.php on line 37
+[29-Oct-2015 03:28:03 Etc/GMT] PHP Notice:  Use of undefined constant PHPEXCEL_ROOT - assumed 'PHPEXCEL_ROOT' in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Autoloader.php on line 73
+[29-Oct-2015 03:28:03 Etc/GMT] PHP Fatal error:  Class 'PHPExcel_Shared_String' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Autoloader.php on line 36
+[30-Oct-2015 16:45:15 Etc/GMT] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/RichText.php on line 37
+[09-Nov-2015 20:39:38 Etc/GMT] PHP Fatal error:  Class 'PHPExcel_Style_Supervisor' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Style.php on line 36
+[17-Nov-2015 02:57:51 Etc/GMT] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Comment.php on line 37
+[03-Dec-2015 02:37:11 Etc/GMT] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Worksheet.php on line 37
+[07-Mar-2016 09:41:23 Etc/GMT] PHP Notice:  Use of undefined constant PHPEXCEL_ROOT - assumed 'PHPEXCEL_ROOT' in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Autoloader.php on line 73
+[07-Mar-2016 09:41:23 Etc/GMT] PHP Fatal error:  Class 'PHPExcel_Shared_String' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Autoloader.php on line 36
+[07-Mar-2016 09:41:28 Etc/GMT] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Comment.php on line 37
+[07-Mar-2016 09:41:33 Etc/GMT] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/RichText.php on line 37
+[07-Mar-2016 09:41:35 Etc/GMT] PHP Fatal error:  Class 'PHPExcel_Style_Supervisor' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Style.php on line 36
+[07-Mar-2016 09:41:36 Etc/GMT] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/hopstwhj/public_html/portfolio/smt/plugin/PHPExcel-develop/Classes/PHPExcel/Worksheet.php on line 37
