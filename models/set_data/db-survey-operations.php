@@ -18,6 +18,9 @@ class DB_Survey
 		$con = $this->con;
 
 		$survey_id = $this->get_New_Survey_Id();
+
+        $data->survey_id = $survey_id;
+
 		$alpha_survey_id = "NXT" . $survey_id;
 		$survey_multiple_link_table_name = $survey_id . "_multiplelink";
 		$identifier_table_name = $survey_id . "_identifiers";

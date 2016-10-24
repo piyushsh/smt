@@ -1,5 +1,7 @@
 <?php
 
+use controller\SurveyFilterController;
+
 define("CONTROLLER_PATH","../../controller/");
 define("MODEL_PATH","../../models/");
 define("VIEW_PATH","../../views/");
@@ -7,14 +9,23 @@ define("ASSETS_PATH","../../assets/");
 define("INCLUDES_PATH","../../includes/");
 define("PLUGIN_PATH","../../plugin/");
 define("BASE_PATH","../../");
+define("REPOSITORY_PATH","../../Repository/");
+
+if(!defined("EVENT_PATH"))
+	define("EVENT_PATH","../../Event/");
+if(!defined("VENDOR_PATH"))
+	define("VENDOR_PATH","../../vendor/");
 
 session_start();
 
+include_once(CONTROLLER_PATH."SurveyFilterController.php");
 include_once(PLUGIN_PATH."PHPExcel-develop/Classes/PHPExcel.php");
 include_once(MODEL_PATH."set_data/db-survey-operations.php");
+require REPOSITORY_PATH.'/SurveyConfig.php';
 
 class Survey
 {
+	public $survey_id;
 	public $client_name="";
 	public $survey_name="";
 	public $survey_description="";
@@ -598,6 +609,30 @@ if(isset($_POST) && isset($_POST["create_survey"]))
 		if($db_create_survey->add_Survey($create_survey))
 		{
 			unset($_SESSION["survey_creation_form_field"]);
+			//Recently created Survey
+			$_SESSION["recently_created_survey"]=$create_survey->survey_id;
+
+			//Adding Survey Filters in the survey.
+			$surveyFilters = new SurveyFilterController($create_survey->survey_id, isset($_POST["country_filter"])
+				, isset($_POST["duplicate_ip"]));
+			$resultCountryFilter = $surveyFilters->storeCountryFilter($_POST);
+			$resultDuplicateIP = $surveyFilters->storeDuplicateIPFilter($_POST);
+
+			//If any error while saving country IP filter
+			if($resultCountryFilter["country_filter_applied"] && !$resultCountryFilter["result"])
+			{
+				header("Location: ".VIEW_PATH."survey_operations.php?survey_create_result=sucess&country_ip_filter_error="
+					.$resultCountryFilter["validation_error"]);
+				exit;
+			}
+			//If any error occurred while saving Duplicate IP filter
+			else if($resultDuplicateIP["duplicate_ip_filter_applied"] && !$resultDuplicateIP["result"])
+			{
+				header("Location: ".VIEW_PATH."survey_operations.php?survey_create_result=sucess&duplicate_ip_filter_error="
+					.$resultDuplicateIP["validation_error"]);
+				exit;
+			}
+
 			header("Location: ".VIEW_PATH."survey_operations.php?survey_create_result=sucess");
 			exit;
 		}

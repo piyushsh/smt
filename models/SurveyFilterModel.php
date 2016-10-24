@@ -41,7 +41,8 @@ class SurveyFilterModel {
         $this->con->begin_transaction();
 
         //Check if Country IP Filter already exists or not
-        $countryFilterExists = $this->con->query("select * from survey_filters where filter_type = '".$surveyFilter::FILTER_COUNTRY_IP."' and survey_id=".$surveyFilter->surveyId);
+        $countryFilterExists = $this->con->query("select * from survey_filters where filter_type = '"
+            .$surveyFilter::FILTER_COUNTRY_IP."' and survey_id=".$surveyFilter->surveyId);
 
         //If Country Filter exists, then delete that filter.
         if($countryFilterExists->num_rows > 0)
