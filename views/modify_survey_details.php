@@ -1,16 +1,26 @@
 <?php
+
 define("CONTROLLER_PATH","../controller/");
 define("MODEL_PATH","../models/");
 define("VIEW_PATH","../views/");
 define("ASSETS_PATH","../assets/");
 define("INCLUDES_PATH","../includes/");
 define("PLUGIN_PATH","../plugin/");
+define("REPOSITORY_PATH","../Repository/");
+define("EVENT_PATH","../Event/");
+define("VENDOR_PATH","../vendor/");
 
 $active_menu=2;
 
 include_once(INCLUDES_PATH."basic_config_site.php");
 include_once(CONTROLLER_PATH."get_data/survey_operations_read.php");
 include_once(CONTROLLER_PATH."get_data/user_operations_read.php");
+include_once(CONTROLLER_PATH."SurveyFilterController.php");
+include_once(REPOSITORY_PATH."SurveyRepository.php");
+include_once(REPOSITORY_PATH."SurveyConfig.php");
+
+use controller\SurveyFilterController;
+use Repository\SurveyRepository;
 
 $form_survey_name="";
 $form_client_name="";
@@ -34,6 +44,12 @@ else
 $survey_details=new Survey_Data_Read();
 $survey_details=$survey_details->get_Survey_Details($survey_id);
 
+$survey_filter_info = new SurveyFilterController($survey_id);
+$survey_filter_info = $survey_filter_info->getSurveyFilterInfo();
+
+$countryFilterInfo = $survey_filter_info["countryIPFilter"];
+$duplicateIPFilterInfo = $survey_filter_info["duplicateIPFilter"];
+
 
 ?>
 <!DOCTYPE html>
@@ -50,6 +66,7 @@ $survey_details=$survey_details->get_Survey_Details($survey_id);
 
 <script src="<?php echo ASSETS_PATH;?>script/config_scripts.js"></script>
 <script src="<?php echo ASSETS_PATH;?>script/survey_modify_links_script.js"></script>
+<script src="<?php echo ASSETS_PATH;?>script/survey_page_animation_scripts.js"></script>
 
 <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -138,7 +155,8 @@ $survey_details=$survey_details->get_Survey_Details($survey_id);
                                     }
                                 ?>
                                 
-                                <div class="validations text-align-left">                    	
+
+                                    <div class="validations text-align-left">
                                     <p class="error" id="err_client">Please provide the Client Name!</p>
                                     <p class="error" id="err_survey">Please provide the Survey Name!</p>
                                     <p class="error" id="err_country">Please provide the country!</p>
@@ -147,11 +165,15 @@ $survey_details=$survey_details->get_Survey_Details($survey_id);
                                     <p class="error" id="err_survey_link">Please provide the survey link(s)!</p>
                                     <p class="error" id="err_survey_link_format">Please provide the survey link in correct format!</p>
                                     <p class="error" id="err_survey_quota">Please provide the survey quota in numeric format!</p>
-                        			<p class="error" id="err_survey_click_quota">Please provide the survey's respondent click quota in numeric format!</p>
+                        			<p class="error" id="err_survey_click_quota">
+                                        Please provide the survey's respondent click quota in numeric format!</p>
+                                    <p class="error" id="err_survey_country_filter">
+                                        Please select the countries, if "Add Country Filter" option is checked.</p>
+                                    <p class="error" id="err_survey_duplicate_ip_filter">
+                                        Please provide a integer value, limit of duplicate IPs accepted, if "Duplicate IP Filter" is checked.</p>
                                 </div>
-                                
-                                
-                                <div class="row">
+
+                                    <div class="row">
                                     <div class="col-xs-4">
                                         <div class="form_field">
                                             <div class="label">Client Name <span class="mandatory">*</span></div>
@@ -167,7 +189,7 @@ $survey_details=$survey_details->get_Survey_Details($survey_id);
                                     </div>
                                 </div>
                                 
-                                <div class="row">
+                                    <div class="row">
                                     <div class="col-xs-4">
                                     	<div class="form_field">
                                             <div class="label">Country<span class="mandatory">*</span></div>
@@ -182,8 +204,8 @@ $survey_details=$survey_details->get_Survey_Details($survey_id);
                                         </div>
                                     </div>
                                 </div>
-                                
-                                <div class="row">
+
+                                    <div class="row">
                                     <div class="col-xs-4">
                                         <div class="form_field">
                                             <div class="label">Allow Traffic<span class="mandatory">*</span></div>
@@ -200,8 +222,7 @@ $survey_details=$survey_details->get_Survey_Details($survey_id);
                                     </div>
                                 </div>
 
-
-								<div class="row">
+								    <div class="row">
                                     <div class="col-xs-4">
                                         <div class="form_field">
                                             <div class="label">Survey Manager<span class="mandatory">*</span></div>
@@ -234,9 +255,7 @@ $survey_details=$survey_details->get_Survey_Details($survey_id);
                                     </div>
                                 </div>
 
-
-                                
-                                <div class="row">
+                                    <div class="row">
                                     <div class="col-xs-4">
                                         <div class="form_field">
                                             <div class="label">Survey Link Type<span class="mandatory">*</span></div>
@@ -278,10 +297,9 @@ $survey_details=$survey_details->get_Survey_Details($survey_id);
                                         </div>
                                     </div>
                                 </div>
-                                
-                                
-                                
-                                <div class="row">
+
+                                    <!-- Survey Quotas Modify fields -->
+                                    <div class="row">
                                     <div class="col-xs-4">
                                         <div class="form_field">
                                             <div class="label">Survey Quota<span class="mandatory">*</span></div>
@@ -301,21 +319,165 @@ $survey_details=$survey_details->get_Survey_Details($survey_id);
                                         </div>
                                     </div>
                                 </div>
+
+                                    <!-- Survey Filters -->
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <h5 role="button" data-toggle="collapse" href="#survey_filters" aria-expanded="false"
+                                                aria-controls="survey_filters">Survey Filters
+                                                <span class="glyphicon glyphicon-chevron-down"></span></h5>
+                                            <?php
+
+                                            /*
+                                             * Displaying Errors for Filters applied in the survey
+                                             */
+                                            //Errors for Country Filter
+                                            if(isset($_REQUEST["country_ip_filter_error"]))
+                                            {
+                                                switch($_REQUEST["country_ip_filter_error"])
+                                                {
+                                                    case "ERR_COUNTRY_ISO_CODE_NOT_FOUND":
+                                                        echo "<p class='error'>While applying Country Filter, you didn't selected valid country option. Please try again with correct option.</p>";
+                                                        break;
+
+                                                    case "ERR_COUNTRY_FILTER_DATABASE_OPERATION":
+                                                        echo "<p class='error'>Some error occured at database end, while saving the country filter. Please try again, if problem persists contact system administrator.</p>";
+                                                        break;
+
+                                                    case "ERR_COUNTRY_FILTER_DATABASE_WHILE_REMOVING":
+                                                        echo "<p class='error'>Some error occured at database end, while removing the country filter. Please try again, if problem persists contact system administrator.</p>";
+                                                        break;
+
+                                                }
+                                            }
+
+                                            //Errors for Duplicate IP Filter
+                                            if(isset($_REQUEST["duplicate_ip_filter_error"]))
+                                            {
+                                                switch($_REQUEST["duplicate_ip_filter_error"])
+                                                {
+                                                    case "ERR_DUPLICATE_IP_LIMIT_INTEGER":
+                                                        echo "<p class='error'>For Duplicate IP Filter, you didn't entered \"Duplicat IP Limit\" as numeric value. Please try again by providing numeric value.</p>";
+                                                        break;
+
+                                                    case "ERR_DUPLICATE_IP_FILTER_DATABASE_OPERATION":
+                                                        echo "<p class='error'>Some error occured at database end, while saving the duplicate IP filter. Please try again.</p>";
+                                                        break;
+
+                                                    case "ERR_DUPLICATE_IP_FILTER_DATABASE_WHILE_REMOVING":
+                                                        echo "<p class='error'>Some error occured at database end, while removing the country filter. Please try again, if problem persists contact system administrator.</p>";
+                                                        break;
+
+                                                }
+                                            }
+
+                                            ?>
+
+                                            <div class="collapse" id="survey_filters">
+                                                <div class="row">
+                                                    <div class="col-xs-5">
+                                                        <div class="form_field">
+                                                            <div class="input_field">
+                                                                <div class="label">Add Country Filter</div>
+                                                                <input type="checkbox" name="country_filter" id="country_filter"
+                                                                       value="yes"
+                                                                    <?php
+                                                                    if($countryFilterInfo["applied"])
+                                                                    {
+                                                                        echo "checked";
+                                                                    }
+                                                                    ?>
+                                                                >
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-7">
+                                                        <div class="form_field">
+                                                            <div class="label">Select Countries (from which Respondents are acceptable)</div>
+                                                            <div class="input_field">
+                                                                <select multiple name="country_ip_filter_countries[]"
+                                                                        id="country_ip_filter_countries"
+                                                                        <?php echo !$countryFilterInfo["applied"] ? "disabled" : ""; ?>>
+                                                                    <?php
+                                                                    $countryList = SurveyRepository::getCountryIPFilterOptions();
+
+                                                                    foreach($countryList as $countryISOCode => $country)
+                                                                    {
+                                                                        $selected="";
+                                                                        if(in_array($countryISOCode,$countryFilterInfo["countriesSelected"]))
+                                                                        {
+                                                                            $selected="selected='selected'";
+                                                                        }
+                                                                        ?>
+                                                                            <option <?php echo "value='$countryISOCode' $selected";?>">
+                                                                                <?php echo $country?></option>
+                                                                        <?php
+                                                                    }
+                                                                    ?>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <hr>
+
+                                                <!-- UI Element for Duplicate IP Filter -->
+                                                <div class="row">
+                                                    <div class="col-xs-12">
+                                                        <div class="form_field">
+                                                            <div class="input_field">
+                                                                <div class="label">Duplicate IP Filter</div>
+                                                                <input type="checkbox" name="duplicate_ip"
+                                                                       id="duplicate_ip" value="yes"
+                                                                    <?php
+                                                                    if($duplicateIPFilterInfo["applied"])
+                                                                    {
+                                                                        echo "checked";
+                                                                    }
+                                                                    ?>
+                                                                >
+                                                            </div>
+                                                        </div>
+                                                        <div class="form_field">
+                                                            <div class="input_field">
+                                                                <div class="label">Limit of Duplicate IPs</div>
+                                                                <input type="number" name="duplicate_ip_limit"
+                                                                       id="duplicate_ip_limit"
+                                                                       value="<?php echo $duplicateIPFilterInfo["duplicateIPLimit"];?>"
+                                                                        <?php
+                                                                        if(!$duplicateIPFilterInfo["applied"])
+                                                                        {
+                                                                            echo "disabled";
+                                                                        }
+                                                                        ?>
+                                                                >
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
                                 
-                                <br>
-                                <input type="button" value="Modify Survey" id="modify_survey" class="button">
+                                    <br>
+                                    <input type="button" value="Modify Survey" id="modify_survey" class="button">
                                 
-                                <a href="<?php echo VIEW_PATH."view_survey_details.php?survey_id=".$survey_id;?>" class="button">Back to Survey</a>
+                                    <a href="<?php echo VIEW_PATH."view_survey_details.php?survey_id=".$survey_id;?>"
+                                       class="button">Back to Survey</a>
                     
-                    
-                    		</form>
+                                </form>
                          
                     
                     
                     <hr>
                     
                     <?php
-						if($survey_details["survey_detail"]["single_link_url"]=="N/A" && $survey_details["survey_detail"]["multi_link_table_name"]!='N/A')
+						if($survey_details["survey_detail"]["single_link_url"]=="N/A"
+                            && $survey_details["survey_detail"]["multi_link_table_name"]!='N/A')
 						{
 							?>
 							<h6>Multi Links Functions:-</h6>
