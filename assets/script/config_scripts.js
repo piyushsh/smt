@@ -734,7 +734,34 @@ jQuery.validate_Form_Fields_Modify_Survey=function()
 		$(".validations,.validations #err_survey_click_quota").delay(200).fadeIn(200);
 		return false;
 	}
-	
+
+	/*
+	 Validating Survey Filters
+	 */
+	//Validating Duplicate IP Filter
+	if($($("input[type='checkbox'][name='country_filter']")[0]).prop('checked'))
+	{
+		if(!($($("select[name='country_ip_filter_countries[]']")[0]).val() instanceof Array))
+		{
+			$(".validations,.validations .error").fadeOut(200);
+			$(".validations,.validations #err_survey_country_filter").delay(200).fadeIn(200);
+			return false;
+		}
+	}
+	//Validating Duplicate IP Filter
+	if($($("input[type='checkbox'][name='duplicate_ip']")[0]).prop('checked'))
+	{
+		console.log("Whitespace",whitespace.test($($("select[name='duplicate_ip_limit']")[0]).val()));
+		console.log("Numeric",!reg_numeric.test($($("select[name='duplicate_ip_limit']")[0]).val()));
+		if(whitespace.test($($("input[name='duplicate_ip_limit']")[0]).val()) || !reg_numeric.test($($("input[name='duplicate_ip_limit']")[0]).val()))
+		{
+			$(".validations,.validations .error").fadeOut(200);
+			$(".validations,.validations #err_survey_duplicate_ip_filter").delay(200).fadeIn(200);
+			return false;
+		}
+	}
+
+
 	$(".validations,.validations .error").fadeOut(200);
 	$("form[name='modify_survey']").submit();
 	return true;

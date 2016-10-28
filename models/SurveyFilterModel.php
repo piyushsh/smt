@@ -90,10 +90,10 @@ class SurveyFilterModel {
      */
     public function removeCountryFilter(SurveyFilterController $surveyFilterController)
     {
-        $checkCountryFilter = $this->con->query("select * from survey_filters where filter_type = '".$surveyFilterController::FILTER_COUNTRY_IP."' and survey_id=".$surveyFilterController->surveyId);
+        $checkCountryFilter = $this->con->query("select * from survey_filters where filter_type = '"
+            .$surveyFilterController::FILTER_COUNTRY_IP."' and survey_id=".$surveyFilterController->surveyId);
 
         $deleteCountryFilterResult = true;
-
         if($checkCountryFilter->num_rows > 0)
         {
             while($row=$checkCountryFilter->fetch_array())
@@ -123,18 +123,21 @@ class SurveyFilterModel {
         $this->con->begin_transaction();
 
         //Check if Country IP Filter already exists or not
-        $duplicateIPFilterExists = $this->con->query("select * from survey_filters where filter_type = '".$surveyFilter::FILTER_DUPLICATE_IP."' and survey_id=".$surveyFilter->surveyId);
+        $duplicateIPFilterExists = $this->con->query("select * from survey_filters where filter_type = '"
+            .$surveyFilter::FILTER_DUPLICATE_IP."' and survey_id=".$surveyFilter->surveyId);
 
         //If Country Filter exists, then delete that filter.
         if($duplicateIPFilterExists->num_rows > 0)
         {
-            $filerData = $duplicateIPFilterExists->fetch_array();
-            $opResult = $this->con->query("update survey_filters set duplicate_ip_limit=".$surveyFilter->getDuplicateIPFilterLimit()." where survey_id=".$surveyFilter->surveyId." and filter_type='".$surveyFilter::FILTER_DUPLICATE_IP."'");
+            $opResult = $this->con->query("update survey_filters set duplicate_ip_limit="
+                .$surveyFilter->getDuplicateIPFilterLimit()." where survey_id=".$surveyFilter->surveyId
+                ." and filter_type='".$surveyFilter::FILTER_DUPLICATE_IP."'");
         }
         else
         {
             //Saving Filter data in the table
-            $opResult = $this->con->query("insert into survey_filters values ('',$surveyFilter->surveyId,'".$surveyFilter::FILTER_DUPLICATE_IP."',".$surveyFilter->getDuplicateIPFilterLimit().")");
+            $opResult = $this->con->query("insert into survey_filters values ('',$surveyFilter->surveyId,'"
+                .$surveyFilter::FILTER_DUPLICATE_IP."',".$surveyFilter->getDuplicateIPFilterLimit().")");
         }
 
         if($opResult)
