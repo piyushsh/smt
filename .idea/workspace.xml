@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37c578aa-3819-42d5-8f98-6f6e87ebac8d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/config_scripts.js" afterPath="$PROJECT_DIR$/assets/script/config_scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/set_data/survey_operations.php" afterPath="$PROJECT_DIR$/controller/set_data/survey_operations.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/SurveyFilterModel.php" afterPath="$PROJECT_DIR$/models/SurveyFilterModel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/modify_survey_details.php" afterPath="$PROJECT_DIR$/views/modify_survey_details.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/db-config.php" afterPath="$PROJECT_DIR$/models/db-config.php" />
     </list>
     <ignored path="smt.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -227,7 +223,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SurveyFilterModel.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SurveyFilterModel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/SurveyFilterModel.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
@@ -251,6 +247,16 @@
                 <marker date="1477682209789" expanded="true" signature="7154:7275" ph="select * fro... survey_filters" />
                 <marker date="1477682209789" expanded="true" signature="8235:8369" ph="select count... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db-config.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/db-config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -427,13 +433,13 @@
         <option value="$PROJECT_DIR$/controller/get_data/survey_operations_read_1.php" />
         <option value="$PROJECT_DIR$/controller/get_data/survey_operations_read.php" />
         <option value="$PROJECT_DIR$/assets/script/survey_modify_links_script.js" />
-        <option value="$PROJECT_DIR$/models/db-config.php" />
         <option value="$PROJECT_DIR$/views/survey_operations.php" />
         <option value="$PROJECT_DIR$/models/set_data/db-survey-operations.php" />
         <option value="$PROJECT_DIR$/assets/script/config_scripts.js" />
         <option value="$PROJECT_DIR$/views/modify_survey_details.php" />
         <option value="$PROJECT_DIR$/controller/set_data/survey_operations.php" />
         <option value="$PROJECT_DIR$/models/SurveyFilterModel.php" />
+        <option value="$PROJECT_DIR$/models/db-config.php" />
       </list>
     </option>
   </component>
@@ -520,6 +526,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Repository" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smt_November" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smt_November" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -673,12 +693,12 @@
       <workItem from="1477064384227" duration="1460000" />
       <workItem from="1477257136855" duration="5058000" />
       <workItem from="1477340229470" duration="6254000" />
-      <workItem from="1477678273226" duration="3902000" />
+      <workItem from="1477678273226" duration="4165000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42836000" />
+    <option name="totallyTimeSpent" value="43099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -2878,14 +2898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/db-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/survey_operations.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8024">
@@ -3320,6 +3332,14 @@
             <marker date="1477682209789" expanded="true" signature="7154:7275" ph="select * fro... survey_filters" />
             <marker date="1477682209789" expanded="true" signature="8235:8369" ph="select count... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/db-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
