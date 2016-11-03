@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37c578aa-3819-42d5-8f98-6f6e87ebac8d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/db-config.php" afterPath="$PROJECT_DIR$/models/db-config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/SurveyFilterController.php" afterPath="$PROJECT_DIR$/controller/SurveyFilterController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/geoplugin.php" afterPath="$PROJECT_DIR$/includes/geoplugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/set_data/db-redirection-operations.php" afterPath="$PROJECT_DIR$/models/set_data/db-redirection-operations.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/redirection_operations.php" afterPath="$PROJECT_DIR$/views/redirection_operations.php" />
     </list>
     <ignored path="smt.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,202 +27,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="modify_survey_details.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/modify_survey_details.php">
+      <file leaf-file-name="redirection_operations.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/redirection_operations.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="141" column="68" selection-start-line="141" selection-start-column="59" selection-end-line="141" selection-end-column="68" />
-              <folding>
-                <element signature="e#717#755#0#PHP" expanded="true" />
-                <element signature="e#931#1065#0#PHP" expanded="false" />
-                <element signature="e#1005#1065#0#PHP" expanded="false" />
-                <element signature="e#2192#2399#0#HTML" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#2868#4787#0#PHP" expanded="false" />
-                <element signature="e#2943#3741#0#PHP" expanded="false" />
-                <element signature="e#3211#3741#0#PHP" expanded="false" />
-                <element signature="e#3335#3678#0#PHP" expanded="false" />
-                <element signature="e#3396#3542#0#PHP" expanded="false" />
-                <element signature="e#3552#3668#0#PHP" expanded="false" />
-                <element signature="e#3757#4753#0#PHP" expanded="false" />
-                <element signature="e#3816#4744#0#PHP" expanded="false" />
-                <element signature="e#3874#4023#0#PHP" expanded="false" />
-                <element signature="e#4033#4182#0#PHP" expanded="false" />
-                <element signature="e#4205#4344#0#PHP" expanded="false" />
-                <element signature="e#4364#4555#0#PHP" expanded="false" />
-                <element signature="e#4575#4734#0#PHP" expanded="false" />
-                <element signature="e#5307#6317#0#PHP" expanded="false" />
-                <element signature="e#5652#6317#0#PHP" expanded="false" />
-                <element signature="e#6008#6317#0#PHP" expanded="false" />
-                <element signature="n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#select#0;n#div#1;n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#12297#12469#0#PHP" expanded="false" />
-                <element signature="n#script#0;n#div#1;n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#12579#12709#0#HTML" expanded="false" />
-                <element signature="n#div#1;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#14729#15345#0#PHP" expanded="false" />
-                <element signature="e#14907#15345#0#PHP" expanded="false" />
-                <element signature="e#15141#15345#0#PHP" expanded="false" />
-                <element signature="n#div#1;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#15834#16820#0#PHP" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#1;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#19508#20966#0#PHP" expanded="false" />
-                <element signature="e#19797#20094#0#PHP" expanded="false" />
-                <element signature="e#20148#20478#0#PHP" expanded="false" />
-                <element signature="e#20532#20869#0#PHP" expanded="false" />
-                <element signature="e#21089#22534#0#PHP" expanded="false" />
-                <element signature="e#21233#22488#0#PHP" expanded="false" />
-                <element signature="e#21382#21697#0#PHP" expanded="false" />
-                <element signature="e#21751#22041#0#PHP" expanded="false" />
-                <element signature="e#22095#22437#0#PHP" expanded="false" />
-                <element signature="e#25327#25653#0#PHP" expanded="false" />
-                <element signature="e#27428#27693#0#PHP" expanded="false" />
-                <element signature="e#28732#29011#0#PHP" expanded="false" />
-                <element signature="e#30160#39977#0#PHP" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#30533#31518#0#PHP" expanded="false" />
-                <element signature="e#30615#30950#0#PHP" expanded="false" />
-                <element signature="e#30775#30950#0#PHP" expanded="false" />
-                <element signature="e#30999#31518#0#PHP" expanded="false" />
-                <element signature="e#31078#31484#0#PHP" expanded="false" />
-                <element signature="e#31136#31296#0#PHP" expanded="false" />
-                <element signature="e#31323#31460#0#PHP" expanded="false" />
-                <element signature="e#31558#33003#0#PHP" expanded="false" />
-                <element signature="e#31649#32002#0#PHP" expanded="false" />
-                <element signature="e#31818#32002#0#PHP" expanded="false" />
-                <element signature="e#32051#33003#0#PHP" expanded="false" />
-                <element signature="e#32139#32969#0#PHP" expanded="false" />
-                <element signature="e#32206#32373#0#PHP" expanded="false" />
-                <element signature="e#32400#32552#0#PHP" expanded="false" />
-                <element signature="e#32586#32746#0#PHP" expanded="false" />
-                <element signature="e#32780#32945#0#PHP" expanded="false" />
-                <element signature="e#33043#34488#0#PHP" expanded="false" />
-                <element signature="e#33134#33487#0#PHP" expanded="false" />
-                <element signature="e#33303#33487#0#PHP" expanded="false" />
-                <element signature="e#33536#34488#0#PHP" expanded="false" />
-                <element signature="e#33624#34454#0#PHP" expanded="false" />
-                <element signature="e#33691#33858#0#PHP" expanded="false" />
-                <element signature="e#33885#34037#0#PHP" expanded="false" />
-                <element signature="e#34071#34231#0#PHP" expanded="false" />
-                <element signature="e#34265#34430#0#PHP" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#39999#51664#0#PHP" expanded="false" />
-                <element signature="n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#40486#42134#0#PHP" expanded="false" />
-                <element signature="e#40609#41106#0#PHP" expanded="false" />
-                <element signature="e#40861#41106#0#PHP" expanded="false" />
-                <element signature="e#41215#42134#0#PHP" expanded="false" />
-                <element signature="e#41335#42059#0#PHP" expanded="false" />
-                <element signature="e#41440#41611#0#PHP" expanded="false" />
-                <element signature="e#41649#41831#0#PHP" expanded="false" />
-                <element signature="e#41869#42024#0#PHP" expanded="false" />
-                <element signature="e#42166#44160#0#PHP" expanded="false" />
-                <element signature="e#42303#42826#0#PHP" expanded="false" />
-                <element signature="e#42568#42826#0#PHP" expanded="false" />
-                <element signature="e#42935#44160#0#PHP" expanded="false" />
-                <element signature="e#43069#44085#0#PHP" expanded="false" />
-                <element signature="e#43188#43374#0#PHP" expanded="false" />
-                <element signature="e#43412#43594#0#PHP" expanded="false" />
-                <element signature="e#43632#43826#0#PHP" expanded="false" />
-                <element signature="e#43864#44050#0#PHP" expanded="false" />
-                <element signature="e#44192#46215#0#PHP" expanded="false" />
-                <element signature="e#44329#44874#0#PHP" expanded="false" />
-                <element signature="e#44605#44874#0#PHP" expanded="false" />
-                <element signature="e#44983#46215#0#PHP" expanded="false" />
-                <element signature="e#45117#46140#0#PHP" expanded="false" />
-                <element signature="e#45236#45433#0#PHP" expanded="false" />
-                <element signature="e#45471#45664#0#PHP" expanded="false" />
-                <element signature="e#45702#45877#0#PHP" expanded="false" />
-                <element signature="e#45915#46106#0#PHP" expanded="false" />
-                <element signature="n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="survey_modify_links_script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/script/survey_modify_links_script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+            <state relative-caret-position="575">
+              <caret line="104" column="42" selection-start-line="104" selection-start-column="42" selection-end-line="104" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SurveyFilterController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SurveyConfig.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Repository/SurveyConfig.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SurveyFilterController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/SurveyFilterController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1552">
-              <caret line="103" column="49" selection-start-line="103" selection-start-column="49" selection-end-line="103" selection-end-column="49" />
+            <state relative-caret-position="118">
+              <caret line="189" column="21" selection-start-line="189" selection-start-column="21" selection-end-line="189" selection-end-column="21" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CountryFilterEvent.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Event/CountryFilterEvent.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="geoplugin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/geoplugin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db-redirection-operations.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/set_data/db-redirection-operations.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="66" column="55" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="55" />
+              <folding>
+                <marker date="1478200260214" expanded="true" signature="856:921" ph="select * fro... survey_table" />
+                <marker date="1478200260214" expanded="true" signature="2653:2773" ph="select * fro... ${$identifier_table}" />
+                <marker date="1478200260214" expanded="true" signature="2854:3035" ph="insert into ${$identifier_table}... " />
+                <marker date="1478200260214" expanded="true" signature="3495:3560" ph="select * fro... survey_table" />
+                <marker date="1478200260214" expanded="true" signature="3988:4084" ph="select * fro... ${$data-&gt;survey_id}" />
+                <marker date="1478200260214" expanded="true" signature="4373:4503" ph="select * fro... re_contact_survey_links" />
+                <marker date="1478200260214" expanded="true" signature="4664:4729" ph="select * fro... survey_table" />
+                <marker date="1478200260214" expanded="true" signature="5158:5225" ph="select * fro... ${$data-&gt;survey_id}" />
+                <marker date="1478200260214" expanded="true" signature="5706:5836" ph="select * fro... re_contact_survey_links" />
+                <marker date="1478200260214" expanded="true" signature="6225:6460" ph="insert into application_logs... " />
+                <marker date="1478200260214" expanded="true" signature="6608:6837" ph="insert into application_logs... " />
+                <marker date="1478200260214" expanded="true" signature="7630:7722" ph="select * fro... ${$identifier_table}" />
+                <marker date="1478200260214" expanded="true" signature="7912:8088" ph="update ${$id... " />
+                <marker date="1478200260214" expanded="true" signature="8803:8868" ph="select * fro... vendor_table" />
+                <marker date="1478200260214" expanded="true" signature="9739:9999" ph="insert into application_logs... " />
+                <marker date="1478200260214" expanded="true" signature="10147:10420" ph="insert into application_logs... " />
+                <marker date="1478200260214" expanded="true" signature="10588:10763" ph="select * fro... vendor_table" />
+                <marker date="1478200260214" expanded="true" signature="10692:10752" ph="select vendo... survey_exclude_vendor" />
+                <marker date="1478200260214" expanded="true" signature="11067:11200" ph="SELECT COUNT... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -226,8 +110,8 @@
       <file leaf-file-name="SurveyFilterModel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/SurveyFilterModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="140" column="9" selection-start-line="140" selection-start-column="9" selection-end-line="140" selection-end-column="9" />
+            <state relative-caret-position="-1032">
+              <caret line="115" column="7" selection-start-line="115" selection-start-column="7" selection-end-line="115" selection-end-column="7" />
               <folding>
                 <element signature="e#159#197#0#PHP" expanded="true" />
                 <marker date="1477682209789" expanded="true" signature="933:1048" ph="select * fro... survey_filters" />
@@ -251,170 +135,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db-config.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/models/db-config.php">
+      <file leaf-file-name="SurveyRepository.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Repository/SurveyRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config_scripts.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/script/config_scripts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="761" column="5" selection-start-line="761" selection-start-column="5" selection-end-line="761" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="survey_operations.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/set_data/survey_operations.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="657" column="55" selection-start-line="657" selection-start-column="55" selection-end-line="657" selection-end-column="55" />
+            <state relative-caret-position="264">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
               <folding>
-                <element signature="e#1566#1739#0#PHP" expanded="false" />
-                <element signature="e#1693#1739#0#PHP" expanded="false" />
-                <element signature="e#2688#4108#0#PHP" expanded="false" />
-                <element signature="e#2774#4108#0#PHP" expanded="false" />
-                <element signature="e#2860#4108#0#PHP" expanded="false" />
-                <element signature="e#2960#4108#0#PHP" expanded="false" />
-                <element signature="e#3056#4108#0#PHP" expanded="false" />
-                <element signature="e#3148#4108#0#PHP" expanded="false" />
-                <element signature="e#3480#4108#0#PHP" expanded="false" />
-                <element signature="e#3530#3824#0#PHP" expanded="false" />
-                <element signature="e#3577#3682#0#PHP" expanded="false" />
-                <element signature="e#3702#3819#0#PHP" expanded="false" />
-                <element signature="e#3978#4108#0#PHP" expanded="false" />
-                <element signature="n#validate_Multi_Links#0;n#Survey#0;n#!!top" expanded="false" />
-                <element signature="e#4183#5241#0#PHP" expanded="false" />
-                <element signature="e#4693#5153#0#PHP" expanded="false" />
-                <element signature="e#4747#5148#0#PHP" expanded="false" />
-                <element signature="e#4810#5142#0#PHP" expanded="false" />
-                <element signature="e#5178#5241#0#PHP" expanded="false" />
-                <element signature="e#5247#5288#0#PHP" expanded="false" />
-                <element signature="n#validate_Re_Contact_File#0;n#Survey#0;n#!!top" expanded="false" />
-                <element signature="e#5347#6479#0#PHP" expanded="false" />
-                <element signature="e#5843#6392#0#PHP" expanded="false" />
-                <element signature="e#5951#6089#0#PHP" expanded="false" />
-                <element signature="e#6157#6323#0#PHP" expanded="false" />
-                <element signature="e#6153#6387#0#PHP" expanded="false" />
-                <element signature="e#6416#6479#0#PHP" expanded="false" />
-                <element signature="n#check_IDENTIFIER_Parameter#0;n#Survey#0;n#!!top" expanded="false" />
-                <element signature="e#6646#6808#0#PHP" expanded="false" />
-                <element signature="e#6733#6802#0#PHP" expanded="false" />
-                <element signature="n#modify_Survey_Details#0;n#Survey#0;n#!!top" expanded="false" />
-                <element signature="n#validate_Form_Data_Modify_Survey#0;n#Survey#0;n#!!top" expanded="false" />
-                <element signature="e#7154#8015#0#PHP" expanded="false" />
-                <element signature="e#7240#8015#0#PHP" expanded="false" />
-                <element signature="e#7326#8015#0#PHP" expanded="false" />
-                <element signature="e#7418#8015#0#PHP" expanded="false" />
-                <element signature="e#7518#8015#0#PHP" expanded="false" />
-                <element signature="e#7613#8015#0#PHP" expanded="false" />
-                <element signature="e#7885#8015#0#PHP" expanded="false" />
-                <element signature="n#validate_Form_Data_Set_Survey_Type#0;n#Survey#0;n#!!top" expanded="false" />
-                <element signature="e#8140#8212#0#PHP" expanded="false" />
-                <element signature="e#8215#8465#0#PHP" expanded="false" />
-                <element signature="e#8468#9001#0#PHP" expanded="false" />
-                <element signature="e#8520#8695#0#PHP" expanded="false" />
-                <element signature="e#8629#8695#0#PHP" expanded="false" />
-                <element signature="e#8703#8997#0#PHP" expanded="false" />
-                <element signature="e#8750#8855#0#PHP" expanded="false" />
-                <element signature="e#8875#8992#0#PHP" expanded="false" />
-                <element signature="n#stop_Or_Allow_Traffic#0;n#Survey#0;n#!!top" expanded="false" />
-                <element signature="e#9134#9193#0#PHP" expanded="false" />
-                <element signature="n#add_More_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
-                <element signature="e#9493#9554#0#PHP" expanded="false" />
-                <element signature="n#modify_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
-                <element signature="e#9896#9981#0#PHP" expanded="false" />
-                <element signature="n#validate_Id_And_Links_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
-                <element signature="e#10238#11723#0#PHP" expanded="false" />
-                <element signature="e#10728#10806#0#PHP" expanded="false" />
-                <element signature="e#10811#11632#0#PHP" expanded="false" />
-                <element signature="e#11035#11627#0#PHP" expanded="false" />
-                <element signature="e#11098#11270#0#PHP" expanded="false" />
-                <element signature="e#11123#11263#0#PHP" expanded="false" />
-                <element signature="e#11276#11621#0#PHP" expanded="false" />
-                <element signature="e#11660#11723#0#PHP" expanded="false" />
-                <element signature="n#validate_Id_And_HashId_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
-                <element signature="e#11879#13072#0#PHP" expanded="false" />
-                <element signature="e#12376#12454#0#PHP" expanded="false" />
-                <element signature="e#12459#12976#0#PHP" expanded="false" />
-                <element signature="e#12682#12813#0#PHP" expanded="false" />
-                <element signature="e#12818#12971#0#PHP" expanded="false" />
-                <element signature="e#13004#13072#0#PHP" expanded="false" />
-                <element signature="n#validate_Id_And_Links_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
-                <element signature="e#13227#14493#0#PHP" expanded="false" />
-                <element signature="e#13724#13802#0#PHP" expanded="false" />
-                <element signature="e#13807#14397#0#PHP" expanded="false" />
-                <element signature="e#14030#14161#0#PHP" expanded="false" />
-                <element signature="e#14166#14392#0#PHP" expanded="false" />
-                <element signature="e#14425#14493#0#PHP" expanded="false" />
-                <element signature="n#delete_Multi_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
-                <element signature="e#14717#14802#0#PHP" expanded="false" />
-                <element signature="n#add_More_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
-                <element signature="e#15131#15192#0#PHP" expanded="false" />
-                <element signature="n#modify_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
-                <element signature="e#15576#15661#0#PHP" expanded="false" />
-                <element signature="n#delete_Re_Contact_Survey_Links#0;n#Survey#0;n#!!top" expanded="false" />
-                <element signature="e#16028#16113#0#PHP" expanded="false" />
-                <element signature="n#close_Survey#0;n#Survey#0;n#!!top" expanded="false" />
-                <element signature="n#reopen_Survey#0;n#Survey#0;n#!!top" expanded="false" />
-                <element signature="n#exclude_Include_Vendor#0;n#Survey#0;n#!!top" expanded="false" />
-                <element signature="e#16769#22869#0#PHP" expanded="false" />
-                <element signature="e#17002#17610#0#PHP" expanded="false" />
-                <element signature="e#20540#20716#0#PHP" expanded="false" />
-                <element signature="e#20664#20716#0#PHP" expanded="false" />
-                <element signature="e#20721#20913#0#PHP" expanded="false" />
-                <element signature="e#22876#23228#0#PHP" expanded="false" />
-                <element signature="e#23013#23226#0#PHP" expanded="false" />
-                <element signature="e#23125#23226#0#PHP" expanded="false" />
-                <element signature="e#23230#23586#0#PHP" expanded="false" />
-                <element signature="e#23377#23584#0#PHP" expanded="false" />
-                <element signature="e#23486#23584#0#PHP" expanded="false" />
-                <element signature="e#23589#24277#0#PHP" expanded="false" />
-                <element signature="e#23760#24275#0#PHP" expanded="false" />
-                <element signature="e#23958#24275#0#PHP" expanded="false" />
-                <element signature="e#24138#24275#0#PHP" expanded="false" />
-                <element signature="e#24279#25225#0#PHP" expanded="false" />
-                <element signature="e#24446#25223#0#PHP" expanded="false" />
-                <element signature="e#24677#25223#0#PHP" expanded="false" />
-                <element signature="e#24891#25223#0#PHP" expanded="false" />
-                <element signature="e#25077#25223#0#PHP" expanded="false" />
-                <element signature="e#25227#26174#0#PHP" expanded="false" />
-                <element signature="e#25395#26172#0#PHP" expanded="false" />
-                <element signature="e#25626#26172#0#PHP" expanded="false" />
-                <element signature="e#25840#26172#0#PHP" expanded="false" />
-                <element signature="e#26026#26172#0#PHP" expanded="false" />
-                <element signature="e#26209#26912#0#PHP" expanded="false" />
-                <element signature="e#26395#26910#0#PHP" expanded="false" />
-                <element signature="e#26593#26910#0#PHP" expanded="false" />
-                <element signature="e#26773#26910#0#PHP" expanded="false" />
-                <element signature="e#26914#27890#0#PHP" expanded="false" />
-                <element signature="e#27091#27888#0#PHP" expanded="false" />
-                <element signature="e#27327#27888#0#PHP" expanded="false" />
-                <element signature="e#27546#27888#0#PHP" expanded="false" />
-                <element signature="e#27737#27888#0#PHP" expanded="false" />
-                <element signature="e#27892#28868#0#PHP" expanded="false" />
-                <element signature="e#28069#28866#0#PHP" expanded="false" />
-                <element signature="e#28305#28866#0#PHP" expanded="false" />
-                <element signature="e#28524#28866#0#PHP" expanded="false" />
-                <element signature="e#28715#28866#0#PHP" expanded="false" />
-                <element signature="e#28870#29316#0#PHP" expanded="false" />
-                <element signature="e#29020#29314#0#PHP" expanded="false" />
-                <element signature="e#29174#29314#0#PHP" expanded="false" />
-                <element signature="e#29318#29717#0#PHP" expanded="false" />
-                <element signature="e#29465#29715#0#PHP" expanded="false" />
-                <element signature="e#29613#29715#0#PHP" expanded="false" />
-                <element signature="e#29777#30404#0#PHP" expanded="false" />
-                <element signature="e#29995#30076#0#PHP" expanded="false" />
-                <element signature="e#30039#30076#0#PHP" expanded="false" />
-                <element signature="e#30078#30402#0#PHP" expanded="false" />
-                <element signature="e#30253#30402#0#PHP" expanded="false" />
+                <element signature="e#331#8582#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -440,6 +167,11 @@
         <option value="$PROJECT_DIR$/controller/set_data/survey_operations.php" />
         <option value="$PROJECT_DIR$/models/SurveyFilterModel.php" />
         <option value="$PROJECT_DIR$/models/db-config.php" />
+        <option value="$PROJECT_DIR$/views/redirection_operations.php" />
+        <option value="$PROJECT_DIR$/models/set_data/db-redirection-operations.php" />
+        <option value="$PROJECT_DIR$/Event/CountryFilterEventHandler.php" />
+        <option value="$PROJECT_DIR$/includes/geoplugin.php" />
+        <option value="$PROJECT_DIR$/controller/SurveyFilterController.php" />
       </list>
     </option>
   </component>
@@ -482,7 +214,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -553,6 +284,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="set_data" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smt_November" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smt_November" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -575,40 +324,9 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smt_November" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smt_November" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smt_November" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smt_November" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -693,12 +411,14 @@
       <workItem from="1477064384227" duration="1460000" />
       <workItem from="1477257136855" duration="5058000" />
       <workItem from="1477340229470" duration="6254000" />
-      <workItem from="1477678273226" duration="4165000" />
+      <workItem from="1477678273226" duration="4313000" />
+      <workItem from="1477857112146" duration="617000" />
+      <workItem from="1478198576995" duration="3774000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43099000" />
+    <option name="totallyTimeSpent" value="47638000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -741,54 +461,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Repository/SurveyConfig.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/survey_page_animation_scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/config_scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7973">
-          <caret line="470" column="55" selection-start-line="470" selection-start-column="41" selection-end-line="470" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/survey_operations.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/survey_page_animation_scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/config_scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7973">
-          <caret line="470" column="55" selection-start-line="470" selection-start-column="41" selection-end-line="470" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/db-config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -802,11 +474,9 @@
         <state relative-caret-position="11305">
           <caret line="665" column="80" selection-start-line="665" selection-start-column="45" selection-end-line="665" selection-end-column="80" />
           <folding>
-            <element signature="e#717#755#0#PHP" expanded="true" />
+            <element signature="e#717#755#0#PHP" expanded="false" />
             <element signature="e#931#1065#0#PHP" expanded="false" />
             <element signature="e#1005#1065#0#PHP" expanded="false" />
-            <element signature="e#2192#2399#0#HTML" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#2868#4787#0#PHP" expanded="false" />
             <element signature="e#2943#3741#0#PHP" expanded="false" />
             <element signature="e#3211#3741#0#PHP" expanded="false" />
@@ -823,48 +493,11 @@
             <element signature="e#5307#6317#0#PHP" expanded="false" />
             <element signature="e#5652#6317#0#PHP" expanded="false" />
             <element signature="e#6008#6317#0#PHP" expanded="false" />
-            <element signature="n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#select#0;n#div#1;n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#12297#12469#0#PHP" expanded="false" />
-            <element signature="n#script#0;n#div#1;n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#12579#12709#0#HTML" expanded="false" />
-            <element signature="n#div#1;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#14729#15345#0#PHP" expanded="false" />
             <element signature="e#14907#15345#0#PHP" expanded="false" />
             <element signature="e#15141#15345#0#PHP" expanded="false" />
-            <element signature="n#div#1;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#15834#16820#0#PHP" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#19508#20966#0#PHP" expanded="false" />
             <element signature="e#19797#20094#0#PHP" expanded="false" />
             <element signature="e#20148#20478#0#PHP" expanded="false" />
@@ -878,7 +511,6 @@
             <element signature="e#27428#27693#0#PHP" expanded="false" />
             <element signature="e#28732#29011#0#PHP" expanded="false" />
             <element signature="e#30160#39977#0#PHP" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#30533#31518#0#PHP" expanded="false" />
             <element signature="e#30615#30950#0#PHP" expanded="false" />
             <element signature="e#30775#30950#0#PHP" expanded="false" />
@@ -904,27 +536,7 @@
             <element signature="e#33885#34037#0#PHP" expanded="false" />
             <element signature="e#34071#34231#0#PHP" expanded="false" />
             <element signature="e#34265#34430#0#PHP" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#39999#51664#0#PHP" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#40486#42134#0#PHP" expanded="false" />
             <element signature="e#40609#41106#0#PHP" expanded="false" />
             <element signature="e#40861#41106#0#PHP" expanded="false" />
@@ -951,26 +563,6 @@
             <element signature="e#45471#45664#0#PHP" expanded="false" />
             <element signature="e#45702#45877#0#PHP" expanded="false" />
             <element signature="e#45915#46106#0#PHP" expanded="false" />
-            <element signature="n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1068,15 +660,11 @@
             <element signature="n#close_Survey#0;n#Survey#0;n#!!top" expanded="false" />
             <element signature="n#reopen_Survey#0;n#Survey#0;n#!!top" expanded="false" />
             <element signature="n#exclude_Include_Vendor#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#16769#22869#0#PHP" expanded="false" />
             <element signature="e#17002#17610#0#PHP" expanded="false" />
-            <element signature="e#19268#22869#0#PHP" expanded="false" />
-            <element signature="e#19398#19906#0#PHP" expanded="false" />
             <element signature="e#20540#20716#0#PHP" expanded="false" />
             <element signature="e#20664#20716#0#PHP" expanded="false" />
             <element signature="e#20721#20913#0#PHP" expanded="false" />
-            <element signature="e#20859#20913#0#PHP" expanded="false" />
-            <element signature="e#21048#22867#0#PHP" expanded="false" />
-            <element signature="e#22723#22867#0#PHP" expanded="false" />
             <element signature="e#22876#23228#0#PHP" expanded="false" />
             <element signature="e#23013#23226#0#PHP" expanded="false" />
             <element signature="e#23125#23226#0#PHP" expanded="false" />
@@ -1137,53 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#get_New_Survey_Id#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#get_Max_Link_ID_Multi_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Modify_Survey_Details#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Stop_Or_Allow_Traffic#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Add_More_Multi_Survey_Links#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Modify_Multi_Survey_Links#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Close_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Reopen_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Exclude_Include_Vendor#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <marker date="1477348656483" expanded="true" signature="684:1101" ph="insert into survey_table... " />
-            <marker date="1477348656483" expanded="true" signature="1182:1606" ph="insert into survey_table... " />
-            <marker date="1477348656483" expanded="true" signature="1638:1814" ph="create table... ${$survey_multiple_link_table_name}" />
-            <marker date="1477348656483" expanded="true" signature="1940:2056" ph="insert into ${$survey_multiple_link_table_name}... " />
-            <marker date="1477348656483" expanded="true" signature="2153:2551" ph="insert into survey_table... " />
-            <marker date="1477348656483" expanded="true" signature="2997:3212" ph="insert into application_logs... " />
-            <marker date="1477348656483" expanded="true" signature="3259:3270" ph="DROP table $... " />
-            <marker date="1477348656483" expanded="true" signature="3322:3333" ph="DROP table $... " />
-            <marker date="1477348656483" expanded="true" signature="3375:3416" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="3488:3718" ph="insert into application_logs... " />
-            <marker date="1477348656483" expanded="true" signature="3811:3860" ph="select max(s... survey_table" />
-            <marker date="1477348656483" expanded="true" signature="5471:5636" ph="insert into re_contact_survey_links... " />
-            <marker date="1477348656483" expanded="true" signature="5831:5893" ph="select max(l... ${$survey_id}" />
-            <marker date="1477348656483" expanded="true" signature="6108:6151" ph="select * fro... survey_table" />
-            <marker date="1477348656483" expanded="true" signature="6279:6736" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="6795:7226" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="7316:7524" ph="insert into application_logs... " />
-            <marker date="1477348656483" expanded="true" signature="7580:7816" ph="insert into application_logs... " />
-            <marker date="1477348656483" expanded="true" signature="7975:8036" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="8419:8535" ph="insert into ${$survey_multiple_link_table_name}... " />
-            <marker date="1477348656483" expanded="true" signature="9304:9362" ph="select link_... ${$survey_id}" />
-            <marker date="1477348656483" expanded="true" signature="10019:10086" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11099:11146" ph="update re_co... " />
-            <marker date="1477348656483" expanded="true" signature="11099:11164" ph="update re_co... " />
-            <marker date="1477348656483" expanded="true" signature="11099:11183" ph="update re_co... " />
-            <marker date="1477348656483" expanded="true" signature="11869:11904" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:11915" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:11939" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:12002" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:12013" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:12014" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="12434:12477" ph="select * fro... survey_table" />
-            <marker date="1477348656483" expanded="true" signature="12621:12671" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="12870:12920" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="13185:13286" ph="insert into survey_exclude_vendor... " />
-            <marker date="1477348656483" expanded="true" signature="13365:13452" ph="delete from " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1200,11 +741,9 @@
         <state relative-caret-position="11305">
           <caret line="665" column="80" selection-start-line="665" selection-start-column="45" selection-end-line="665" selection-end-column="80" />
           <folding>
-            <element signature="e#717#755#0#PHP" expanded="true" />
+            <element signature="e#717#755#0#PHP" expanded="false" />
             <element signature="e#931#1065#0#PHP" expanded="false" />
             <element signature="e#1005#1065#0#PHP" expanded="false" />
-            <element signature="e#2192#2399#0#HTML" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#2868#4787#0#PHP" expanded="false" />
             <element signature="e#2943#3741#0#PHP" expanded="false" />
             <element signature="e#3211#3741#0#PHP" expanded="false" />
@@ -1221,48 +760,11 @@
             <element signature="e#5307#6317#0#PHP" expanded="false" />
             <element signature="e#5652#6317#0#PHP" expanded="false" />
             <element signature="e#6008#6317#0#PHP" expanded="false" />
-            <element signature="n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#select#0;n#div#1;n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#12297#12469#0#PHP" expanded="false" />
-            <element signature="n#script#0;n#div#1;n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#12579#12709#0#HTML" expanded="false" />
-            <element signature="n#div#1;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#14729#15345#0#PHP" expanded="false" />
             <element signature="e#14907#15345#0#PHP" expanded="false" />
             <element signature="e#15141#15345#0#PHP" expanded="false" />
-            <element signature="n#div#1;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#15834#16820#0#PHP" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#19508#20966#0#PHP" expanded="false" />
             <element signature="e#19797#20094#0#PHP" expanded="false" />
             <element signature="e#20148#20478#0#PHP" expanded="false" />
@@ -1276,7 +778,6 @@
             <element signature="e#27428#27693#0#PHP" expanded="false" />
             <element signature="e#28732#29011#0#PHP" expanded="false" />
             <element signature="e#30160#39977#0#PHP" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#30533#31518#0#PHP" expanded="false" />
             <element signature="e#30615#30950#0#PHP" expanded="false" />
             <element signature="e#30775#30950#0#PHP" expanded="false" />
@@ -1302,27 +803,7 @@
             <element signature="e#33885#34037#0#PHP" expanded="false" />
             <element signature="e#34071#34231#0#PHP" expanded="false" />
             <element signature="e#34265#34430#0#PHP" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#39999#51664#0#PHP" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#40486#42134#0#PHP" expanded="false" />
             <element signature="e#40609#41106#0#PHP" expanded="false" />
             <element signature="e#40861#41106#0#PHP" expanded="false" />
@@ -1349,26 +830,6 @@
             <element signature="e#45471#45664#0#PHP" expanded="false" />
             <element signature="e#45702#45877#0#PHP" expanded="false" />
             <element signature="e#45915#46106#0#PHP" expanded="false" />
-            <element signature="n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1466,15 +927,11 @@
             <element signature="n#close_Survey#0;n#Survey#0;n#!!top" expanded="false" />
             <element signature="n#reopen_Survey#0;n#Survey#0;n#!!top" expanded="false" />
             <element signature="n#exclude_Include_Vendor#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#16769#22869#0#PHP" expanded="false" />
             <element signature="e#17002#17610#0#PHP" expanded="false" />
-            <element signature="e#19268#22869#0#PHP" expanded="false" />
-            <element signature="e#19398#19906#0#PHP" expanded="false" />
             <element signature="e#20540#20716#0#PHP" expanded="false" />
             <element signature="e#20664#20716#0#PHP" expanded="false" />
             <element signature="e#20721#20913#0#PHP" expanded="false" />
-            <element signature="e#20859#20913#0#PHP" expanded="false" />
-            <element signature="e#21048#22867#0#PHP" expanded="false" />
-            <element signature="e#22723#22867#0#PHP" expanded="false" />
             <element signature="e#22876#23228#0#PHP" expanded="false" />
             <element signature="e#23013#23226#0#PHP" expanded="false" />
             <element signature="e#23125#23226#0#PHP" expanded="false" />
@@ -1535,53 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3383">
           <caret line="269" column="13" selection-start-line="269" selection-start-column="13" selection-end-line="269" selection-end-column="13" />
-          <folding>
-            <element signature="n#get_New_Survey_Id#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#get_Max_Link_ID_Multi_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Modify_Survey_Details#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Stop_Or_Allow_Traffic#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Add_More_Multi_Survey_Links#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Modify_Multi_Survey_Links#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Close_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Reopen_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Exclude_Include_Vendor#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <marker date="1477348656483" expanded="true" signature="684:1101" ph="insert into survey_table... " />
-            <marker date="1477348656483" expanded="true" signature="1182:1606" ph="insert into survey_table... " />
-            <marker date="1477348656483" expanded="true" signature="1638:1814" ph="create table... ${$survey_multiple_link_table_name}" />
-            <marker date="1477348656483" expanded="true" signature="1940:2056" ph="insert into ${$survey_multiple_link_table_name}... " />
-            <marker date="1477348656483" expanded="true" signature="2153:2551" ph="insert into survey_table... " />
-            <marker date="1477348656483" expanded="true" signature="2997:3212" ph="insert into application_logs... " />
-            <marker date="1477348656483" expanded="true" signature="3259:3270" ph="DROP table $... " />
-            <marker date="1477348656483" expanded="true" signature="3322:3333" ph="DROP table $... " />
-            <marker date="1477348656483" expanded="true" signature="3375:3416" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="3488:3718" ph="insert into application_logs... " />
-            <marker date="1477348656483" expanded="true" signature="3811:3860" ph="select max(s... survey_table" />
-            <marker date="1477348656483" expanded="true" signature="5471:5636" ph="insert into re_contact_survey_links... " />
-            <marker date="1477348656483" expanded="true" signature="5831:5893" ph="select max(l... ${$survey_id}" />
-            <marker date="1477348656483" expanded="true" signature="6108:6151" ph="select * fro... survey_table" />
-            <marker date="1477348656483" expanded="true" signature="6279:6736" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="6795:7226" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="7316:7524" ph="insert into application_logs... " />
-            <marker date="1477348656483" expanded="true" signature="7580:7816" ph="insert into application_logs... " />
-            <marker date="1477348656483" expanded="true" signature="7975:8036" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="8419:8535" ph="insert into ${$survey_multiple_link_table_name}... " />
-            <marker date="1477348656483" expanded="true" signature="9304:9362" ph="select link_... ${$survey_id}" />
-            <marker date="1477348656483" expanded="true" signature="10019:10086" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11099:11146" ph="update re_co... " />
-            <marker date="1477348656483" expanded="true" signature="11099:11164" ph="update re_co... " />
-            <marker date="1477348656483" expanded="true" signature="11099:11183" ph="update re_co... " />
-            <marker date="1477348656483" expanded="true" signature="11869:11904" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:11915" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:11939" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:12002" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:12013" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:12014" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="12434:12477" ph="select * fro... survey_table" />
-            <marker date="1477348656483" expanded="true" signature="12621:12671" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="12870:12920" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="13185:13286" ph="insert into survey_exclude_vendor... " />
-            <marker date="1477348656483" expanded="true" signature="13365:13452" ph="delete from " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1598,11 +1008,9 @@
         <state relative-caret-position="10047">
           <caret line="591" column="147" selection-start-line="591" selection-start-column="147" selection-end-line="591" selection-end-column="147" />
           <folding>
-            <element signature="e#717#755#0#PHP" expanded="true" />
+            <element signature="e#717#755#0#PHP" expanded="false" />
             <element signature="e#931#1065#0#PHP" expanded="false" />
             <element signature="e#1005#1065#0#PHP" expanded="false" />
-            <element signature="e#2192#2399#0#HTML" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#2868#4787#0#PHP" expanded="false" />
             <element signature="e#2943#3741#0#PHP" expanded="false" />
             <element signature="e#3211#3741#0#PHP" expanded="false" />
@@ -1619,48 +1027,11 @@
             <element signature="e#5307#6317#0#PHP" expanded="false" />
             <element signature="e#5652#6317#0#PHP" expanded="false" />
             <element signature="e#6008#6317#0#PHP" expanded="false" />
-            <element signature="n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#select#0;n#div#1;n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#12297#12469#0#PHP" expanded="false" />
-            <element signature="n#script#0;n#div#1;n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#12579#12709#0#HTML" expanded="false" />
-            <element signature="n#div#1;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#14729#15345#0#PHP" expanded="false" />
             <element signature="e#14907#15345#0#PHP" expanded="false" />
             <element signature="e#15141#15345#0#PHP" expanded="false" />
-            <element signature="n#div#1;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#15834#16820#0#PHP" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#19508#20966#0#PHP" expanded="false" />
             <element signature="e#19797#20094#0#PHP" expanded="false" />
             <element signature="e#20148#20478#0#PHP" expanded="false" />
@@ -1674,7 +1045,6 @@
             <element signature="e#27428#27693#0#PHP" expanded="false" />
             <element signature="e#28732#29011#0#PHP" expanded="false" />
             <element signature="e#30160#39977#0#PHP" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#30533#31518#0#PHP" expanded="false" />
             <element signature="e#30615#30950#0#PHP" expanded="false" />
             <element signature="e#30775#30950#0#PHP" expanded="false" />
@@ -1700,27 +1070,7 @@
             <element signature="e#33885#34037#0#PHP" expanded="false" />
             <element signature="e#34071#34231#0#PHP" expanded="false" />
             <element signature="e#34265#34430#0#PHP" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#39999#51664#0#PHP" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#40486#42134#0#PHP" expanded="false" />
             <element signature="e#40609#41106#0#PHP" expanded="false" />
             <element signature="e#40861#41106#0#PHP" expanded="false" />
@@ -1747,26 +1097,6 @@
             <element signature="e#45471#45664#0#PHP" expanded="false" />
             <element signature="e#45702#45877#0#PHP" expanded="false" />
             <element signature="e#45915#46106#0#PHP" expanded="false" />
-            <element signature="n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1864,15 +1194,11 @@
             <element signature="n#close_Survey#0;n#Survey#0;n#!!top" expanded="false" />
             <element signature="n#reopen_Survey#0;n#Survey#0;n#!!top" expanded="false" />
             <element signature="n#exclude_Include_Vendor#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#16769#22869#0#PHP" expanded="false" />
             <element signature="e#17002#17610#0#PHP" expanded="false" />
-            <element signature="e#19268#22869#0#PHP" expanded="false" />
-            <element signature="e#19398#19906#0#PHP" expanded="false" />
             <element signature="e#20540#20716#0#PHP" expanded="false" />
             <element signature="e#20664#20716#0#PHP" expanded="false" />
             <element signature="e#20721#20913#0#PHP" expanded="false" />
-            <element signature="e#20859#20913#0#PHP" expanded="false" />
-            <element signature="e#21048#22867#0#PHP" expanded="false" />
-            <element signature="e#22723#22867#0#PHP" expanded="false" />
             <element signature="e#22876#23228#0#PHP" expanded="false" />
             <element signature="e#23013#23226#0#PHP" expanded="false" />
             <element signature="e#23125#23226#0#PHP" expanded="false" />
@@ -1933,53 +1259,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3383">
           <caret line="269" column="13" selection-start-line="269" selection-start-column="13" selection-end-line="269" selection-end-column="13" />
-          <folding>
-            <element signature="n#get_New_Survey_Id#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#get_Max_Link_ID_Multi_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Modify_Survey_Details#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Stop_Or_Allow_Traffic#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Add_More_Multi_Survey_Links#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Modify_Multi_Survey_Links#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Close_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Reopen_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Exclude_Include_Vendor#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <marker date="1477348656483" expanded="true" signature="684:1101" ph="insert into survey_table... " />
-            <marker date="1477348656483" expanded="true" signature="1182:1606" ph="insert into survey_table... " />
-            <marker date="1477348656483" expanded="true" signature="1638:1814" ph="create table... ${$survey_multiple_link_table_name}" />
-            <marker date="1477348656483" expanded="true" signature="1940:2056" ph="insert into ${$survey_multiple_link_table_name}... " />
-            <marker date="1477348656483" expanded="true" signature="2153:2551" ph="insert into survey_table... " />
-            <marker date="1477348656483" expanded="true" signature="2997:3212" ph="insert into application_logs... " />
-            <marker date="1477348656483" expanded="true" signature="3259:3270" ph="DROP table $... " />
-            <marker date="1477348656483" expanded="true" signature="3322:3333" ph="DROP table $... " />
-            <marker date="1477348656483" expanded="true" signature="3375:3416" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="3488:3718" ph="insert into application_logs... " />
-            <marker date="1477348656483" expanded="true" signature="3811:3860" ph="select max(s... survey_table" />
-            <marker date="1477348656483" expanded="true" signature="5471:5636" ph="insert into re_contact_survey_links... " />
-            <marker date="1477348656483" expanded="true" signature="5831:5893" ph="select max(l... ${$survey_id}" />
-            <marker date="1477348656483" expanded="true" signature="6108:6151" ph="select * fro... survey_table" />
-            <marker date="1477348656483" expanded="true" signature="6279:6736" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="6795:7226" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="7316:7524" ph="insert into application_logs... " />
-            <marker date="1477348656483" expanded="true" signature="7580:7816" ph="insert into application_logs... " />
-            <marker date="1477348656483" expanded="true" signature="7975:8036" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="8419:8535" ph="insert into ${$survey_multiple_link_table_name}... " />
-            <marker date="1477348656483" expanded="true" signature="9304:9362" ph="select link_... ${$survey_id}" />
-            <marker date="1477348656483" expanded="true" signature="10019:10086" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11099:11146" ph="update re_co... " />
-            <marker date="1477348656483" expanded="true" signature="11099:11164" ph="update re_co... " />
-            <marker date="1477348656483" expanded="true" signature="11099:11183" ph="update re_co... " />
-            <marker date="1477348656483" expanded="true" signature="11869:11904" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:11915" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:11939" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:12002" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:12013" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:12014" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="12434:12477" ph="select * fro... survey_table" />
-            <marker date="1477348656483" expanded="true" signature="12621:12671" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="12870:12920" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="13185:13286" ph="insert into survey_exclude_vendor... " />
-            <marker date="1477348656483" expanded="true" signature="13365:13452" ph="delete from " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1996,11 +1275,9 @@
         <state relative-caret-position="10693">
           <caret line="629" column="93" selection-start-line="629" selection-start-column="73" selection-end-line="629" selection-end-column="93" />
           <folding>
-            <element signature="e#717#755#0#PHP" expanded="true" />
+            <element signature="e#717#755#0#PHP" expanded="false" />
             <element signature="e#931#1065#0#PHP" expanded="false" />
             <element signature="e#1005#1065#0#PHP" expanded="false" />
-            <element signature="e#2192#2399#0#HTML" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#2868#4787#0#PHP" expanded="false" />
             <element signature="e#2943#3741#0#PHP" expanded="false" />
             <element signature="e#3211#3741#0#PHP" expanded="false" />
@@ -2017,48 +1294,11 @@
             <element signature="e#5307#6317#0#PHP" expanded="false" />
             <element signature="e#5652#6317#0#PHP" expanded="false" />
             <element signature="e#6008#6317#0#PHP" expanded="false" />
-            <element signature="n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#select#0;n#div#1;n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#12297#12469#0#PHP" expanded="false" />
-            <element signature="n#script#0;n#div#1;n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#12579#12709#0#HTML" expanded="false" />
-            <element signature="n#div#1;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#14729#15345#0#PHP" expanded="false" />
             <element signature="e#14907#15345#0#PHP" expanded="false" />
             <element signature="e#15141#15345#0#PHP" expanded="false" />
-            <element signature="n#div#1;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#15834#16820#0#PHP" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#19508#20966#0#PHP" expanded="false" />
             <element signature="e#19797#20094#0#PHP" expanded="false" />
             <element signature="e#20148#20478#0#PHP" expanded="false" />
@@ -2072,7 +1312,6 @@
             <element signature="e#27428#27693#0#PHP" expanded="false" />
             <element signature="e#28732#29011#0#PHP" expanded="false" />
             <element signature="e#30160#39977#0#PHP" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#30533#31518#0#PHP" expanded="false" />
             <element signature="e#30615#30950#0#PHP" expanded="false" />
             <element signature="e#30775#30950#0#PHP" expanded="false" />
@@ -2098,27 +1337,7 @@
             <element signature="e#33885#34037#0#PHP" expanded="false" />
             <element signature="e#34071#34231#0#PHP" expanded="false" />
             <element signature="e#34265#34430#0#PHP" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#39999#51664#0#PHP" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#40486#42134#0#PHP" expanded="false" />
             <element signature="e#40609#41106#0#PHP" expanded="false" />
             <element signature="e#40861#41106#0#PHP" expanded="false" />
@@ -2145,26 +1364,6 @@
             <element signature="e#45471#45664#0#PHP" expanded="false" />
             <element signature="e#45702#45877#0#PHP" expanded="false" />
             <element signature="e#45915#46106#0#PHP" expanded="false" />
-            <element signature="n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2262,15 +1461,11 @@
             <element signature="n#close_Survey#0;n#Survey#0;n#!!top" expanded="false" />
             <element signature="n#reopen_Survey#0;n#Survey#0;n#!!top" expanded="false" />
             <element signature="n#exclude_Include_Vendor#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#16769#22869#0#PHP" expanded="false" />
             <element signature="e#17002#17610#0#PHP" expanded="false" />
-            <element signature="e#19268#22869#0#PHP" expanded="false" />
-            <element signature="e#19398#19906#0#PHP" expanded="false" />
             <element signature="e#20540#20716#0#PHP" expanded="false" />
             <element signature="e#20664#20716#0#PHP" expanded="false" />
             <element signature="e#20721#20913#0#PHP" expanded="false" />
-            <element signature="e#20859#20913#0#PHP" expanded="false" />
-            <element signature="e#21048#22867#0#PHP" expanded="false" />
-            <element signature="e#22723#22867#0#PHP" expanded="false" />
             <element signature="e#22876#23228#0#PHP" expanded="false" />
             <element signature="e#23013#23226#0#PHP" expanded="false" />
             <element signature="e#23125#23226#0#PHP" expanded="false" />
@@ -2324,53 +1519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#get_New_Survey_Id#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#get_Max_Link_ID_Multi_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Modify_Survey_Details#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Stop_Or_Allow_Traffic#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Add_More_Multi_Survey_Links#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Modify_Multi_Survey_Links#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Close_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Reopen_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Exclude_Include_Vendor#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <marker date="1477348656483" expanded="true" signature="684:1101" ph="insert into survey_table... " />
-            <marker date="1477348656483" expanded="true" signature="1182:1606" ph="insert into survey_table... " />
-            <marker date="1477348656483" expanded="true" signature="1638:1814" ph="create table... ${$survey_multiple_link_table_name}" />
-            <marker date="1477348656483" expanded="true" signature="1940:2056" ph="insert into ${$survey_multiple_link_table_name}... " />
-            <marker date="1477348656483" expanded="true" signature="2153:2551" ph="insert into survey_table... " />
-            <marker date="1477348656483" expanded="true" signature="2997:3212" ph="insert into application_logs... " />
-            <marker date="1477348656483" expanded="true" signature="3259:3270" ph="DROP table $... " />
-            <marker date="1477348656483" expanded="true" signature="3322:3333" ph="DROP table $... " />
-            <marker date="1477348656483" expanded="true" signature="3375:3416" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="3488:3718" ph="insert into application_logs... " />
-            <marker date="1477348656483" expanded="true" signature="3811:3860" ph="select max(s... survey_table" />
-            <marker date="1477348656483" expanded="true" signature="5471:5636" ph="insert into re_contact_survey_links... " />
-            <marker date="1477348656483" expanded="true" signature="5831:5893" ph="select max(l... ${$survey_id}" />
-            <marker date="1477348656483" expanded="true" signature="6108:6151" ph="select * fro... survey_table" />
-            <marker date="1477348656483" expanded="true" signature="6279:6736" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="6795:7226" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="7316:7524" ph="insert into application_logs... " />
-            <marker date="1477348656483" expanded="true" signature="7580:7816" ph="insert into application_logs... " />
-            <marker date="1477348656483" expanded="true" signature="7975:8036" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="8419:8535" ph="insert into ${$survey_multiple_link_table_name}... " />
-            <marker date="1477348656483" expanded="true" signature="9304:9362" ph="select link_... ${$survey_id}" />
-            <marker date="1477348656483" expanded="true" signature="10019:10086" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11099:11146" ph="update re_co... " />
-            <marker date="1477348656483" expanded="true" signature="11099:11164" ph="update re_co... " />
-            <marker date="1477348656483" expanded="true" signature="11099:11183" ph="update re_co... " />
-            <marker date="1477348656483" expanded="true" signature="11869:11904" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:11915" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:11939" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:12002" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:12013" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:12014" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="12434:12477" ph="select * fro... survey_table" />
-            <marker date="1477348656483" expanded="true" signature="12621:12671" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="12870:12920" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="13185:13286" ph="insert into survey_exclude_vendor... " />
-            <marker date="1477348656483" expanded="true" signature="13365:13452" ph="delete from " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2394,11 +1542,9 @@
         <state relative-caret-position="10693">
           <caret line="629" column="93" selection-start-line="629" selection-start-column="73" selection-end-line="629" selection-end-column="93" />
           <folding>
-            <element signature="e#717#755#0#PHP" expanded="true" />
+            <element signature="e#717#755#0#PHP" expanded="false" />
             <element signature="e#931#1065#0#PHP" expanded="false" />
             <element signature="e#1005#1065#0#PHP" expanded="false" />
-            <element signature="e#2192#2399#0#HTML" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#2868#4787#0#PHP" expanded="false" />
             <element signature="e#2943#3741#0#PHP" expanded="false" />
             <element signature="e#3211#3741#0#PHP" expanded="false" />
@@ -2415,48 +1561,11 @@
             <element signature="e#5307#6317#0#PHP" expanded="false" />
             <element signature="e#5652#6317#0#PHP" expanded="false" />
             <element signature="e#6008#6317#0#PHP" expanded="false" />
-            <element signature="n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#select#0;n#div#1;n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#12297#12469#0#PHP" expanded="false" />
-            <element signature="n#script#0;n#div#1;n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#12579#12709#0#HTML" expanded="false" />
-            <element signature="n#div#1;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#14729#15345#0#PHP" expanded="false" />
             <element signature="e#14907#15345#0#PHP" expanded="false" />
             <element signature="e#15141#15345#0#PHP" expanded="false" />
-            <element signature="n#div#1;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#15834#16820#0#PHP" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#19508#20966#0#PHP" expanded="false" />
             <element signature="e#19797#20094#0#PHP" expanded="false" />
             <element signature="e#20148#20478#0#PHP" expanded="false" />
@@ -2470,7 +1579,6 @@
             <element signature="e#27428#27693#0#PHP" expanded="false" />
             <element signature="e#28732#29011#0#PHP" expanded="false" />
             <element signature="e#30160#39977#0#PHP" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#30533#31518#0#PHP" expanded="false" />
             <element signature="e#30615#30950#0#PHP" expanded="false" />
             <element signature="e#30775#30950#0#PHP" expanded="false" />
@@ -2496,27 +1604,7 @@
             <element signature="e#33885#34037#0#PHP" expanded="false" />
             <element signature="e#34071#34231#0#PHP" expanded="false" />
             <element signature="e#34265#34430#0#PHP" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#39999#51664#0#PHP" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#40486#42134#0#PHP" expanded="false" />
             <element signature="e#40609#41106#0#PHP" expanded="false" />
             <element signature="e#40861#41106#0#PHP" expanded="false" />
@@ -2543,26 +1631,6 @@
             <element signature="e#45471#45664#0#PHP" expanded="false" />
             <element signature="e#45702#45877#0#PHP" expanded="false" />
             <element signature="e#45915#46106#0#PHP" expanded="false" />
-            <element signature="n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2660,15 +1728,11 @@
             <element signature="n#close_Survey#0;n#Survey#0;n#!!top" expanded="false" />
             <element signature="n#reopen_Survey#0;n#Survey#0;n#!!top" expanded="false" />
             <element signature="n#exclude_Include_Vendor#0;n#Survey#0;n#!!top" expanded="false" />
+            <element signature="e#16769#22869#0#PHP" expanded="false" />
             <element signature="e#17002#17610#0#PHP" expanded="false" />
-            <element signature="e#19268#22869#0#PHP" expanded="false" />
-            <element signature="e#19398#19906#0#PHP" expanded="false" />
             <element signature="e#20540#20716#0#PHP" expanded="false" />
             <element signature="e#20664#20716#0#PHP" expanded="false" />
             <element signature="e#20721#20913#0#PHP" expanded="false" />
-            <element signature="e#20859#20913#0#PHP" expanded="false" />
-            <element signature="e#21048#22867#0#PHP" expanded="false" />
-            <element signature="e#22723#22867#0#PHP" expanded="false" />
             <element signature="e#22876#23228#0#PHP" expanded="false" />
             <element signature="e#23013#23226#0#PHP" expanded="false" />
             <element signature="e#23125#23226#0#PHP" expanded="false" />
@@ -2722,53 +1786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#get_New_Survey_Id#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#get_Max_Link_ID_Multi_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Modify_Survey_Details#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Stop_Or_Allow_Traffic#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Add_More_Multi_Survey_Links#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Modify_Multi_Survey_Links#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Close_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Reopen_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Exclude_Include_Vendor#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <marker date="1477348656483" expanded="true" signature="684:1101" ph="insert into survey_table... " />
-            <marker date="1477348656483" expanded="true" signature="1182:1606" ph="insert into survey_table... " />
-            <marker date="1477348656483" expanded="true" signature="1638:1814" ph="create table... ${$survey_multiple_link_table_name}" />
-            <marker date="1477348656483" expanded="true" signature="1940:2056" ph="insert into ${$survey_multiple_link_table_name}... " />
-            <marker date="1477348656483" expanded="true" signature="2153:2551" ph="insert into survey_table... " />
-            <marker date="1477348656483" expanded="true" signature="2997:3212" ph="insert into application_logs... " />
-            <marker date="1477348656483" expanded="true" signature="3259:3270" ph="DROP table $... " />
-            <marker date="1477348656483" expanded="true" signature="3322:3333" ph="DROP table $... " />
-            <marker date="1477348656483" expanded="true" signature="3375:3416" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="3488:3718" ph="insert into application_logs... " />
-            <marker date="1477348656483" expanded="true" signature="3811:3860" ph="select max(s... survey_table" />
-            <marker date="1477348656483" expanded="true" signature="5471:5636" ph="insert into re_contact_survey_links... " />
-            <marker date="1477348656483" expanded="true" signature="5831:5893" ph="select max(l... ${$survey_id}" />
-            <marker date="1477348656483" expanded="true" signature="6108:6151" ph="select * fro... survey_table" />
-            <marker date="1477348656483" expanded="true" signature="6279:6736" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="6795:7226" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="7316:7524" ph="insert into application_logs... " />
-            <marker date="1477348656483" expanded="true" signature="7580:7816" ph="insert into application_logs... " />
-            <marker date="1477348656483" expanded="true" signature="7975:8036" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="8419:8535" ph="insert into ${$survey_multiple_link_table_name}... " />
-            <marker date="1477348656483" expanded="true" signature="9304:9362" ph="select link_... ${$survey_id}" />
-            <marker date="1477348656483" expanded="true" signature="10019:10086" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11099:11146" ph="update re_co... " />
-            <marker date="1477348656483" expanded="true" signature="11099:11164" ph="update re_co... " />
-            <marker date="1477348656483" expanded="true" signature="11099:11183" ph="update re_co... " />
-            <marker date="1477348656483" expanded="true" signature="11869:11904" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:11915" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:11939" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:12002" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:12013" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:12014" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="12434:12477" ph="select * fro... survey_table" />
-            <marker date="1477348656483" expanded="true" signature="12621:12671" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="12870:12920" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="13185:13286" ph="insert into survey_exclude_vendor... " />
-            <marker date="1477348656483" expanded="true" signature="13365:13452" ph="delete from " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2807,54 +1824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-854">
           <caret line="178" column="16" selection-start-line="178" selection-start-column="16" selection-end-line="178" selection-end-column="16" />
-          <folding>
-            <element signature="n#get_Recent_Survey_Data#0;n#Survey_Data_Read#0;n#!!top" expanded="false" />
-            <element signature="n#get_Total_Number_Recent_Survey_Data#0;n#Survey_Data_Read#0;n#!!top" expanded="false" />
-            <element signature="n#get_Survey_Data#0;n#Survey_Data_Read#0;n#!!top" expanded="false" />
-            <element signature="n#get_Survey_Details#0;n#Survey_Data_Read#0;n#!!top" expanded="false" />
-            <element signature="n#get_Survey_Status#0;n#Survey_Data_Read#0;n#!!top" expanded="false" />
-            <element signature="n#get_Filter_Surveys#0;n#Survey_Data_Read#0;n#!!top" expanded="false" />
-            <element signature="n#get_Total_Filter_Surveys#0;n#Survey_Data_Read#0;n#!!top" expanded="false" />
-            <element signature="n#export_Survey_Report#0;n#Survey_Data_Read#0;n#!!top" expanded="false" />
-            <element signature="e#2761#2991#0#PHP" expanded="false" />
-            <element signature="e#2761#3046#0#PHP" expanded="false" />
-            <element signature="e#2761#3103#0#PHP" expanded="false" />
-            <element signature="e#2761#3164#0#PHP" expanded="false" />
-            <element signature="e#2761#3215#0#PHP" expanded="false" />
-            <element signature="e#2761#3256#0#PHP" expanded="false" />
-            <element signature="e#3489#3690#0#PHP" expanded="false" />
-            <element signature="e#3489#3721#0#PHP" expanded="false" />
-            <element signature="e#3489#3757#0#PHP" expanded="false" />
-            <element signature="e#3489#3790#0#PHP" expanded="false" />
-            <element signature="e#3809#4776#0#PHP" expanded="false" />
-            <element signature="e#4135#4311#0#PHP" expanded="false" />
-            <element signature="e#4319#4571#0#PHP" expanded="false" />
-            <element signature="e#4319#4626#0#PHP" expanded="false" />
-            <element signature="e#4319#4679#0#PHP" expanded="false" />
-            <element signature="e#4319#4713#0#PHP" expanded="false" />
-            <element signature="e#4319#4758#0#PHP" expanded="false" />
-            <element signature="e#6253#6378#0#PHP" expanded="false" />
-            <element signature="e#6253#6433#0#PHP" expanded="false" />
-            <element signature="e#6253#6490#0#PHP" expanded="false" />
-            <element signature="e#6253#6573#0#PHP" expanded="false" />
-            <element signature="e#6253#6624#0#PHP" expanded="false" />
-            <element signature="e#6253#6669#0#PHP" expanded="false" />
-            <element signature="e#6691#6892#0#PHP" expanded="false" />
-            <element signature="e#7099#7351#0#PHP" expanded="false" />
-            <element signature="e#7099#7411#0#PHP" expanded="false" />
-            <element signature="e#9254#9396#0#PHP" expanded="false" />
-            <element signature="e#9400#9750#0#PHP" expanded="false" />
-            <element signature="n#getLengthOfInterview#0;n#Survey_Data_Read#0;n#!!top" expanded="false" />
-            <element signature="e#11048#11434#0#PHP" expanded="false" />
-            <element signature="e#11143#11410#0#PHP" expanded="false" />
-            <element signature="e#11438#11751#0#PHP" expanded="false" />
-            <element signature="e#11540#11747#0#PHP" expanded="false" />
-            <element signature="e#11672#11747#0#PHP" expanded="false" />
-            <element signature="n#getIncidenceRate#0;n#Survey_Data_Read#0;n#!!top" expanded="false" />
-            <element signature="e#12074#12237#0#PHP" expanded="false" />
-            <element signature="n#get_Vendor_Excluded#0;n#Survey_Data_Read#0;n#!!top" expanded="false" />
-            <element signature="n#getSurveyPresentedPageLimit#0;n#Survey_Data_Read#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2876,25 +1845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Repository/SurveyConfig.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Repository/SurveyRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="e#331#8582#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2902,7 +1852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8024">
           <caret line="472" column="133" selection-start-line="472" selection-start-column="106" selection-end-line="472" selection-end-column="133" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2910,59 +1859,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding>
-            <element signature="n#get_New_Survey_Id#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#get_Max_Link_ID_Multi_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Modify_Survey_Details#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Stop_Or_Allow_Traffic#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Add_More_Multi_Survey_Links#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Modify_Multi_Survey_Links#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Close_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Reopen_Survey#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <element signature="n#db_Exclude_Include_Vendor#0;n#DB_Survey#0;n#!!top" expanded="false" />
-            <marker date="1477348656483" expanded="true" signature="684:1101" ph="insert into survey_table... " />
-            <marker date="1477348656483" expanded="true" signature="1182:1606" ph="insert into survey_table... " />
-            <marker date="1477348656483" expanded="true" signature="1638:1814" ph="create table... ${$survey_multiple_link_table_name}" />
-            <marker date="1477348656483" expanded="true" signature="1940:2056" ph="insert into ${$survey_multiple_link_table_name}... " />
-            <marker date="1477348656483" expanded="true" signature="2153:2551" ph="insert into survey_table... " />
-            <marker date="1477348656483" expanded="true" signature="2997:3212" ph="insert into application_logs... " />
-            <marker date="1477348656483" expanded="true" signature="3259:3270" ph="DROP table $... " />
-            <marker date="1477348656483" expanded="true" signature="3322:3333" ph="DROP table $... " />
-            <marker date="1477348656483" expanded="true" signature="3375:3416" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="3488:3718" ph="insert into application_logs... " />
-            <marker date="1477348656483" expanded="true" signature="3811:3860" ph="select max(s... survey_table" />
-            <marker date="1477348656483" expanded="true" signature="5471:5636" ph="insert into re_contact_survey_links... " />
-            <marker date="1477348656483" expanded="true" signature="5831:5893" ph="select max(l... ${$survey_id}" />
-            <marker date="1477348656483" expanded="true" signature="6108:6151" ph="select * fro... survey_table" />
-            <marker date="1477348656483" expanded="true" signature="6279:6736" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="6795:7226" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="7316:7524" ph="insert into application_logs... " />
-            <marker date="1477348656483" expanded="true" signature="7580:7816" ph="insert into application_logs... " />
-            <marker date="1477348656483" expanded="true" signature="7975:8036" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="8419:8535" ph="insert into ${$survey_multiple_link_table_name}... " />
-            <marker date="1477348656483" expanded="true" signature="9304:9362" ph="select link_... ${$survey_id}" />
-            <marker date="1477348656483" expanded="true" signature="10019:10086" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11099:11146" ph="update re_co... " />
-            <marker date="1477348656483" expanded="true" signature="11099:11164" ph="update re_co... " />
-            <marker date="1477348656483" expanded="true" signature="11099:11183" ph="update re_co... " />
-            <marker date="1477348656483" expanded="true" signature="11869:11904" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:11915" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:11939" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:12002" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:12013" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="11869:12014" ph="delete from " />
-            <marker date="1477348656483" expanded="true" signature="12434:12477" ph="select * fro... survey_table" />
-            <marker date="1477348656483" expanded="true" signature="12621:12671" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="12870:12920" ph="update surve... " />
-            <marker date="1477348656483" expanded="true" signature="13185:13286" ph="insert into survey_exclude_vendor... " />
-            <marker date="1477348656483" expanded="true" signature="13365:13452" ph="delete from " />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/script/survey_modify_links_script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
+        <state relative-caret-position="442">
           <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
           <folding />
         </state>
@@ -2970,30 +1872,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/script/config_scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
+        <state relative-caret-position="13889">
           <caret line="761" column="5" selection-start-line="761" selection-start-column="5" selection-end-line="761" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/SurveyFilterController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1552">
-          <caret line="103" column="49" selection-start-line="103" selection-start-column="49" selection-end-line="103" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/modify_survey_details.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
+        <state relative-caret-position="1530">
           <caret line="141" column="68" selection-start-line="141" selection-start-column="59" selection-end-line="141" selection-end-column="68" />
           <folding>
-            <element signature="e#717#755#0#PHP" expanded="true" />
+            <element signature="e#717#755#0#PHP" expanded="false" />
             <element signature="e#931#1065#0#PHP" expanded="false" />
             <element signature="e#1005#1065#0#PHP" expanded="false" />
-            <element signature="e#2192#2399#0#HTML" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#2868#4787#0#PHP" expanded="false" />
             <element signature="e#2943#3741#0#PHP" expanded="false" />
             <element signature="e#3211#3741#0#PHP" expanded="false" />
@@ -3010,48 +1902,11 @@
             <element signature="e#5307#6317#0#PHP" expanded="false" />
             <element signature="e#5652#6317#0#PHP" expanded="false" />
             <element signature="e#6008#6317#0#PHP" expanded="false" />
-            <element signature="n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#select#0;n#div#1;n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#12297#12469#0#PHP" expanded="false" />
-            <element signature="n#script#0;n#div#1;n#div#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#12579#12709#0#HTML" expanded="false" />
-            <element signature="n#div#1;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#14729#15345#0#PHP" expanded="false" />
             <element signature="e#14907#15345#0#PHP" expanded="false" />
             <element signature="e#15141#15345#0#PHP" expanded="false" />
-            <element signature="n#div#1;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#15834#16820#0#PHP" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#19508#20966#0#PHP" expanded="false" />
             <element signature="e#19797#20094#0#PHP" expanded="false" />
             <element signature="e#20148#20478#0#PHP" expanded="false" />
@@ -3065,7 +1920,6 @@
             <element signature="e#27428#27693#0#PHP" expanded="false" />
             <element signature="e#28732#29011#0#PHP" expanded="false" />
             <element signature="e#30160#39977#0#PHP" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#30533#31518#0#PHP" expanded="false" />
             <element signature="e#30615#30950#0#PHP" expanded="false" />
             <element signature="e#30775#30950#0#PHP" expanded="false" />
@@ -3091,27 +1945,7 @@
             <element signature="e#33885#34037#0#PHP" expanded="false" />
             <element signature="e#34071#34231#0#PHP" expanded="false" />
             <element signature="e#34265#34430#0#PHP" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#39999#51664#0#PHP" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#40486#42134#0#PHP" expanded="false" />
             <element signature="e#40609#41106#0#PHP" expanded="false" />
             <element signature="e#40861#41106#0#PHP" expanded="false" />
@@ -3138,33 +1972,13 @@
             <element signature="e#45471#45664#0#PHP" expanded="false" />
             <element signature="e#45702#45877#0#PHP" expanded="false" />
             <element signature="e#45915#46106#0#PHP" expanded="false" />
-            <element signature="n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#span#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/set_data/survey_operations.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
+        <state relative-caret-position="3315">
           <caret line="657" column="55" selection-start-line="657" selection-start-column="55" selection-end-line="657" selection-end-column="55" />
           <folding>
             <element signature="e#1566#1739#0#PHP" expanded="false" />
@@ -3309,10 +2123,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/models/db-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repository/SurveyRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="e#331#8582#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repository/SurveyConfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/SurveyFilterModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="140" column="9" selection-start-line="140" selection-start-column="9" selection-end-line="140" selection-end-column="9" />
+        <state relative-caret-position="-1032">
+          <caret line="115" column="7" selection-start-line="115" selection-start-column="7" selection-end-line="115" selection-end-column="7" />
           <folding>
             <element signature="e#159#197#0#PHP" expanded="true" />
             <marker date="1477682209789" expanded="true" signature="933:1048" ph="select * fro... survey_filters" />
@@ -3335,10 +2175,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/db-config.php">
+    <entry file="file://$PROJECT_DIR$/views/redirection_operations.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="575">
+          <caret line="104" column="42" selection-start-line="104" selection-start-column="42" selection-end-line="104" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/set_data/redirection_operations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Event/CountryFilterEventHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="69" column="11" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/geoplugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Event/CountryFilterEvent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/set_data/db-redirection-operations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="66" column="55" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="55" />
+          <folding>
+            <marker date="1478200260214" expanded="true" signature="856:921" ph="select * fro... survey_table" />
+            <marker date="1478200260214" expanded="true" signature="2653:2773" ph="select * fro... ${$identifier_table}" />
+            <marker date="1478200260214" expanded="true" signature="2854:3035" ph="insert into ${$identifier_table}... " />
+            <marker date="1478200260214" expanded="true" signature="3495:3560" ph="select * fro... survey_table" />
+            <marker date="1478200260214" expanded="true" signature="3988:4084" ph="select * fro... ${$data-&gt;survey_id}" />
+            <marker date="1478200260214" expanded="true" signature="4373:4503" ph="select * fro... re_contact_survey_links" />
+            <marker date="1478200260214" expanded="true" signature="4664:4729" ph="select * fro... survey_table" />
+            <marker date="1478200260214" expanded="true" signature="5158:5225" ph="select * fro... ${$data-&gt;survey_id}" />
+            <marker date="1478200260214" expanded="true" signature="5706:5836" ph="select * fro... re_contact_survey_links" />
+            <marker date="1478200260214" expanded="true" signature="6225:6460" ph="insert into application_logs... " />
+            <marker date="1478200260214" expanded="true" signature="6608:6837" ph="insert into application_logs... " />
+            <marker date="1478200260214" expanded="true" signature="7630:7722" ph="select * fro... ${$identifier_table}" />
+            <marker date="1478200260214" expanded="true" signature="7912:8088" ph="update ${$id... " />
+            <marker date="1478200260214" expanded="true" signature="8803:8868" ph="select * fro... vendor_table" />
+            <marker date="1478200260214" expanded="true" signature="9739:9999" ph="insert into application_logs... " />
+            <marker date="1478200260214" expanded="true" signature="10147:10420" ph="insert into application_logs... " />
+            <marker date="1478200260214" expanded="true" signature="10588:10763" ph="select * fro... vendor_table" />
+            <marker date="1478200260214" expanded="true" signature="10692:10752" ph="select vendo... survey_exclude_vendor" />
+            <marker date="1478200260214" expanded="true" signature="11067:11200" ph="SELECT COUNT... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/SurveyFilterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="189" column="21" selection-start-line="189" selection-start-column="21" selection-end-line="189" selection-end-column="21" />
           <folding />
         </state>
       </provider>

@@ -187,17 +187,17 @@ class SurveyFilterController {
  */
     public function validateRespondentCountryFilter($respondent_ip)
     {
+        //For Testing
+        //        $respondent_ip = "182.77.6.44";
         $surveyFilterModel = new SurveyFilterModel();
 
         $countriesFilter = $surveyFilterModel->getSurveyFilterInfo($this->surveyId);
-
         //If country IP Filter is applied in the survey.
         if($countriesFilter["countryIPFilter"]["applied"]) {
             $countriesAllowed = $countriesFilter["countryIPFilter"]["countriesSelected"];
-
             $geoplugin = new geoPlugin();
             $geoplugin->locate($respondent_ip);
-            //            echo "IP: $respondent_ip";
+//            echo "IP: $respondent_ip";
 
             //Checking if Third Party API - GeoPlugin, is working or not
             if($geoplugin->countryCode == null)

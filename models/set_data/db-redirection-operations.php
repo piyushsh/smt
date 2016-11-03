@@ -1,7 +1,18 @@
 <?php
 
-include_once(MODEL_PATH."db-config.php");
+if(!defined("CONTROLLER_PATH"))
+    define("CONTROLLER_PATH","../../controller/");
 
+if(!defined("EVENT_PATH"))
+    define("EVENT_PATH","../../Event/");
+
+if(!defined('VENDOR_PATH'))
+    define("VENDOR_PATH","../../vendor/");
+
+include_once(MODEL_PATH."db-config.php");
+include_once(CONTROLLER_PATH."SurveyFilterController.php");
+
+use controller\SurveyFilterController;
 
 class DB_Link_Redirection
 {
@@ -47,13 +58,24 @@ class DB_Link_Redirection
 		{
 			return "ERR_SURVEY_RESPONDENT_CLICK_QUOTA_OVER";
 		}
-		
-		
-		
-		
+
+        /*
+         * Check Survey filters, if any fail, raise error
+         */
+        $surveyFilterController = new SurveyFilterController($data->survey_id);
+        //Checking Country Filter
+        if(!$surveyFilterController->validateRespondentCountryFilter($data->ip_address))
+        {
+            return "ERR_SURVEY_FILTER_COUNTRY_IP";
+        }
+        //Checking Duplicate IP filter, if any fail, raise error
+        if(!$surveyFilterController->validateRespondentDuplicateIPFilter($data->ip_address))
+        {
+            return "ERR_SURVEY_FILTER_DUPLICATE_IP";
+        }
+
 		$data->hash_identifier=$data->create_Hash_Identifier($data->identifier,$data->vendor_id);
-		
-	
+
 		$this->con->query("BEGIN TRANSACTION");
 		$this->con->autocommit(FALSE);
 		

@@ -5,11 +5,15 @@ define("VIEW_PATH","../views/");
 define("ASSETS_PATH","../assets/");
 define("INCLUDES_PATH","../includes/");
 define("PLUGIN_PATH","../plugin/");
+define("EVENT_PATH","../Event/");
+define("VENDOR_PATH","../vendor/");
+define("REPOSITORY_PATH","../Repository/");
 
 $active_menu=2;
 
 include_once(CONTROLLER_PATH."set_data/redirection_operations.php");
-
+include_once(CONTROLLER_PATH."get_data/survey_operations_read.php");
+require REPOSITORY_PATH."SurveyConfig.php";
 
 ?>
 <!DOCTYPE html>
@@ -98,6 +102,13 @@ else
 																break;
 								case 'ERR_RESPONDENT_ALREADY_COMPLETED_SURVEY': echo "<p class='error'>User has already COMPLETED the survey!</p>";
 																break;
+								case 'ERR_SURVEY_FILTER_COUNTRY_IP':
+									echo "<p class='error'>This survey is not allowed for your country!</p>";
+									break;
+
+								case 'ERR_SURVEY_FILTER_DUPLICATE_IP':
+									echo "<p class='error'>You cannot continue the survey from your IP address, as limit has reached to take survey from your IP address!</p>";
+									break;
 							}
 						}
 						else if($redirect_respondent == "#")
