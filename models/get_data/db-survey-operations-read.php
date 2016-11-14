@@ -114,7 +114,9 @@ class DB_Survey_Read
 		$redirection_link["overquota"]="http://".$_SERVER['HTTP_HOST']."/".str_replace("\\","/",substr(getcwd(), strlen($_SERVER['DOCUMENT_ROOT'])))."/redirection_operations.php?survey_id=".$survey_id."&identifier=XXXXXXX&redirected_from=survey&status=overquota";
 		
 		$status["redirection_link_survey"]=$redirection_link;
-		$status["redirection_link_vendor"]="http://".$_SERVER['HTTP_HOST']."/".str_replace("\\","/",substr(getcwd(), strlen($_SERVER['DOCUMENT_ROOT'])))."/redirection_operations.php?survey_id=".$survey_id."&identifier=XXXXXXX&vid=XXXXXXX&redirected_from=respondent";
+		$status["redirection_link_vendor"]="http://".$_SERVER['HTTP_HOST']."/"
+            .str_replace("\\","/",substr(getcwd(), strlen($_SERVER['DOCUMENT_ROOT'])))."/redirection_operations.php?survey_id="
+            .$survey_id."&identifier=XXXXXXX&vid=XXXXXXX&redirected_from=respondent&additional_param=XXX;YYY";
 		
 		
 		$vendor_wise_survey_status=array();

@@ -187,6 +187,8 @@ class DB_Link_Redirection
 			$this->con->commit();
 			$this->con->autocommit(TRUE);
 			$query_log=$this->con->query("insert into application_logs values ('".time()."',0,'update','Operation: Redirection (Traverse -> Survey). Repondent(ID: ".$data->identifier.") has been redirected to the survey (ID:".$data->survey_id."). Status marked as Incomplete.')");
+            if($survey_status["append_additional_param"]==1)
+                $redirection_link = $redirection_link.$data->additional_param_string;
 			return $redirection_link;
 		}
 		else

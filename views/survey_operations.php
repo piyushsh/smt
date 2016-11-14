@@ -384,7 +384,12 @@ if(isset($_SESSION["survey_creation_form_field"]))
                         </div>
                         
                         <div class="col-xs-4 col-xs-offset-1">
-                            
+                            <div class="form_field">
+                                <div class="label">Allow Additional Parameter (from Vendor to Survey)<span class="mandatory">*</span></div>
+                                <div class="input_field">
+                                    &nbsp;&nbsp;<input type="checkbox" name="allow_additional_param" id="allow_additional_param" value="allow">
+                                </div>
+                            </div>
                         </div>
                     </div>
                     

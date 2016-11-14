@@ -18,6 +18,7 @@ class Link_Redirections
 	public $vendor_id="";
 	public $hash_identifier="";
 	public $ip_address="";
+	public $additional_param_string = "";
 	
 	function __construct($redirection_data) 
 	{
@@ -33,6 +34,8 @@ class Link_Redirections
 			$this->vendor_id=$redirection_data["vid"];
 		}
 		$this->ip_address=$this->get_Client_IP();
+
+		$this->additional_param_string = $this->getAdditionalParameter($_REQUEST["additional_param"]);
     }
 	
 	//Function to set Status of respondent to Incomplete and get the redirection link to the survey
@@ -81,10 +84,16 @@ class Link_Redirections
 	
 		  return $ipaddress;
 	 }
-	
-	
-	
-	
+
+	private function getAdditionalParameter($additional_param)
+	{
+		if(isset($additional_param))
+			return "&".str_replace(";", "&", $additional_param);
+
+		return "";
+	}
+
+
 }
 
 

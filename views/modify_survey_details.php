@@ -149,6 +149,10 @@ $duplicateIPFilterInfo = $survey_filter_info["duplicateIPFilter"];
                                     {
                                         echo "<input type='hidden' name='survey_type' value='multi'>";
                                     }
+                                    else if($survey_details["survey_detail"]["re_contact_links"]==1)
+                                    {
+                                        echo "<input type='hidden' name='survey_type' value='re_contact'>";
+                                    }
                                     else if($survey_details["survey_detail"]["single_link_url"]==NULL && $survey_details["survey_detail"]["multi_link_table_name"]==NULL)
                                     {
                                         echo "<input type='hidden' name='survey_type' value='no_link'>";
@@ -217,7 +221,17 @@ $duplicateIPFilterInfo = $survey_filter_info["duplicateIPFilter"];
                                     
                                     <div class="col-xs-4 col-xs-offset-1">
                                         <div class="form_field">
-                                            
+                                            <div class="form_field">
+                                                <div class="label">Allow Additional Parameter (from Vendor to Survey)<span class="mandatory">*</span></div>
+                                                <div class="input_field">
+                                                    &nbsp;&nbsp;<input type="checkbox" name="m_allow_additional_param" id="m_allow_additional_param" value="allow"
+                                                            <?php
+                                                            if ($survey_details["survey_detail"]["append_additional_param"]==1)
+                                                                echo "checked";
+                                                            ?>
+                                                    />
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

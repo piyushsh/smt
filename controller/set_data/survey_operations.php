@@ -41,6 +41,7 @@ class Survey
 	public $survey_re_contact_link_file=array();
 	public $survey_quota=0;
 	public $survey_respondent_click_quota=0;
+	public $survey_allow_additional_parameter = 0;
 	
 	function set_New_Survey_Fields($survey_data,$file_uploaded) 
 	{
@@ -57,7 +58,10 @@ class Survey
 		{
 			$this->survey_allow_traffic=0;
 		}
-		
+
+		if(isset($survey_data["allow_additional_param"]) && $survey_data["allow_additional_param"]=="allow")
+			$this->survey_allow_additional_parameter = 1;
+
 		if(isset($survey_data["survey_manager"]))
 			$this->survey_manager_id=$survey_data["survey_manager"];
 			
@@ -670,6 +674,7 @@ else if(isset($_POST) && (isset($_POST["modify_survey"]) && isset($_POST["survey
 	$modify_survey=new Survey();
 
 	$modify_survey->survey_id = $survey_data["survey_id"];
+	$modify_survey->survey_link_type = $survey_data["survey_type"];
 	$modify_survey->client_name=$survey_data["client_name"];
 	$modify_survey->survey_name=$survey_data["survey_name"];
 	$modify_survey->survey_country=$survey_data["survey_country"];
@@ -691,6 +696,8 @@ else if(isset($_POST) && (isset($_POST["modify_survey"]) && isset($_POST["survey
 		$modify_survey->survey_allow_traffic=0;
 	}
 
+	if(isset($_POST["m_allow_additional_param"]) && $_POST["m_allow_additional_param"]=="allow")
+		$modify_survey->survey_allow_additional_parameter = 1;
 	
 	if(isset($_POST["m_single_link"]) && $_POST["m_single_link"]!='N/A')
 	{
