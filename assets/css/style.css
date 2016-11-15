@@ -296,7 +296,28 @@ footer a:hover
 {
 	display:block;
 }
-
+.menu_container li.dropdown > ul.dropdown-menu, .menu_container li.active > ul.dropdown-menu
+{
+	padding: 5px 0px;
+}
+.menu_container li.dropdown > ul.dropdown-menu > li, .menu_container li.active > ul.dropdown-menu > li
+{
+	margin:0px;
+	background:#ffffff;
+	border:none;
+	padding:0px;
+}
+.menu_container li.dropdown > ul.dropdown-menu > li > a, .menu_container li.active > ul.dropdown-menu > li > a
+{
+	padding:5px 10px;
+	background:none;
+	color:#000000;
+}
+.menu_container li.dropdown > ul.dropdown-menu > li:hover > a, .menu_container li.active > ul.dropdown-menu > li:hover > a
+{
+	background:#03c33f;
+	color:#ffffff;
+}
 
 /*Main Menu Style Ends*/
 

@@ -17,7 +17,13 @@
                     </ul-->
                 </li>
                 <li <?php if($active_menu==5) echo "class='active'";?>><a href="<?php echo VIEW_PATH."report_operations.php";?>">Report Generation</a></li>
-                <li <?php if($active_menu==6) echo "class='active'";?>><a href="<?php echo VIEW_PATH."change_password.php";?>">Change Password</a></li>
+                <li <?php if($active_menu==6) echo "class='active'";?> class="dropdown">
+                    <a class="dropdown-toggle" id="toolDropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Tools <span class="caret"></span></a>
+                    <ul class="dropdown-menu" aria-labelledby="toolDropdownMenu">
+                        <li><a href="<?php echo VIEW_PATH."tools/map-identifier-to-surveyId.php";?>">Map Identifier -> Survey</a></li>
+                    </ul>
+                </li>
+                <li <?php if($active_menu==7) echo "class='active'";?>><a href="<?php echo VIEW_PATH."change_password.php";?>">Change Password</a></li>
                 
                 <li <?php if($active_menu==9) echo "class='active'";?>><a href="<?php echo VIEW_PATH."logout.php";?>">Logout</a></li>
             </ul>

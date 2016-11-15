@@ -6,7 +6,7 @@ define("ASSETS_PATH","../assets/");
 define("INCLUDES_PATH","../includes/");
 define("PLUGIN_PATH","../plugin/");
 
-$active_menu=6;
+$active_menu=7;
 
 include_once(INCLUDES_PATH."basic_config_site.php");
 
