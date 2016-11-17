@@ -58,6 +58,42 @@ include_once(REPOSITORY_PATH."SurveyRepository.php");
         <div class="row">
             <div class="col-xs-12">
                 <h5>Map Hash Identifiers to Survey ID</h5>
+
+                <div class="server_msg text-align-left">
+                    <?php
+                    if(isset($_REQUEST))
+                    {
+                        if(isset($_REQUEST["survey_create_result"]) && $_REQUEST["survey_create_result"]=="sucess")
+                        {
+                            echo "<p class='sucess'>New survey has been created sucessfully.</p>";
+                        }
+                        else if(isset($_REQUEST["survey_create_result"]) && $_REQUEST["survey_create_result"]=="error")
+                        {
+                            echo "<p class='error'>Some error occurecd while create a new survey. Please try again.</p>";
+                        }
+
+                        if(isset($_REQUEST["error"]))
+                        {
+                            switch($_REQUEST["error"])
+                            {
+                                case 'ERR_FILE_NOT_UPLOADED':
+                                    echo "<p class='error'>File was not uploaded properly, please upload & try again.</p>";
+                                    break;
+
+                                case 'ERR_FILE_COLUMN_FORMAT_NOT_CORRECT':
+                                    echo "<p class='error'>File format is not correct. Please correct the format and try again.</p>";
+                                    break;
+
+                                case 'ERR_INVALID_HASH_ID_PRESENT':
+                                    echo "<p class='error'>Invalid Hash ID present in the file, please remove the same and try again.</p>";
+                                    break;
+                            }
+                        }
+
+                    }
+                    ?>
+                </div>
+
                 <form action="<?php echo CONTROLLER_PATH."get_data/tools/tools-form-handler.php";?>" name="map_identifier_to_surveyId_form"
                       enctype="multipart/form-data" method="POST">
                     <input type="hidden" name="tool_operation_type" value="map_identifier_to_surveyIds" >

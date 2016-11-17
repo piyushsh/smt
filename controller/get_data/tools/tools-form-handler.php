@@ -51,6 +51,7 @@ if(isset($_POST) && isset($_POST["tool_operation_type"]))
                 header("Location: ".VIEW_PATH."tools/$lastVisitedPage.php?error=".array_pop($mapIdentifierToSurveyId->errors));
                 exit;
             }
+            $mapIdentifierToSurveyId->getSurveyIdsFile();
             break;
     }
 }
