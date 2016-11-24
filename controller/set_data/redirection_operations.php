@@ -11,12 +11,14 @@ include_once(MODEL_PATH."set_data/db-redirection-operations.php");
 
 class Link_Redirections
 {
+	const MEMBER_ID_PREFIX = "NXT";
 	public $from="";
 	public $identifier="";
 	public $survey_id="";
 	public $survey_status="";
 	public $vendor_id="";
 	public $hash_identifier="";
+	public $member_id="";
 	public $ip_address="";
 	public $additional_param_string = "";
 	
@@ -62,7 +64,13 @@ class Link_Redirections
 		$algo="md5";
 		return hash_hmac($algo,$data,$key);
 	}
-	
+
+	//Function to create Hash for Member ID
+	function create_Hash_MemberId($data, $key)
+	{
+		$algo = "sha1";
+		return self::MEMBER_ID_PREFIX.hash_hmac($algo, $data, $key);
+	}
 	
 	function get_Client_IP()
 	 {

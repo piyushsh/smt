@@ -336,6 +336,7 @@ if(isset($_SESSION["survey_creation_form_field"]))
                         <p class="error" id="err_survey_country">Country is not specified!</p>
                         <p class="error" id="err_survey_link">Please provide the survey link(s)!</p>
                         <p class="error" id="err_survey_link_format">Please provide the survey link in correct format!</p>
+                        <p class="error" id="err_survey_link_format_MEMBER_ID">Please provide the survey link with MEMBER_ID parameter, as masking of member ID option is selected.</p>
                         <p class="error" id="err_survey_quota">Please provide the survey quota in numeric format!</p>
                         <p class="error" id="err_survey_click_quota">Please provide the survey's respondent click quota in numeric format!</p>
                     </div>
@@ -376,7 +377,7 @@ if(isset($_SESSION["survey_creation_form_field"]))
                     <div class="row">
                         <div class="col-xs-4">
                             <div class="form_field">
-                                <div class="label">Allow Traffic<span class="mandatory">*</span></div>
+                                <div class="label">Allow Traffic</div>
                                 <div class="input_field">
                                 	&nbsp;&nbsp;<input type="checkbox" name="allow_traffic" id="allow_traffic" value="allow">
                                 </div>
@@ -385,11 +386,28 @@ if(isset($_SESSION["survey_creation_form_field"]))
                         
                         <div class="col-xs-4 col-xs-offset-1">
                             <div class="form_field">
-                                <div class="label">Allow Additional Parameter (from Vendor to Survey)<span class="mandatory">*</span></div>
+                                <div class="label">Allow Additional Parameter (from Vendor to Survey)</div>
                                 <div class="input_field">
                                     &nbsp;&nbsp;<input type="checkbox" name="allow_additional_param" id="allow_additional_param" value="allow">
                                 </div>
                             </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <div class="form_field">
+                                <div class="label">Include Masked Respondent Identifier / Pass Member ID with Survey Link</div>
+                                <p class="instruction_note">Link eg. --- http://www.surveylink.com?identifier=<Strong>[IDENTIFIER]</Strong>&member_id=<strong>[MEMBER_ID]</strong></p>
+                                <div class="input_field">
+                                    &nbsp;&nbsp;<input type="checkbox" name="mask_respondent_identifier" id="mask_respondent_identifier"
+                                                       value="allow">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-4 col-xs-offset-1">
+
                         </div>
                     </div>
                     

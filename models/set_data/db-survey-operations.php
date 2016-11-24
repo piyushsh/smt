@@ -39,13 +39,13 @@ class DB_Survey
 							'$data->survey_name','$data->survey_country','$data->survey_description',$data->survey_allow_traffic,
 							'$data->survey_single_link','N/A',0,'$data->survey_creation_date','$data->survey_modified_date',
 							$data->survey_created_by_id,$data->survey_manager_id,0,$data->survey_quota,$data->survey_respondent_click_quota,
-							$data->survey_allow_additional_parameter)");
+							$data->survey_allow_additional_parameter, $data->survey_allow_mask_respondent_identifiers)");
 		} else if ($data->survey_link_type == "multi") {
 			$query1 = $con->query("insert into survey_table values ($survey_id,'$alpha_survey_id','$data->client_name',
 							'$data->survey_name','$data->survey_country','$data->survey_description',$data->survey_allow_traffic,
 							'N/A','$survey_multiple_link_table_name',0,'$data->survey_creation_date','$data->survey_modified_date',
 							$data->survey_created_by_id,$data->survey_manager_id,0,$data->survey_quota,$data->survey_respondent_click_quota,
-							$data->survey_allow_additional_parameter);");
+							$data->survey_allow_additional_parameter, $data->survey_allow_mask_respondent_identifiers);");
 
 			$query2 = $con->query("create table $survey_multiple_link_table_name (link_id bigint primary key, link mediumtext,used_or_not boolean DEFAULT 0,used_by_identifier text,identifier_vendor varchar(255));");
 
@@ -58,7 +58,7 @@ class DB_Survey
 								'$data->survey_name','$data->survey_country','$data->survey_description',$data->survey_allow_traffic,'N/A',
 								'N/A',1,'$data->survey_creation_date','$data->survey_modified_date',$data->survey_created_by_id,
 								$data->survey_manager_id,0,$data->survey_quota,$data->survey_respondent_click_quota,
-								$data->survey_allow_additional_parameter);");
+								$data->survey_allow_additional_parameter, $data->survey_allow_mask_respondent_identifiers)");
 
 			//Add Query to Add all the links in Re-Contact Table
 			$query2 = $this->insert_Re_Contact_Links_In_Table($data->survey_re_contact_link_file, $survey_id);
@@ -167,7 +167,8 @@ class DB_Survey
                 .$data->survey_name."',country='".$data->survey_country."', survey_description='".$data->survey_description
                 ."',allow_traffic=$data->survey_allow_traffic, survey_manager=".$data->survey_manager_id.",single_link_url='"
                 .$data->survey_single_link."',modified_date='".time()."',interviewquota=$data->survey_quota, append_additional_param ="
-                .$data->survey_allow_additional_parameter.",respondentvisitquota=$data->survey_respondent_click_quota where survey_id=".$survey_id);
+                .$data->survey_allow_additional_parameter.",respondentvisitquota=$data->survey_respondent_click_quota".
+                ", mask_identifier=$data->survey_allow_mask_respondent_identifiers where survey_id=".$survey_id);
 		}
 		else if($data->survey_link_type == "multi")
 		{
@@ -175,7 +176,8 @@ class DB_Survey
                 .$data->survey_name."',country='".$data->survey_country."',survey_description='".$data->survey_description
                 ."',allow_traffic=$data->survey_allow_traffic, survey_manager=".$data->survey_manager_id
                 .",single_link_url='N/A', modified_date='".time()."',interviewquota=$data->survey_quota, append_additional_param = "
-                .$data->survey_allow_additional_parameter.", respondentvisitquota=$data->survey_respondent_click_quota where survey_id=".$survey_id);
+                .$data->survey_allow_additional_parameter.", respondentvisitquota=$data->survey_respondent_click_quota".
+                ", mask_identifier=$data->survey_allow_mask_respondent_identifiers where survey_id=".$survey_id);
 		}
         else if($data->survey_link_type == "re_contact")
         {
@@ -183,7 +185,8 @@ class DB_Survey
                 .$data->survey_name."',country='".$data->survey_country."',survey_description='".$data->survey_description
                 ."',allow_traffic=$data->survey_allow_traffic, survey_manager=".$data->survey_manager_id
                 .",single_link_url='N/A', modified_date='".time()."',interviewquota=$data->survey_quota, append_additional_param = "
-                .$data->survey_allow_additional_parameter.", respondentvisitquota=$data->survey_respondent_click_quota where survey_id=".$survey_id);
+                .$data->survey_allow_additional_parameter.", respondentvisitquota=$data->survey_respondent_click_quota".
+                ", mask_identifier=$data->survey_allow_mask_respondent_identifiers where survey_id=".$survey_id);
         }
 		if($this->con->affected_rows>0)
 		{

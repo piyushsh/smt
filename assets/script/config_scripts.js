@@ -427,6 +427,12 @@ jQuery.validate_Create_Survey_Fields=function(){
 			$(".validations,.validations #err_survey_link_format").delay(200).fadeIn(200);
 			return false;
 		}
+		else if($("#mask_respondent_identifier").checked || check_MEMBER_ID_Parmeter($("#single_link").val()) == 0)
+		{
+			$(".validations,.validations .error").fadeOut(200);
+			$(".validations,.validations #err_survey_link_format_MEMBER_ID").delay(200).fadeIn(200);
+			return false;
+		}
 		
 	}
 	else if($("input[type='radio'][name='survey_type']:checked").length > 0 && $("input[type='radio'][name='survey_type']:checked").val()=='multi')
@@ -719,6 +725,13 @@ jQuery.validate_Form_Fields_Modify_Survey=function()
 			$(".validations,.validations #err_survey_link_format").delay(200).fadeIn(200);
 			return false;
 		}
+
+		else if($("#m_allow_additional_param").checked || check_MEMBER_ID_Parmeter($("#m_single_link").val()) == 0)
+		{
+			$(".validations,.validations .error").fadeOut(200);
+			$(".validations,.validations #err_survey_link_format_MEMBER_ID").delay(200).fadeIn(200);
+			return false;
+		}
 		
 	}
 	
@@ -997,4 +1010,25 @@ var check_IDENTIFIER_Parmeter=function(url){
 	  flag=1;
 	}
   return flag;
+};
+
+var check_MEMBER_ID_Parmeter=function(url){
+
+	var vars = [], hash;
+	var hashes = url.slice(url.indexOf('?') + 1).split('&');
+	var flag=0;
+	/*for(var i = 0; i < hashes.length; i++)
+	 {
+	 hash = hashes[i].split('=');
+	 if(hash[1]=="[IDENTIFIER]")
+	 {
+	 flag=1;
+	 break;
+	 }
+	 }*/
+	if(url.search("MEMBER_ID")>=0)
+	{
+		flag=1;
+	}
+	return flag;
 };

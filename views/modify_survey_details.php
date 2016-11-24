@@ -168,6 +168,7 @@ $duplicateIPFilterInfo = $survey_filter_info["duplicateIPFilter"];
                                     <p class="error" id="err_survey_link_type">Survey link type is not specified!</p>
                                     <p class="error" id="err_survey_link">Please provide the survey link(s)!</p>
                                     <p class="error" id="err_survey_link_format">Please provide the survey link in correct format!</p>
+                                    <p class="error" id="err_survey_link_format_MEMBER_ID">Please provide the survey link with MEMBER_ID parameter, as masking of member ID option is selected.</p>
                                     <p class="error" id="err_survey_quota">Please provide the survey quota in numeric format!</p>
                         			<p class="error" id="err_survey_click_quota">
                                         Please provide the survey's respondent click quota in numeric format!</p>
@@ -209,7 +210,7 @@ $duplicateIPFilterInfo = $survey_filter_info["duplicateIPFilter"];
                                     </div>
                                 </div>
 
-                                    <div class="row">
+                                <div class="row">
                                     <div class="col-xs-4">
                                         <div class="form_field">
                                             <div class="label">Allow Traffic<span class="mandatory">*</span></div>
@@ -233,6 +234,28 @@ $duplicateIPFilterInfo = $survey_filter_info["duplicateIPFilter"];
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-4">
+                                        <div class="form_field">
+                                            <div class="label">Include Masked Respondent Identifier / Pass Member ID with Survey Link</div>
+                                            <div class="input_field">
+                                                &nbsp;&nbsp;<input type="checkbox" name="m_mask_respondent_identifier" id="m_mask_respondent_identifier"
+                                                                   value="allow"
+                                                    <?php
+                                                    if ($survey_details["survey_detail"]["mask_identifier"]==1)
+                                                        echo "checked";
+                                                    ?>
+                                                    >
+                                                <p class="instruction_note">Link eg. --- http://www.surveylink.com?identifier=<Strong>[IDENTIFIER]</Strong>&member_id=<strong>[MEMBER_ID]</strong></p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-4 col-xs-offset-1">
+
                                     </div>
                                 </div>
 

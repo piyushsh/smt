@@ -42,6 +42,7 @@ class Survey
 	public $survey_quota=0;
 	public $survey_respondent_click_quota=0;
 	public $survey_allow_additional_parameter = 0;
+	public $survey_allow_mask_respondent_identifiers = 0;
 	
 	function set_New_Survey_Fields($survey_data,$file_uploaded) 
 	{
@@ -61,6 +62,9 @@ class Survey
 
 		if(isset($survey_data["allow_additional_param"]) && $survey_data["allow_additional_param"]=="allow")
 			$this->survey_allow_additional_parameter = 1;
+
+		if(isset($survey_data["mask_respondent_identifier"]) && $survey_data["mask_respondent_identifier"] == "allow")
+			$this->survey_allow_mask_respondent_identifiers = 1;
 
 		if(isset($survey_data["survey_manager"]))
 			$this->survey_manager_id=$survey_data["survey_manager"];
@@ -698,6 +702,9 @@ else if(isset($_POST) && (isset($_POST["modify_survey"]) && isset($_POST["survey
 
 	if(isset($_POST["m_allow_additional_param"]) && $_POST["m_allow_additional_param"]=="allow")
 		$modify_survey->survey_allow_additional_parameter = 1;
+
+	if(isset($_POST["m_mask_respondent_identifier"]) && $_POST["m_mask_respondent_identifier"]=="allow")
+		$modify_survey->survey_allow_mask_respondent_identifiers = 1;
 	
 	if(isset($_POST["m_single_link"]) && $_POST["m_single_link"]!='N/A')
 	{

@@ -76,6 +76,9 @@ class DB_Link_Redirection
 
 		$data->hash_identifier=$data->create_Hash_Identifier($data->identifier,$data->vendor_id);
 
+        if($survey_status["mask_identifier"]=="1")
+            $data->member_id = $data->create_Hash_MemberId($data->identifier,$data->vendor_id);
+
 		$this->con->query("BEGIN TRANSACTION");
 		$this->con->autocommit(FALSE);
 		
@@ -91,7 +94,8 @@ class DB_Link_Redirection
 		$query1=$this->con->query("select * from $identifier_table where identifier='$data->identifier' and vendor_linked='$data->vendor_id' and survey_id=$data->survey_id");
 		if($query1->num_rows<=0)
 		{
-			$query2=$this->con->query("insert into $identifier_table values ($data->survey_id,'$data->vendor_id','$data->identifier','$data->hash_identifier','incomplete','$data->ip_address','".date("d-m-Y H:i:s")."','')");
+			$query2=$this->con->query("insert into $identifier_table values ($data->survey_id,'$data->vendor_id','$data->identifier'
+                            ,'$data->hash_identifier','$data->member_id','incomplete','$data->ip_address','".date("d-m-Y H:i:s")."','')");
 		}
 		else if($query1->num_rows>0)
 		{
@@ -115,28 +119,28 @@ class DB_Link_Redirection
 		if($flag==1)
 		{
 			$query3=$this->con->query("select * from survey_table where survey_id='".$data->survey_id."'");
-			$row=$query3->fetch_array();
+			$survey_detail=$query3->fetch_array();
 			//Single Survey Link
-			if($row["multi_link_table_name"]=='N/A' && $row["single_link_url"]!='N/A')
+			if($survey_detail["multi_link_table_name"]=='N/A' && $survey_detail["single_link_url"]!='N/A')
 			{
-				$redirection_link=str_replace("[IDENTIFIER]" ,$data->hash_identifier,$row["single_link_url"]);
-				$query4=true;
+				$redirection_link=str_replace("[IDENTIFIER]" ,$data->hash_identifier,$survey_detail["single_link_url"]);
+                $query4=true;
 				$query5=true;
 			}
 			//Multiple Survey Link
-			else if($row["single_link_url"]=='N/A' && $row["multi_link_table_name"]!='N/A')
+			else if($survey_detail["single_link_url"]=='N/A' && $survey_detail["multi_link_table_name"]!='N/A')
 			{
-				$query4=$this->con->query("select * from ".$data->survey_id."_multiplelink where used_by_identifier='".$data->identifier."'");
+				$query4=$this->con->query("select * from ".$data->survey_id."_multiplelink where used_by_identifier='"
+                    .$data->identifier."'");
 				$query5=true;
 				while($row=$query4->fetch_array())
 				{
-					$redirection_link=str_replace("[IDENTIFIER]" ,$data->hash_identifier,$row["link"]);
-					
+					$redirection_link=str_replace("[IDENTIFIER]" , $data->hash_identifier, $row["link"]);
 					break;
 				}
 			}
 			//Re-Contact Survey Link
-			else if($row["re_contact_links"]==1)
+			else if($survey_detail["re_contact_links"]==1)
 			{
 				$query4=$this->con->query("select * from re_contact_survey_links where survey_id = ".$data->survey_id.
 					" AND user_hash_id = '".$data->hash_identifier."'");
@@ -144,21 +148,26 @@ class DB_Link_Redirection
 				$row=$query4->fetch_array();
 				$redirection_link=$row["survey_link"];
 			}
-		}
+
+			//IF Member ID option is selected
+			if($survey_detail["mask_identifier"]=="1")
+                $redirection_link=str_replace("[MEMBER_ID]" ,$data->member_id, $redirection_link);
+
+        }
 		else if($flag==0)
 		{
 			$query3=$this->con->query("select * from survey_table where survey_id='".$data->survey_id."'");
-			$row=$query3->fetch_array();
+            $survey_detail=$query3->fetch_array();
 
 			//Single Link Survey
-			if($row["multi_link_table_name"]=='N/A' && $row["single_link_url"]!='N/A')
+			if($survey_detail["multi_link_table_name"]=='N/A' && $survey_detail["single_link_url"]!='N/A')
 			{
-				$redirection_link=str_replace("[IDENTIFIER]" ,$data->hash_identifier,$row["single_link_url"]);
+				$redirection_link=str_replace("[IDENTIFIER]" ,$data->hash_identifier, $survey_detail["single_link_url"]);
 				$query4=true;
 				$query5=true;
 			}
 			//Multiple Link Survey
-			else if($row["single_link_url"]=='N/A' && $row["multi_link_table_name"]!='N/A')
+			else if($survey_detail["single_link_url"]=='N/A' && $survey_detail["multi_link_table_name"]!='N/A')
 			{
 				$query4=$this->con->query("select * from ".$data->survey_id."_multiplelink where used_or_not=0");
 				while($row=$query4->fetch_array())
@@ -169,7 +178,7 @@ class DB_Link_Redirection
 				}
 			}
 			//Re-Contact Survey Link
-			else if($row["re_contact_links"]==1)
+			else if($survey_detail["re_contact_links"]==1)
 			{
 				$query4=$this->con->query("select * from re_contact_survey_links where survey_id = ".$data->survey_id.
 					" AND user_hash_id = '".$data->hash_identifier."'");
@@ -177,11 +186,14 @@ class DB_Link_Redirection
 				$row=$query4->fetch_array();
 				$redirection_link=$row["survey_link"];
 			}
+
+            //IF Member ID option is selected
+            if($survey_detail["mask_identifier"]=="1")
+                $redirection_link=str_replace("[MEMBER_ID]" ,$data->member_id, $redirection_link);
 		}
 		
 		
 		//var_dump($query1);var_dump($query2);var_dump($query3);var_dump($query4);var_dump($query5);
-		
 		if($redirection_link!='' && $query1 && $query2 && $query3 && $query4 && $query5)
 		{
 			$this->con->commit();
